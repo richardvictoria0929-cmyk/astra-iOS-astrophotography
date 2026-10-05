@@ -1,0 +1,163 @@
+{
+  "fixture_id": "outlier-stress-24-holdout",
+  "algorithm_versions": {
+    "quality": "quality-0.2",
+    "alignment": "align-0.2",
+    "reconstruction": "reconstruct-0.2"
+  },
+  "metric_version": "metrics-0.2",
+  "python_version": "3.12.14",
+  "accepted_ids": [
+    "outlier-stress-24-holdout-frame-000",
+    "outlier-stress-24-holdout-frame-001",
+    "outlier-stress-24-holdout-frame-002",
+    "outlier-stress-24-holdout-frame-003",
+    "outlier-stress-24-holdout-frame-004",
+    "outlier-stress-24-holdout-frame-005",
+    "outlier-stress-24-holdout-frame-006",
+    "outlier-stress-24-holdout-frame-007",
+    "outlier-stress-24-holdout-frame-008",
+    "outlier-stress-24-holdout-frame-009",
+    "outlier-stress-24-holdout-frame-010",
+    "outlier-stress-24-holdout-frame-011",
+    "outlier-stress-24-holdout-frame-012",
+    "outlier-stress-24-holdout-frame-013",
+    "outlier-stress-24-holdout-frame-014",
+    "outlier-stress-24-holdout-frame-015",
+    "outlier-stress-24-holdout-frame-016",
+    "outlier-stress-24-holdout-frame-017",
+    "outlier-stress-24-holdout-frame-018",
+    "outlier-stress-24-holdout-frame-019",
+    "outlier-stress-24-holdout-frame-020",
+    "outlier-stress-24-holdout-frame-021",
+    "outlier-stress-24-holdout-frame-022"
+  ],
+  "rejected_ids": [
+    "outlier-stress-24-holdout-frame-023"
+  ],
+  "alignment_reference_id": "outlier-stress-24-holdout-frame-022",
+  "expected_metric_ranges": {
+    "ordinary_single": {
+      "rmse_range": [
+        0.0578477406129241,
+        0.05901638183742761
+      ],
+      "snr_proxy_range": [
+        3.7241992993138613,
+        3.876207433979733
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.2115625,
+        0.2415625
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "best_single": {
+      "rmse_range": [
+        0.18684110820293426,
+        0.1906156760454178
+      ],
+      "snr_proxy_range": [
+        1.1767747936436446,
+        1.2248064178739972
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "registered_mean": {
+      "rmse_range": [
+        0.010331003586947917,
+        0.010731003586947918
+      ],
+      "snr_proxy_range": [
+        23.297763560354824,
+        24.248692685267265
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "weighted_mean": {
+      "rmse_range": [
+        0.010331003586947917,
+        0.010731003586947918
+      ],
+      "snr_proxy_range": [
+        23.297763560354824,
+        24.248692685267265
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "median": {
+      "rmse_range": [
+        0.01168773289322853,
+        0.012087732893228531
+      ],
+      "snr_proxy_range": [
+        20.119364718962142,
+        20.94056327891978
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "sigma_clipped": {
+      "rmse_range": [
+        0.010805901731550693,
+        0.011205901731550694
+      ],
+      "snr_proxy_range": [
+        22.679821057329416,
+        23.605528039261227
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "sigma_clipped_denoised": {
+      "rmse_range": [
+        0.010718382555246353,
+        0.011118382555246354
+      ],
+      "snr_proxy_range": [
+        23.855344932141197,
+        24.829032480391856
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.1803125,
+        0.2103125
+      ],
+      "clipping_fraction_tolerance": 0.001
+    }
+  },
+  "numerical_output_tolerances": {
+    "normalized_pixel_absolute_error_max": 0.001,
+    "registration_translation_abs_px": 0.1,
+    "metric_ranges_are_regression_checks_not_scientific_gate_replacements": true
+  },
+  "output_names": [
+    "ordinary_single",
+    "best_single",
+    "registered_mean",
+    "weighted_mean",
+    "median",
+    "sigma_clipped",
+    "sigma_clipped_denoised",
+    "half_stack_a",
+    "half_stack_b"
+  ],
+  "sha256_reference_outputs": "b6fe35a94131ce98848eba924121df4a7d2be61ad360533a058eef93fa7ee961"
+}

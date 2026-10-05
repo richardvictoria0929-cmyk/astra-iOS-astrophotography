@@ -1,0 +1,31 @@
+{
+  "fixture_id": "remed-001-development-motion-stress32",
+  "generator_version": "lunar-remediation-0.1",
+  "seed": 41403,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 32,
+    "seed": 41403,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.004,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.65,
+    "translation_span_px": 2.0
+  },
+  "frame_count": 32,
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "8ea18876c71fde7bf4a3d7ab687ce8ed662a55c9b32bb4ec3a1dcf6c2376278c",
+  "sha256_oracle": "f23e7c22cc1f13fa5efadd2fc02d4c33a4a4a7876e3e6956055753d903476dbd",
+  "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+  "class_counts_committed": {
+    "strong_blur": 0,
+    "clipping": 0,
+    "large_motion": 0,
+    "abnormal_noise": 0,
+    "mixed": 0
+  }
+}

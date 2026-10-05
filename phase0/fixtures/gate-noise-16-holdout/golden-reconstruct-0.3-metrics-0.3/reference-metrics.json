@@ -1,0 +1,154 @@
+{
+  "fixture_id": "gate-noise-16-holdout",
+  "algorithm_versions": {
+    "quality": "quality-0.2",
+    "alignment": "align-0.2",
+    "reconstruction": "reconstruct-0.3"
+  },
+  "metric_version": "metrics-0.3",
+  "python_version": "3.12.14",
+  "accepted_ids": [
+    "gate-noise-16-holdout-frame-000",
+    "gate-noise-16-holdout-frame-001",
+    "gate-noise-16-holdout-frame-002",
+    "gate-noise-16-holdout-frame-003",
+    "gate-noise-16-holdout-frame-004",
+    "gate-noise-16-holdout-frame-005",
+    "gate-noise-16-holdout-frame-006",
+    "gate-noise-16-holdout-frame-007",
+    "gate-noise-16-holdout-frame-008",
+    "gate-noise-16-holdout-frame-009",
+    "gate-noise-16-holdout-frame-010",
+    "gate-noise-16-holdout-frame-011",
+    "gate-noise-16-holdout-frame-012",
+    "gate-noise-16-holdout-frame-013",
+    "gate-noise-16-holdout-frame-014",
+    "gate-noise-16-holdout-frame-015"
+  ],
+  "rejected_ids": [],
+  "alignment_reference_id": "gate-noise-16-holdout-frame-006",
+  "expected_metric_ranges": {
+    "ordinary_single": {
+      "rmse_range": [
+        0.04946082640439272,
+        0.050460035018622874
+      ],
+      "snr_proxy_range": [
+        4.941742116874342,
+        5.143445876746765
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.2115625,
+        0.2415625
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "best_single": {
+      "rmse_range": [
+        0.050936524495482444,
+        0.05196554519236088
+      ],
+      "snr_proxy_range": [
+        4.90497779964462,
+        5.10518097514032
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.2271875,
+        0.2571875
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "registered_mean": {
+      "rmse_range": [
+        0.0162544302970171,
+        0.016654430297017096
+      ],
+      "snr_proxy_range": [
+        16.258537137258376,
+        16.922150897962798
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.20375,
+        0.23375
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "weighted_mean": {
+      "rmse_range": [
+        0.0162544302970171,
+        0.016654430297017096
+      ],
+      "snr_proxy_range": [
+        16.258537137258376,
+        16.922150897962798
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.20375,
+        0.23375
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "median": {
+      "rmse_range": [
+        0.017803009259700776,
+        0.018203009259700774
+      ],
+      "snr_proxy_range": [
+        14.848491848829745,
+        15.454552740618716
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.20375,
+        0.23375
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "sigma_clipped": {
+      "rmse_range": [
+        0.01698069799244404,
+        0.017380697992444037
+      ],
+      "snr_proxy_range": [
+        15.552461583315397,
+        16.1872559336548
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.20375,
+        0.23375
+      ],
+      "clipping_fraction_tolerance": 0.001
+    },
+    "sigma_clipped_denoised": {
+      "rmse_range": [
+        0.01696837286949158,
+        0.017368372869491576
+      ],
+      "snr_proxy_range": [
+        15.829642951991495,
+        16.475750827582985
+      ],
+      "mtf50_proxy_range_cycles_per_pixel": [
+        0.20375,
+        0.23375
+      ],
+      "clipping_fraction_tolerance": 0.001
+    }
+  },
+  "numerical_output_tolerances": {
+    "normalized_pixel_absolute_error_max": 0.001,
+    "registration_translation_abs_px": 0.1,
+    "metric_ranges_are_regression_checks_not_scientific_gate_replacements": true
+  },
+  "output_names": [
+    "ordinary_single",
+    "best_single",
+    "registered_mean",
+    "weighted_mean",
+    "median",
+    "sigma_clipped",
+    "sigma_clipped_denoised",
+    "half_stack_a",
+    "half_stack_b"
+  ],
+  "sha256_reference_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5"
+}

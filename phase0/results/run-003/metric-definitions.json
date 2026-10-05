@@ -1,0 +1,68 @@
+{
+  "registration_error": {
+    "definition": "RMS of estimated minus known relative dx/dy",
+    "units": "pixels",
+    "better": "lower",
+    "limits": "Synthetic transforms only; excludes low-confidence records; this evaluator-only metric is not available to reconstruction."
+  },
+  "snr_proxy": {
+    "definition": "Mean clean lunar signal in truth-defined low-gradient ROI divided by RMSE to clean reference",
+    "units": "ratio",
+    "better": "higher",
+    "limits": "Truth-referenced simulation proxy, not sensor SNR calibration."
+  },
+  "edge_sharpness": {
+    "definition": "Mean image gradient on truth-selected lunar limb band",
+    "units": "normalized intensity/pixel",
+    "better": "higher only when noise/artifact metrics do not rise",
+    "limits": "Noise also raises gradient."
+  },
+  "mtf50_proxy": {
+    "definition": "First 0.5 crossing of Fourier magnitude of differentiated radial lunar limb edge-spread profile",
+    "units": "cycles/pixel",
+    "better": "higher",
+    "limits": "Synthetic limb proxy; phase/illumination asymmetry and center/radius estimation matter."
+  },
+  "frc": {
+    "definition": "First radial Fourier ring where half-stack correlation falls below 1/7",
+    "units": "cycles/pixel",
+    "better": "higher",
+    "limits": "Relative consistency proxy, not absolute optical resolution certificate."
+  },
+  "clipping_fraction": {
+    "definition": "Fraction at normalized floor <=0.002 or ceiling >=0.995",
+    "units": "fraction",
+    "better": "lower",
+    "limits": "Thresholds model normalized synthetic samples."
+  },
+  "ringing_halo": {
+    "definition": "Peak output overshoot beyond 5x5 local range of clean reference in limb band",
+    "units": "normalized intensity",
+    "better": "lower",
+    "limits": "Truth-referenced proxy; does not detect every perceptual halo."
+  },
+  "seam_interpolation_proxy": {
+    "definition": "Mean gradient in outer 3-pixel border divided by interior mean gradient",
+    "units": "ratio",
+    "better": "lower if crop support is unchanged",
+    "limits": "Sensitive to scene content; only controlled fixture comparisons."
+  },
+  "false_detail": {
+    "definition": "High-frequency output minus clean-reference energy relative to clean high-frequency energy",
+    "units": "ratio and normalized RMSE",
+    "better": "lower",
+    "limits": "Evaluator-only simulation measure; cannot certify real lunar truth."
+  },
+  "reconstruction_error": {
+    "definition": "RMSE and PSNR against noiseless sampled reference",
+    "units": "normalized linear units / dB",
+    "better": "RMSE lower, PSNR higher",
+    "limits": "Only available for synthetic fixtures."
+  },
+  "rejection_accuracy": {
+    "definition": "TP/FN/FP/TN versus injected bad-frame labels",
+    "units": "counts, precision, recall, false rejection rate",
+    "better": "higher recall/precision, lower false rejection",
+    "limits": "Generator bad labels are hidden from the scorer."
+  }
+}

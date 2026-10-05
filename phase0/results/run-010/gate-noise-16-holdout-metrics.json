@@ -1,0 +1,1518 @@
+{
+  "fixture_id": "gate-noise-16-holdout",
+  "metric_version": "metrics-0.3",
+  "algorithm_version": "reconstruct-0.3",
+  "source_count": 16,
+  "accepted_count": 16,
+  "rejected_count": 0,
+  "runtime_seconds": 1.1741560000227764,
+  "registration": {
+    "translation_error_px": 0.031100318825746345,
+    "rotation_error_deg": 0.2540796531967268,
+    "rms_translation_px": 0.031100318825746345,
+    "evaluated_frame_count": 15,
+    "records": [
+      {
+        "frame_id": "gate-noise-16-holdout-frame-000",
+        "estimate": [
+          0.14862180533020192,
+          -1.4987597473668082,
+          -0.1834828441490129
+        ],
+        "truth_eval_only": [
+          0.1334933340549469,
+          -1.4239578247070312,
+          0.21033447980880737
+        ],
+        "residual": 0.061786871403455734,
+        "confidence": 0.9054880142211914
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-001",
+        "estimate": [
+          -0.4328701187258765,
+          0.051648978874762046,
+          -0.046461036064359786
+        ],
+        "truth_eval_only": [
+          -0.3995289206504822,
+          0.08082765340805054,
+          -0.14202278852462769
+        ],
+        "residual": 0.06379743665456772,
+        "confidence": 0.9015483856201172
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-002",
+        "estimate": [
+          1.1853361140718868,
+          -1.9454300196470737,
+          0.7853635852599219
+        ],
+        "truth_eval_only": [
+          1.1907527446746826,
+          -1.9346286058425903,
+          0.2989240288734436
+        ],
+        "residual": 0.06451919674873352,
+        "confidence": 0.8998258113861084
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-003",
+        "estimate": [
+          -0.28439980739545917,
+          -1.4717254254737253,
+          0.32586943169017574
+        ],
+        "truth_eval_only": [
+          -0.2896350622177124,
+          -1.4003313779830933,
+          0.25577184557914734
+        ],
+        "residual": 0.05916263535618782,
+        "confidence": 0.912205696105957
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-004",
+        "estimate": [
+          0.3859000593674506,
+          -2.1629032028637796,
+          0.07738967021487714
+        ],
+        "truth_eval_only": [
+          0.3792717158794403,
+          -2.1314899921417236,
+          -0.005430400371551514
+        ],
+        "residual": 0.060710176825523376,
+        "confidence": 0.9087077975273132
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-005",
+        "estimate": [
+          0.975023565354084,
+          -1.7196605857712712,
+          0.30913259529232423
+        ],
+        "truth_eval_only": [
+          0.9735044836997986,
+          -1.7200424671173096,
+          0.14787599444389343
+        ],
+        "residual": 0.0659552812576294,
+        "confidence": 0.8950876593589783
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-007",
+        "estimate": [
+          1.5059085374478085,
+          0.16654396578574227,
+          0.036571566245213155
+        ],
+        "truth_eval_only": [
+          1.519089937210083,
+          0.18067961931228638,
+          -0.020142599940299988
+        ],
+        "residual": 0.06308586150407791,
+        "confidence": 0.9074224829673767
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-008",
+        "estimate": [
+          1.3424202756159183,
+          -2.0734850899186936,
+          -0.08334241966048977
+        ],
+        "truth_eval_only": [
+          1.3398048877716064,
+          -2.0549511909484863,
+          0.023970406502485275
+        ],
+        "residual": 0.06409764289855957,
+        "confidence": 0.897235631942749
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-009",
+        "estimate": [
+          0.8013548942926795,
+          -0.12276403532743811,
+          -0.09689567161277803
+        ],
+        "truth_eval_only": [
+          0.7959868907928467,
+          -0.08787018060684204,
+          -0.023121140897274017
+        ],
+        "residual": 0.06693292409181595,
+        "confidence": 0.899986743927002
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-010",
+        "estimate": [
+          -0.16150375537328843,
+          -2.194848501827775,
+          -0.6069353828486888
+        ],
+        "truth_eval_only": [
+          -0.12816748023033142,
+          -2.12884521484375,
+          -0.16588068008422852
+        ],
+        "residual": 0.06628807634115219,
+        "confidence": 0.8955570459365845
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-011",
+        "estimate": [
+          0.31906449717853796,
+          -0.621189782835269,
+          0.15391943660035282
+        ],
+        "truth_eval_only": [
+          0.32016414403915405,
+          -0.6236189603805542,
+          0.19197294116020203
+        ],
+        "residual": 0.058981820940971375,
+        "confidence": 0.912358283996582
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-012",
+        "estimate": [
+          0.354096733595329,
+          -1.9010939295160272,
+          0.02869600336231376
+        ],
+        "truth_eval_only": [
+          0.3051927387714386,
+          -1.881605625152588,
+          0.26499098539352417
+        ],
+        "residual": 0.06332360208034515,
+        "confidence": 0.9031983017921448
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-013",
+        "estimate": [
+          -0.8093256035978799,
+          -0.9000288620069757,
+          0.40376962594123655
+        ],
+        "truth_eval_only": [
+          -0.8324866890907288,
+          -0.846791684627533,
+          0.0877876728773117
+        ],
+        "residual": 0.06490381062030792,
+        "confidence": 0.8948563933372498
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-014",
+        "estimate": [
+          -0.3055163526470238,
+          -0.8108042740535846,
+          -0.10273638290172965
+        ],
+        "truth_eval_only": [
+          -0.3141988515853882,
+          -0.8174337148666382,
+          0.1482197791337967
+        ],
+        "residual": 0.06434351205825806,
+        "confidence": 0.9022190570831299
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-015",
+        "estimate": [
+          -0.6041542148134439,
+          -0.7162254088963341,
+          0.22820319057672211
+        ],
+        "truth_eval_only": [
+          -0.5804875493049622,
+          -0.6905480623245239,
+          -0.07987391203641891
+        ],
+        "residual": 0.06022406741976738,
+        "confidence": 0.9113076329231262
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 3.170750657514131,
+  "mtf50_proxy_retention_vs_best_single": 0.9032258064516129,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3541666666666667,
+  "frame_rejection": {
+    "true_positive": 0,
+    "false_negative": 0,
+    "false_positive": 0,
+    "true_negative": 16,
+    "precision": 0.0,
+    "recall": 0.0,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {},
+    "required_blur_or_clipping_recall": 0.0,
+    "required_blur_or_clipping_count": 0,
+    "abnormal_noise_recall": 0.0,
+    "recall_by_kind": {}
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 5.042593996810553,
+      "edge_sharpness": 0.16566208004951477,
+      "mtf50_proxy_cycles_per_pixel": 0.2265625,
+      "clipping_fraction": 0.13585069444444445,
+      "ringing_halo_peak": 0.16335713863372803,
+      "seam_interpolation_proxy": 0.18997514247894287,
+      "reconstruction_error": {
+        "rmse": 0.0499604307115078,
+        "psnr_db": 21.997272339910378
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 33.59431838989258,
+        "high_frequency_error_rmse": 0.02768709883093834
+      }
+    },
+    "best_single": {
+      "snr_proxy": 5.00507938739247,
+      "edge_sharpness": 0.18025626242160797,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.12977430555555555,
+      "ringing_halo_peak": 0.16736745834350586,
+      "seam_interpolation_proxy": 0.18880721926689148,
+      "reconstruction_error": {
+        "rmse": 0.05145103484392166,
+        "psnr_db": 21.98235497374935
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 34.18022155761719,
+        "high_frequency_error_rmse": 0.029050607234239578
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 16.590344017610587,
+      "edge_sharpness": 0.13162000477313995,
+      "mtf50_proxy_cycles_per_pixel": 0.21875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0204046368598938,
+      "seam_interpolation_proxy": 0.09758635610342026,
+      "reconstruction_error": {
+        "rmse": 0.016454430297017097,
+        "psnr_db": 31.884580252735567
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.6856091618537903,
+        "high_frequency_error_rmse": 0.004114395938813686
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 16.590344017610587,
+      "edge_sharpness": 0.13162000477313995,
+      "mtf50_proxy_cycles_per_pixel": 0.21875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0204046368598938,
+      "seam_interpolation_proxy": 0.09758635610342026,
+      "reconstruction_error": {
+        "rmse": 0.016454430297017097,
+        "psnr_db": 31.884580252735567
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.6856091618537903,
+        "high_frequency_error_rmse": 0.004114395938813686
+      }
+    },
+    "median": {
+      "snr_proxy": 15.15152229472423,
+      "edge_sharpness": 0.13175569474697113,
+      "mtf50_proxy_cycles_per_pixel": 0.21875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.028820455074310303,
+      "seam_interpolation_proxy": 0.10814905911684036,
+      "reconstruction_error": {
+        "rmse": 0.018003009259700775,
+        "psnr_db": 31.103335161103765
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.0112597942352295,
+        "high_frequency_error_rmse": 0.004996882751584053
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 15.8698587584851,
+      "edge_sharpness": 0.1313597708940506,
+      "mtf50_proxy_cycles_per_pixel": 0.21875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0204046368598938,
+      "seam_interpolation_proxy": 0.10477729141712189,
+      "reconstruction_error": {
+        "rmse": 0.01718069799244404,
+        "psnr_db": 31.509421183555272
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.7783774137496948,
+        "high_frequency_error_rmse": 0.004383922554552555
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 16.15269688978724,
+      "edge_sharpness": 0.12883704900741577,
+      "mtf50_proxy_cycles_per_pixel": 0.21875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.01757347583770752,
+      "seam_interpolation_proxy": 0.0990801453590393,
+      "reconstruction_error": {
+        "rmse": 0.017168372869491577,
+        "psnr_db": 31.51565452027436
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.6746256947517395,
+        "high_frequency_error_rmse": 0.004081306513398886
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.0499604307115078,
+      "psnr_db": 21.997272339910378
+    },
+    "best_single": {
+      "rmse": 0.05145103484392166,
+      "psnr_db": 21.98235497374935
+    },
+    "registered_stack": {
+      "rmse": 0.01718069799244404,
+      "psnr_db": 31.509421183555272
+    },
+    "stack_denoised": {
+      "rmse": 0.017168372869491577,
+      "psnr_db": 31.51565452027436
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "gate-noise-16-holdout",
+    "reference_id": "gate-noise-16-holdout-frame-006",
+    "accepted_ids": [
+      "gate-noise-16-holdout-frame-000",
+      "gate-noise-16-holdout-frame-001",
+      "gate-noise-16-holdout-frame-002",
+      "gate-noise-16-holdout-frame-003",
+      "gate-noise-16-holdout-frame-004",
+      "gate-noise-16-holdout-frame-005",
+      "gate-noise-16-holdout-frame-006",
+      "gate-noise-16-holdout-frame-007",
+      "gate-noise-16-holdout-frame-008",
+      "gate-noise-16-holdout-frame-009",
+      "gate-noise-16-holdout-frame-010",
+      "gate-noise-16-holdout-frame-011",
+      "gate-noise-16-holdout-frame-012",
+      "gate-noise-16-holdout-frame-013",
+      "gate-noise-16-holdout-frame-014",
+      "gate-noise-16-holdout-frame-015"
+    ],
+    "rejected_ids": [],
+    "assessments": [
+      {
+        "frame_id": "gate-noise-16-holdout-frame-000",
+        "components": {
+          "clipping_fraction": 0.13585069444444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13585069444444445,
+          "contrast_std": 0.21908871829509735,
+          "edge_sharpness": 0.07607058435678482,
+          "limb_edge_sharpness": 0.21286052465438843,
+          "laplacian_variance": 0.012621798552572727,
+          "noise_mad_sigma": 0.013982857577502728,
+          "exposure_median": 0.11736352741718292,
+          "relative_sharpness": 0.9867836023770902,
+          "relative_noise": 0.9793123083761845,
+          "relative_limb_edge_sharpness": 1.02446176651536,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-001",
+        "components": {
+          "clipping_fraction": 0.1293402777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1293402777777778,
+          "contrast_std": 0.21564260125160217,
+          "edge_sharpness": 0.07671081274747849,
+          "limb_edge_sharpness": 0.20249493420124054,
+          "laplacian_variance": 0.012742908671498299,
+          "noise_mad_sigma": 0.01427794061601162,
+          "exposure_median": 0.11569201946258545,
+          "relative_sharpness": 0.9950886112455599,
+          "relative_noise": 0.9999789317758067,
+          "relative_limb_edge_sharpness": 0.9745739297553573,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-002",
+        "components": {
+          "clipping_fraction": 0.12955729166666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12955729166666666,
+          "contrast_std": 0.21482142806053162,
+          "edge_sharpness": 0.07560995221138,
+          "limb_edge_sharpness": 0.2062147706747055,
+          "laplacian_variance": 0.012294716201722622,
+          "noise_mad_sigma": 0.014249518513679504,
+          "exposure_median": 0.11075125634670258,
+          "relative_sharpness": 0.9808083065165857,
+          "relative_noise": 0.9979883433363914,
+          "relative_limb_edge_sharpness": 0.9924768746576197,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-003",
+        "components": {
+          "clipping_fraction": 0.1322699652777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1322699652777778,
+          "contrast_std": 0.2233031690120697,
+          "edge_sharpness": 0.0791555866599083,
+          "limb_edge_sharpness": 0.22208493947982788,
+          "laplacian_variance": 0.01382892020046711,
+          "noise_mad_sigma": 0.014342633076012135,
+          "exposure_median": 0.11789891123771667,
+          "relative_sharpness": 1.0268020893094345,
+          "relative_noise": 1.0045097740579716,
+          "relative_limb_edge_sharpness": 1.0688573176514091,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-004",
+        "components": {
+          "clipping_fraction": 0.12890625,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12890625,
+          "contrast_std": 0.21925099194049835,
+          "edge_sharpness": 0.07725858688354492,
+          "limb_edge_sharpness": 0.2102411687374115,
+          "laplacian_variance": 0.013024725951254368,
+          "noise_mad_sigma": 0.01407993957400322,
+          "exposure_median": 0.11716904491186142,
+          "relative_sharpness": 1.002194308406258,
+          "relative_noise": 0.9861116048409952,
+          "relative_limb_edge_sharpness": 1.0118552487300843,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-005",
+        "components": {
+          "clipping_fraction": 0.13509114583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13509114583333334,
+          "contrast_std": 0.2142244279384613,
+          "edge_sharpness": 0.07701638340950012,
+          "limb_edge_sharpness": 0.20765642821788788,
+          "laplacian_variance": 0.013151832856237888,
+          "noise_mad_sigma": 0.014277402311563492,
+          "exposure_median": 0.11256273090839386,
+          "relative_sharpness": 0.9990524577336614,
+          "relative_noise": 0.9999412307430398,
+          "relative_limb_edge_sharpness": 0.9994153290084056,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-006",
+        "components": {
+          "clipping_fraction": 0.12977430555555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12977430555555555,
+          "contrast_std": 0.22680456936359406,
+          "edge_sharpness": 0.07943633943796158,
+          "limb_edge_sharpness": 0.21791847050189972,
+          "laplacian_variance": 0.013924679718911648,
+          "noise_mad_sigma": 0.01481522899121046,
+          "exposure_median": 0.11915430426597595,
+          "relative_sharpness": 1.0304439995175305,
+          "relative_noise": 1.0376088022127505,
+          "relative_limb_edge_sharpness": 1.0488048059130766,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-007",
+        "components": {
+          "clipping_fraction": 0.13975694444444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13975694444444445,
+          "contrast_std": 0.21254277229309082,
+          "edge_sharpness": 0.0751153826713562,
+          "limb_edge_sharpness": 0.20534197986125946,
+          "laplacian_variance": 0.012395653873682022,
+          "noise_mad_sigma": 0.013818569481372833,
+          "exposure_median": 0.11069443821907043,
+          "relative_sharpness": 0.9743927765655903,
+          "relative_noise": 0.9678061227651295,
+          "relative_limb_edge_sharpness": 0.988276279831533,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-008",
+        "components": {
+          "clipping_fraction": 0.1322699652777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1322699652777778,
+          "contrast_std": 0.22007796168327332,
+          "edge_sharpness": 0.07869473099708557,
+          "limb_edge_sharpness": 0.22254754602909088,
+          "laplacian_variance": 0.01361765991896391,
+          "noise_mad_sigma": 0.01434510201215744,
+          "exposure_median": 0.1176595389842987,
+          "relative_sharpness": 1.0208238939927907,
+          "relative_noise": 1.0046826900404373,
+          "relative_limb_edge_sharpness": 1.0710837648680973,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-009",
+        "components": {
+          "clipping_fraction": 0.1369357638888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1369357638888889,
+          "contrast_std": 0.20891056954860687,
+          "edge_sharpness": 0.0746518149971962,
+          "limb_edge_sharpness": 0.20126014947891235,
+          "laplacian_variance": 0.01226609293371439,
+          "noise_mad_sigma": 0.013841914013028145,
+          "exposure_median": 0.10778815299272537,
+          "relative_sharpness": 0.9683794011811224,
+          "relative_noise": 0.9694410952345699,
+          "relative_limb_edge_sharpness": 0.9686311193636399,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-010",
+        "components": {
+          "clipping_fraction": 0.13541666666666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13541666666666666,
+          "contrast_std": 0.2130580097436905,
+          "edge_sharpness": 0.0771624743938446,
+          "limb_edge_sharpness": 0.20731154084205627,
+          "laplacian_variance": 0.013493094593286514,
+          "noise_mad_sigma": 0.014302228577435017,
+          "exposure_median": 0.11453384906053543,
+          "relative_sharpness": 1.0009475422663385,
+          "relative_noise": 1.0016799788926398,
+          "relative_limb_edge_sharpness": 0.9977554442981382,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-011",
+        "components": {
+          "clipping_fraction": 0.1310763888888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1310763888888889,
+          "contrast_std": 0.22487524151802063,
+          "edge_sharpness": 0.07839694619178772,
+          "limb_edge_sharpness": 0.2218874990940094,
+          "laplacian_variance": 0.013527782633900642,
+          "noise_mad_sigma": 0.01457339245826006,
+          "exposure_median": 0.11799310892820358,
+          "relative_sharpness": 1.0169610452268767,
+          "relative_noise": 1.0206713849487432,
+          "relative_limb_edge_sharpness": 1.0679070704096272,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-012",
+        "components": {
+          "clipping_fraction": 0.1286892361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1286892361111111,
+          "contrast_std": 0.21510463953018188,
+          "edge_sharpness": 0.0755937248468399,
+          "limb_edge_sharpness": 0.20300154387950897,
+          "laplacian_variance": 0.012317102402448654,
+          "noise_mad_sigma": 0.014320473186671734,
+          "exposure_median": 0.11405488848686218,
+          "relative_sharpness": 0.9805978060008691,
+          "relative_noise": 1.0029577699512986,
+          "relative_limb_edge_sharpness": 0.9770121566026101,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-013",
+        "components": {
+          "clipping_fraction": 0.1293402777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1293402777777778,
+          "contrast_std": 0.22275355458259583,
+          "edge_sharpness": 0.07862314581871033,
+          "limb_edge_sharpness": 0.2067376673221588,
+          "laplacian_variance": 0.013478625565767288,
+          "noise_mad_sigma": 0.014771563932299614,
+          "exposure_median": 0.11667220294475555,
+          "relative_sharpness": 1.0198952948398958,
+          "relative_noise": 1.0345506483697076,
+          "relative_limb_edge_sharpness": 0.9949934879377229,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-014",
+        "components": {
+          "clipping_fraction": 0.13997395833333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13997395833333334,
+          "contrast_std": 0.21383054554462433,
+          "edge_sharpness": 0.07699617743492126,
+          "limb_edge_sharpness": 0.20998400449752808,
+          "laplacian_variance": 0.013387948274612427,
+          "noise_mad_sigma": 0.013843212276697159,
+          "exposure_median": 0.11049611121416092,
+          "relative_sharpness": 0.9987903468986644,
+          "relative_noise": 0.9695320212547726,
+          "relative_limb_edge_sharpness": 1.0106175606622598,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-015",
+        "components": {
+          "clipping_fraction": 0.1365017361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1365017361111111,
+          "contrast_std": 0.21887154877185822,
+          "edge_sharpness": 0.07727762311697006,
+          "limb_edge_sharpness": 0.20789939165115356,
+          "laplacian_variance": 0.013037039898335934,
+          "noise_mad_sigma": 0.014278542250394821,
+          "exposure_median": 0.11310505867004395,
+          "relative_sharpness": 1.0024412454207923,
+          "relative_noise": 1.0000210682241932,
+          "relative_limb_edge_sharpness": 1.0005846709915944,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "gate-noise-16-holdout-frame-000",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.14862180533020192,
+        "dy": -1.4987597473668082,
+        "rotation_deg": -0.1834828441490129,
+        "confidence": 0.9054880142211914,
+        "residual": 0.061786871403455734,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-001",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.4328701187258765,
+        "dy": 0.051648978874762046,
+        "rotation_deg": -0.046461036064359786,
+        "confidence": 0.9015483856201172,
+        "residual": 0.06379743665456772,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-002",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 1.1853361140718868,
+        "dy": -1.9454300196470737,
+        "rotation_deg": 0.7853635852599219,
+        "confidence": 0.8998258113861084,
+        "residual": 0.06451919674873352,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-003",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.28439980739545917,
+        "dy": -1.4717254254737253,
+        "rotation_deg": 0.32586943169017574,
+        "confidence": 0.912205696105957,
+        "residual": 0.05916263535618782,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-004",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.3859000593674506,
+        "dy": -2.1629032028637796,
+        "rotation_deg": 0.07738967021487714,
+        "confidence": 0.9087077975273132,
+        "residual": 0.060710176825523376,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-005",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.975023565354084,
+        "dy": -1.7196605857712712,
+        "rotation_deg": 0.30913259529232423,
+        "confidence": 0.8950876593589783,
+        "residual": 0.0659552812576294,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-006",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-007",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 1.5059085374478085,
+        "dy": 0.16654396578574227,
+        "rotation_deg": 0.036571566245213155,
+        "confidence": 0.9074224829673767,
+        "residual": 0.06308586150407791,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-008",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 1.3424202756159183,
+        "dy": -2.0734850899186936,
+        "rotation_deg": -0.08334241966048977,
+        "confidence": 0.897235631942749,
+        "residual": 0.06409764289855957,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-009",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.8013548942926795,
+        "dy": -0.12276403532743811,
+        "rotation_deg": -0.09689567161277803,
+        "confidence": 0.899986743927002,
+        "residual": 0.06693292409181595,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-010",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.16150375537328843,
+        "dy": -2.194848501827775,
+        "rotation_deg": -0.6069353828486888,
+        "confidence": 0.8955570459365845,
+        "residual": 0.06628807634115219,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-011",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.31906449717853796,
+        "dy": -0.621189782835269,
+        "rotation_deg": 0.15391943660035282,
+        "confidence": 0.912358283996582,
+        "residual": 0.058981820940971375,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-012",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": 0.354096733595329,
+        "dy": -1.9010939295160272,
+        "rotation_deg": 0.02869600336231376,
+        "confidence": 0.9031983017921448,
+        "residual": 0.06332360208034515,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-013",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.8093256035978799,
+        "dy": -0.9000288620069757,
+        "rotation_deg": 0.40376962594123655,
+        "confidence": 0.8948563933372498,
+        "residual": 0.06490381062030792,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-014",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.3055163526470238,
+        "dy": -0.8108042740535846,
+        "rotation_deg": -0.10273638290172965,
+        "confidence": 0.9022190570831299,
+        "residual": 0.06434351205825806,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "gate-noise-16-holdout-frame-015",
+        "reference_id": "gate-noise-16-holdout-frame-006",
+        "dx": -0.6041542148134439,
+        "dy": -0.7162254088963341,
+        "rotation_deg": 0.22820319057672211,
+        "confidence": 0.9113076329231262,
+        "residual": 0.06022406741976738,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.2",
+        "thresholds": {
+          "highlight_clip": 0.02,
+          "relative_limb_sharpness": 0.68,
+          "relative_noise": 1.35
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.2",
+        "reference": "gate-noise-16-holdout-frame-006",
+        "method": "robust-Lucas-Kanade-rigid"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.3",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "reconstruct-0.3",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.3",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ],
+    "baseline_source_ids": {
+      "ordinary_single": "gate-noise-16-holdout-frame-000",
+      "best_single": "gate-noise-16-holdout-frame-006",
+      "registered_mean": "gate-noise-16-holdout-frame-006",
+      "weighted_mean": "gate-noise-16-holdout-frame-006",
+      "median": "gate-noise-16-holdout-frame-006",
+      "sigma_clipped": "gate-noise-16-holdout-frame-006",
+      "sigma_clipped_denoised": "gate-noise-16-holdout-frame-006",
+      "half_stack_a": "gate-noise-16-holdout-frame-006",
+      "half_stack_b": "gate-noise-16-holdout-frame-006"
+    },
+    "source_hashes_sha256": {
+      "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+      "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+      "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+      "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+      "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+      "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+      "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+      "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+      "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+      "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+      "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+      "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+      "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+      "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+      "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+      "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+    },
+    "output_hashes_sha256": {
+      "ordinary_single": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+      "best_single": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+      "registered_mean": "7e1e03b1fbd75557aeabcb0001bb1df3e05f0d99f21aff35630d4bc506f1dcbf",
+      "weighted_mean": "7e1e03b1fbd75557aeabcb0001bb1df3e05f0d99f21aff35630d4bc506f1dcbf",
+      "median": "5f79bbc9bdd97c9c0b52ed8133e311a9b864dc1ffb9b9ce6bc5d26bab1bb5cf5",
+      "sigma_clipped": "2eecd3486b3239b77fd9e5da0cbcd7ba992c0bfb617b81a764d97394068146be",
+      "sigma_clipped_denoised": "90211f562bdb64293fdb133dd2e962208806e86368f2de221e6c5ec74fbe5139",
+      "half_stack_a": "324b64c224b0a1620e1f184b127d1dd4c8fa46b4a72f6cef56325116903a3b51",
+      "half_stack_b": "1c9448a1df0c4ff2aef162627c2c4ac71061c60526f4743844073ab59ebe8332"
+    },
+    "lineage_edges": [
+      {
+        "operation": "ordinary_single",
+        "operation_version": "reconstruct-0.3",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050"
+        },
+        "child_artifact_id": "ordinary_single",
+        "child_hash_sha256": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050"
+      },
+      {
+        "operation": "best_single",
+        "operation_version": "reconstruct-0.3",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-006"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce"
+        },
+        "child_artifact_id": "best_single",
+        "child_hash_sha256": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce"
+      },
+      {
+        "operation": "registered_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007",
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "registered_mean",
+        "child_hash_sha256": "7e1e03b1fbd75557aeabcb0001bb1df3e05f0d99f21aff35630d4bc506f1dcbf"
+      },
+      {
+        "operation": "weighted_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007",
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "weighted_mean",
+        "child_hash_sha256": "7e1e03b1fbd75557aeabcb0001bb1df3e05f0d99f21aff35630d4bc506f1dcbf"
+      },
+      {
+        "operation": "median",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007",
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "median",
+        "child_hash_sha256": "5f79bbc9bdd97c9c0b52ed8133e311a9b864dc1ffb9b9ce6bc5d26bab1bb5cf5"
+      },
+      {
+        "operation": "sigma_clipped",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007",
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "sigma_clipped",
+        "child_hash_sha256": "2eecd3486b3239b77fd9e5da0cbcd7ba992c0bfb617b81a764d97394068146be"
+      },
+      {
+        "operation": "sigma_clipped_denoised",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007",
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338",
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "sigma_clipped_denoised",
+        "child_hash_sha256": "90211f562bdb64293fdb133dd2e962208806e86368f2de221e6c5ec74fbe5139"
+      },
+      {
+        "operation": "half_stack_a",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-000",
+          "gate-noise-16-holdout-frame-001",
+          "gate-noise-16-holdout-frame-002",
+          "gate-noise-16-holdout-frame-003",
+          "gate-noise-16-holdout-frame-004",
+          "gate-noise-16-holdout-frame-005",
+          "gate-noise-16-holdout-frame-006",
+          "gate-noise-16-holdout-frame-007"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-000": "1055f52f7e44f11b6866a9557c1d61aaf9de67b446d6db3a1c1890ba30884050",
+          "gate-noise-16-holdout-frame-001": "cb140eab66c56aec896104662afa53993b4fb80091b411599b91249b2a77e64a",
+          "gate-noise-16-holdout-frame-002": "7f0c5861b5dacba8b4c2d5801872a6f61875eab0912b6633fd21fa033f2320ca",
+          "gate-noise-16-holdout-frame-003": "9d0620cda3624ba47bd645d71ed0f428efff4332ea04c445759d628e1345156b",
+          "gate-noise-16-holdout-frame-004": "957c369a643b4cb0d276089f7512791c45acce524a8bcb96149be02f894d2591",
+          "gate-noise-16-holdout-frame-005": "a289e8080997902be82754b03302d83c8e358025d1149bc9f03b366c0428fa5f",
+          "gate-noise-16-holdout-frame-006": "528d0dbe3d420c13f8abbf212aa0602ad8220da1d90c5a642e634d4d1b00dcce",
+          "gate-noise-16-holdout-frame-007": "48d751b7ef37e8ade10b220c8e6fb6ab064ea650bf4c2c09f40af995d2972338"
+        },
+        "child_artifact_id": "half_stack_a",
+        "child_hash_sha256": "324b64c224b0a1620e1f184b127d1dd4c8fa46b4a72f6cef56325116903a3b51"
+      },
+      {
+        "operation": "half_stack_b",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "gate-noise-16-holdout-frame-008",
+          "gate-noise-16-holdout-frame-009",
+          "gate-noise-16-holdout-frame-010",
+          "gate-noise-16-holdout-frame-011",
+          "gate-noise-16-holdout-frame-012",
+          "gate-noise-16-holdout-frame-013",
+          "gate-noise-16-holdout-frame-014",
+          "gate-noise-16-holdout-frame-015"
+        ],
+        "parent_hashes_sha256": {
+          "gate-noise-16-holdout-frame-008": "3864a009d74f70dbdc74fe53590b5a0cc002d64fa0bef57296ad45e539afca00",
+          "gate-noise-16-holdout-frame-009": "33a2bf0b5e36cda75eb5e21d7d215408323cfd391a13808ee7d885a7d58ff51e",
+          "gate-noise-16-holdout-frame-010": "f860194f6433475b3a41c5374c7a5fdac2601bebd667c70bfe8737063dcfdb3c",
+          "gate-noise-16-holdout-frame-011": "b4803f8ff0efe2e30a1b2416406036e0e0f034d50f1a70362078e2346d283270",
+          "gate-noise-16-holdout-frame-012": "f8c7e7ef23c7f9b308b2bc21551e9308a828ac110713d12175de3a85b54ef7ac",
+          "gate-noise-16-holdout-frame-013": "7f3002d5e7b489a6c8ef14b12e7283a4c2fef6e63ce7abaf283160843ff31f45",
+          "gate-noise-16-holdout-frame-014": "bb8828cf30867cd8f601effef342db4cf9ef03d05bc2e95ae1a446c623bd068c",
+          "gate-noise-16-holdout-frame-015": "4f9aca531812bd53ce10d0d46fa606075d515a9d7f7da3e3a90382965a5cd77f"
+        },
+        "child_artifact_id": "half_stack_b",
+        "child_hash_sha256": "1c9448a1df0c4ff2aef162627c2c4ac71061c60526f4743844073ab59ebe8332"
+      }
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "gate-noise-16-holdout",
+    "generator_version": "lunar-sim-0.2",
+    "metric_version": "metrics-0.3",
+    "seed": 9613,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 16,
+      "seed": 9613,
+      "shot_scale": 0.012,
+      "read_noise_sigma": 0.004,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.3,
+      "translation_span_px": 1.25,
+      "inject_outliers": false
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "f2325a9a507fc0d1b2de3808a1cde2ef4aea86b755efd6373931be8113d24579",
+    "sha256_oracle": "dedbbc8830b91fad4f88c66e19aa0c467a6f6894076a4860af924a1e7cc8250d",
+    "frame_count": 16,
+    "expected_bad_indices": [],
+    "golden_reference": {
+      "outputs": "golden/reference-outputs.npz",
+      "metrics": "golden/reference-metrics.json",
+      "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+      "algorithm_versions": {
+        "quality": "quality-0.2",
+        "alignment": "align-0.2",
+        "reconstruction": "reconstruct-0.2"
+      }
+    },
+    "golden_references": [
+      {
+        "outputs": "golden-metrics-0.2/reference-outputs.npz",
+        "metrics": "golden-metrics-0.2/reference-metrics.json",
+        "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.2"
+        }
+      },
+      {
+        "outputs": "golden-reconstruct-0.3-metrics-0.2/reference-outputs.npz",
+        "metrics": "golden-reconstruct-0.3-metrics-0.2/reference-metrics.json",
+        "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.3"
+        }
+      },
+      {
+        "outputs": "golden-reconstruct-0.3-metrics-0.3/reference-outputs.npz",
+        "metrics": "golden-reconstruct-0.3-metrics-0.3/reference-metrics.json",
+        "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.3"
+        }
+      }
+    ]
+  },
+  "golden_reference": {
+    "fixture_id": "gate-noise-16-holdout",
+    "algorithm_versions": {
+      "quality": "quality-0.2",
+      "alignment": "align-0.2",
+      "reconstruction": "reconstruct-0.3"
+    },
+    "metric_version": "metrics-0.3",
+    "python_version": "3.12.14",
+    "accepted_ids": [
+      "gate-noise-16-holdout-frame-000",
+      "gate-noise-16-holdout-frame-001",
+      "gate-noise-16-holdout-frame-002",
+      "gate-noise-16-holdout-frame-003",
+      "gate-noise-16-holdout-frame-004",
+      "gate-noise-16-holdout-frame-005",
+      "gate-noise-16-holdout-frame-006",
+      "gate-noise-16-holdout-frame-007",
+      "gate-noise-16-holdout-frame-008",
+      "gate-noise-16-holdout-frame-009",
+      "gate-noise-16-holdout-frame-010",
+      "gate-noise-16-holdout-frame-011",
+      "gate-noise-16-holdout-frame-012",
+      "gate-noise-16-holdout-frame-013",
+      "gate-noise-16-holdout-frame-014",
+      "gate-noise-16-holdout-frame-015"
+    ],
+    "rejected_ids": [],
+    "alignment_reference_id": "gate-noise-16-holdout-frame-006",
+    "expected_metric_ranges": {
+      "ordinary_single": {
+        "rmse_range": [
+          0.04946082640439272,
+          0.050460035018622874
+        ],
+        "snr_proxy_range": [
+          4.941742116874342,
+          5.143445876746765
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.2115625,
+          0.2415625
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "best_single": {
+        "rmse_range": [
+          0.050936524495482444,
+          0.05196554519236088
+        ],
+        "snr_proxy_range": [
+          4.90497779964462,
+          5.10518097514032
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.2271875,
+          0.2571875
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "registered_mean": {
+        "rmse_range": [
+          0.0162544302970171,
+          0.016654430297017096
+        ],
+        "snr_proxy_range": [
+          16.258537137258376,
+          16.922150897962798
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.20375,
+          0.23375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "weighted_mean": {
+        "rmse_range": [
+          0.0162544302970171,
+          0.016654430297017096
+        ],
+        "snr_proxy_range": [
+          16.258537137258376,
+          16.922150897962798
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.20375,
+          0.23375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "median": {
+        "rmse_range": [
+          0.017803009259700776,
+          0.018203009259700774
+        ],
+        "snr_proxy_range": [
+          14.848491848829745,
+          15.454552740618716
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.20375,
+          0.23375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "sigma_clipped": {
+        "rmse_range": [
+          0.01698069799244404,
+          0.017380697992444037
+        ],
+        "snr_proxy_range": [
+          15.552461583315397,
+          16.1872559336548
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.20375,
+          0.23375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "sigma_clipped_denoised": {
+        "rmse_range": [
+          0.01696837286949158,
+          0.017368372869491576
+        ],
+        "snr_proxy_range": [
+          15.829642951991495,
+          16.475750827582985
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.20375,
+          0.23375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      }
+    },
+    "numerical_output_tolerances": {
+      "normalized_pixel_absolute_error_max": 0.001,
+      "registration_translation_abs_px": 0.1,
+      "metric_ranges_are_regression_checks_not_scientific_gate_replacements": true
+    },
+    "output_names": [
+      "ordinary_single",
+      "best_single",
+      "registered_mean",
+      "weighted_mean",
+      "median",
+      "sigma_clipped",
+      "sigma_clipped_denoised",
+      "half_stack_a",
+      "half_stack_b"
+    ],
+    "sha256_reference_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5"
+  }
+}

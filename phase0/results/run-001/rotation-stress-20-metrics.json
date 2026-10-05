@@ -1,0 +1,1127 @@
+{
+  "fixture_id": "rotation-stress-20",
+  "metric_version": "metrics-0.1",
+  "algorithm_version": "reconstruct-0.1",
+  "source_count": 20,
+  "accepted_count": 19,
+  "rejected_count": 1,
+  "runtime_seconds": 4.072442700038664,
+  "registration": {
+    "translation_error_px": 3.58685021025738,
+    "rotation_error_deg": 0.7906086071905599,
+    "rms_translation_px": 3.58685021025738,
+    "evaluated_frame_count": 18,
+    "records": [
+      {
+        "frame_id": "rotation-stress-20-frame-000",
+        "estimate": [
+          1.5,
+          -1.25,
+          -0.6
+        ],
+        "truth_eval_only": [
+          1.7013421058654785,
+          -0.7872087955474854,
+          0.20747680962085724
+        ],
+        "residual": 0.06765308976173401,
+        "confidence": 0.6229859014795418
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-001",
+        "estimate": [
+          -7.25,
+          -0.3500000000000001,
+          0.3999999999999999
+        ],
+        "truth_eval_only": [
+          0.42619210481643677,
+          1.3778860569000244,
+          0.5824588537216187
+        ],
+        "residual": 0.17754147946834564,
+        "confidence": 0.3718318331951292
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-002",
+        "estimate": [
+          1.45,
+          1.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          1.4998104572296143,
+          0.4637625217437744,
+          0.4152357876300812
+        ],
+        "residual": 0.07139661908149719,
+        "confidence": 0.5119314388343181
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-003",
+        "estimate": [
+          -0.2500000000000001,
+          1.5999999999999999,
+          -0.6
+        ],
+        "truth_eval_only": [
+          1.050331473350525,
+          1.6863603591918945,
+          -0.1667570173740387
+        ],
+        "residual": 0.07685786485671997,
+        "confidence": 0.6085861598833201
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-004",
+        "estimate": [
+          1.35,
+          -1.25,
+          -0.6
+        ],
+        "truth_eval_only": [
+          1.155047059059143,
+          -0.7064048051834106,
+          0.23972128331661224
+        ],
+        "residual": 0.06986787915229797,
+        "confidence": 0.47184394935940455
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-005",
+        "estimate": [
+          0.44999999999999996,
+          1.35,
+          0.3999999999999999
+        ],
+        "truth_eval_only": [
+          0.300506055355072,
+          1.0443135499954224,
+          0.33897846937179565
+        ],
+        "residual": 0.06995757669210434,
+        "confidence": 0.5298167899887971
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-006",
+        "estimate": [
+          0.7499999999999999,
+          1.45,
+          0.6
+        ],
+        "truth_eval_only": [
+          1.4691442251205444,
+          1.4429837465286255,
+          0.9247637987136841
+        ],
+        "residual": 0.07641947269439697,
+        "confidence": 0.5041138671822961
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-007",
+        "estimate": [
+          -1.25,
+          1.35,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.6662908792495728,
+          1.0855181217193604,
+          1.208713412284851
+        ],
+        "residual": 0.07286936044692993,
+        "confidence": 0.43484317816580365
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-008",
+        "estimate": [
+          0.5499999999999999,
+          -0.3000000000000001,
+          0.6
+        ],
+        "truth_eval_only": [
+          0.667907178401947,
+          0.026794135570526123,
+          1.1562665700912476
+        ],
+        "residual": 0.06676141917705536,
+        "confidence": 0.5067858160224135
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-009",
+        "estimate": [
+          0.44999999999999996,
+          -1.25,
+          -0.6
+        ],
+        "truth_eval_only": [
+          0.4230206608772278,
+          -0.06988286972045898,
+          0.3308584988117218
+        ],
+        "residual": 0.0760277807712555,
+        "confidence": 0.5142079882106216
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-010",
+        "estimate": [
+          1.35,
+          0.35,
+          0.6
+        ],
+        "truth_eval_only": [
+          1.2050321102142334,
+          0.1669434905052185,
+          0.5720663070678711
+        ],
+        "residual": 0.06723126769065857,
+        "confidence": 0.5144916980144159
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-011",
+        "estimate": [
+          3.25,
+          1.4,
+          -0.6
+        ],
+        "truth_eval_only": [
+          2.7194690704345703,
+          1.1914803981781006,
+          1.2227363586425781
+        ],
+        "residual": 0.07064519077539444,
+        "confidence": 0.4511289581361485
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-012",
+        "estimate": [
+          2.25,
+          -17.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.11898863315582275,
+          2.3543527126312256,
+          -0.024326413869857788
+        ],
+        "residual": 0.2635895311832428,
+        "confidence": 0.48502582576033537
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-013",
+        "estimate": [
+          0.44999999999999996,
+          -0.4000000000000001,
+          0.6
+        ],
+        "truth_eval_only": [
+          0.43753689527511597,
+          -0.19340407848358154,
+          0.8736433982849121
+        ],
+        "residual": 0.06733361631631851,
+        "confidence": 0.5119899976514117
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-014",
+        "estimate": [
+          1.7,
+          0.5499999999999999,
+          0.6
+        ],
+        "truth_eval_only": [
+          2.0328786373138428,
+          0.5687990188598633,
+          1.202878475189209
+        ],
+        "residual": 0.06779567152261734,
+        "confidence": 0.5728239440850588
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-015",
+        "estimate": [
+          2.55,
+          1.3,
+          0.6
+        ],
+        "truth_eval_only": [
+          2.5673537254333496,
+          1.0200899839401245,
+          0.34711283445358276
+        ],
+        "residual": 0.06727457791566849,
+        "confidence": 0.5467604511284038
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-016",
+        "estimate": [
+          0.25,
+          0.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.746652364730835,
+          -0.4919002056121826,
+          -0.06840041279792786
+        ],
+        "residual": 0.08112219721078873,
+        "confidence": 0.5038919676808827
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-017",
+        "estimate": [
+          0.7499999999999999,
+          0.5499999999999999,
+          -0.6
+        ],
+        "truth_eval_only": [
+          2.6692070960998535,
+          0.5868796706199646,
+          0.048290908336639404
+        ],
+        "residual": 0.08863689005374908,
+        "confidence": 0.3762993711057104
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 6.061259076100195,
+  "mtf50_proxy_retention_vs_best_single": 0.8333333333333334,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3125,
+  "frame_rejection": {
+    "true_positive": 1,
+    "false_negative": 2,
+    "false_positive": 0,
+    "true_negative": 15,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {
+      "17": "strong_blur",
+      "18": "highlight_clipped",
+      "19": "abnormal_noise"
+    }
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 5.172278022323507,
+      "edge_sharpness": 0.16236822307109833,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.12445746527777778,
+      "ringing_halo_peak": 0.19358140230178833,
+      "seam_interpolation_proxy": 0.18150381743907928,
+      "reconstruction_error": {
+        "rmse": 0.07922931015491486,
+        "psnr_db": 18.91647907859681
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 47.460716247558594,
+        "high_frequency_error_rmse": 0.030482906848192215
+      }
+    },
+    "best_single": {
+      "snr_proxy": 4.615782048664753,
+      "edge_sharpness": 0.16706731915473938,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.1740451388888889,
+      "ringing_halo_peak": 0.23251062631607056,
+      "seam_interpolation_proxy": 0.35345369577407837,
+      "reconstruction_error": {
+        "rmse": 0.07624471932649612,
+        "psnr_db": 19.250001169346834
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 61.5695686340332,
+        "high_frequency_error_rmse": 0.03471940755844116
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 17.701772245872625,
+      "edge_sharpness": 0.09803175926208496,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.13788729906082153,
+      "reconstruction_error": {
+        "rmse": 0.04004537686705589,
+        "psnr_db": 24.843148866635477
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1392974853515625,
+        "high_frequency_error_rmse": 0.0047228895127773285
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 17.701772245872625,
+      "edge_sharpness": 0.09803175926208496,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.13788729906082153,
+      "reconstruction_error": {
+        "rmse": 0.04004537686705589,
+        "psnr_db": 24.843148866635477
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1392974853515625,
+        "high_frequency_error_rmse": 0.0047228895127773285
+      }
+    },
+    "median": {
+      "snr_proxy": 26.16087962846309,
+      "edge_sharpness": 0.1141238808631897,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.06768610328435898,
+      "reconstruction_error": {
+        "rmse": 0.040580183267593384,
+        "psnr_db": 24.727916488797057
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.4679880142211914,
+        "high_frequency_error_rmse": 0.005361057817935944
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 27.977450835769588,
+      "edge_sharpness": 0.11486055701971054,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.05775565281510353,
+      "reconstruction_error": {
+        "rmse": 0.04023143649101257,
+        "psnr_db": 24.80288577730748
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.248927116394043,
+        "high_frequency_error_rmse": 0.004944903310388327
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 28.35934155287939,
+      "edge_sharpness": 0.11367126554250717,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.05443777143955231,
+      "reconstruction_error": {
+        "rmse": 0.04006233438849449,
+        "psnr_db": 24.83947153870681
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.160161018371582,
+        "high_frequency_error_rmse": 0.00476593803614378
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.07922931015491486,
+      "psnr_db": 18.91647907859681
+    },
+    "best_single": {
+      "rmse": 0.07624471932649612,
+      "psnr_db": 19.250001169346834
+    },
+    "registered_stack": {
+      "rmse": 0.04023143649101257,
+      "psnr_db": 24.80288577730748
+    },
+    "stack_denoised": {
+      "rmse": 0.04006233438849449,
+      "psnr_db": 24.83947153870681
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "rotation-stress-20",
+    "reference_id": "rotation-stress-20-frame-019",
+    "accepted_ids": [
+      "rotation-stress-20-frame-000",
+      "rotation-stress-20-frame-001",
+      "rotation-stress-20-frame-002",
+      "rotation-stress-20-frame-003",
+      "rotation-stress-20-frame-004",
+      "rotation-stress-20-frame-005",
+      "rotation-stress-20-frame-006",
+      "rotation-stress-20-frame-007",
+      "rotation-stress-20-frame-008",
+      "rotation-stress-20-frame-009",
+      "rotation-stress-20-frame-010",
+      "rotation-stress-20-frame-011",
+      "rotation-stress-20-frame-012",
+      "rotation-stress-20-frame-013",
+      "rotation-stress-20-frame-014",
+      "rotation-stress-20-frame-015",
+      "rotation-stress-20-frame-016",
+      "rotation-stress-20-frame-017",
+      "rotation-stress-20-frame-019"
+    ],
+    "rejected_ids": [
+      "rotation-stress-20-frame-018"
+    ],
+    "assessments": [
+      {
+        "frame_id": "rotation-stress-20-frame-000",
+        "components": {
+          "clipping_fraction": 0.12445746527777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12445746527777778,
+          "contrast_std": 0.2538291811943054,
+          "edge_sharpness": 0.08143207430839539,
+          "laplacian_variance": 0.014599508605897427,
+          "noise_mad_sigma": 0.014527677558362484,
+          "exposure_median": 0.11588391661643982,
+          "relative_sharpness": 1.0036604549785342,
+          "relative_noise": 0.9861591061119394,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-001",
+        "components": {
+          "clipping_fraction": 0.12358940972222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12358940972222222,
+          "contrast_std": 0.2482944130897522,
+          "edge_sharpness": 0.07992526888847351,
+          "laplacian_variance": 0.013551263138651848,
+          "noise_mad_sigma": 0.014686823822557926,
+          "exposure_median": 0.11163908243179321,
+          "relative_sharpness": 0.9850888905652844,
+          "relative_noise": 0.9969621774913485,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-002",
+        "components": {
+          "clipping_fraction": 0.12727864583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12727864583333334,
+          "contrast_std": 0.2518894076347351,
+          "edge_sharpness": 0.08162376284599304,
+          "laplacian_variance": 0.014556371606886387,
+          "noise_mad_sigma": 0.015009642578661442,
+          "exposure_median": 0.11078886687755585,
+          "relative_sharpness": 1.0060230400716121,
+          "relative_noise": 1.0188755669285998,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-003",
+        "components": {
+          "clipping_fraction": 0.1264105902777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1264105902777778,
+          "contrast_std": 0.25269702076911926,
+          "edge_sharpness": 0.08211115002632141,
+          "laplacian_variance": 0.01508152112364769,
+          "noise_mad_sigma": 0.014885060489177704,
+          "exposure_median": 0.11313901841640472,
+          "relative_sharpness": 1.0120301477538567,
+          "relative_noise": 1.0104187601534438,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-004",
+        "components": {
+          "clipping_fraction": 0.12662760416666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12662760416666666,
+          "contrast_std": 0.25461626052856445,
+          "edge_sharpness": 0.08348135650157928,
+          "laplacian_variance": 0.015300918370485306,
+          "noise_mad_sigma": 0.014607113786041737,
+          "exposure_median": 0.11356069892644882,
+          "relative_sharpness": 1.0289181131661547,
+          "relative_noise": 0.9915513485379136,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-005",
+        "components": {
+          "clipping_fraction": 0.12825520833333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12825520833333334,
+          "contrast_std": 0.23953509330749512,
+          "edge_sharpness": 0.08075693249702454,
+          "laplacian_variance": 0.014621292240917683,
+          "noise_mad_sigma": 0.014452887699007988,
+          "exposure_median": 0.1069905161857605,
+          "relative_sharpness": 0.9953392480913158,
+          "relative_noise": 0.9810822656774673,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-006",
+        "components": {
+          "clipping_fraction": 0.1310763888888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1310763888888889,
+          "contrast_std": 0.23067006468772888,
+          "edge_sharpness": 0.07816394418478012,
+          "laplacian_variance": 0.01352622825652361,
+          "noise_mad_sigma": 0.014004276134073734,
+          "exposure_median": 0.10340236127376556,
+          "relative_sharpness": 0.9633803442892922,
+          "relative_noise": 0.9506298841395535,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-007",
+        "components": {
+          "clipping_fraction": 0.1291232638888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1291232638888889,
+          "contrast_std": 0.23783473670482635,
+          "edge_sharpness": 0.07790898531675339,
+          "laplacian_variance": 0.013341655023396015,
+          "noise_mad_sigma": 0.014222361147403717,
+          "exposure_median": 0.10701994597911835,
+          "relative_sharpness": 0.9602379444958714,
+          "relative_noise": 0.965433800384109,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-008",
+        "components": {
+          "clipping_fraction": 0.12261284722222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12261284722222222,
+          "contrast_std": 0.2522833049297333,
+          "edge_sharpness": 0.08180738240480423,
+          "laplacian_variance": 0.014705758541822433,
+          "noise_mad_sigma": 0.014819197356700897,
+          "exposure_median": 0.11238294839859009,
+          "relative_sharpness": 1.0082861739964764,
+          "relative_noise": 1.0059478784458806,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-009",
+        "components": {
+          "clipping_fraction": 0.12467447916666667,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12467447916666667,
+          "contrast_std": 0.2444697767496109,
+          "edge_sharpness": 0.07992828637361526,
+          "laplacian_variance": 0.013535936363041401,
+          "noise_mad_sigma": 0.014633498154580593,
+          "exposure_median": 0.11079444736242294,
+          "relative_sharpness": 0.9851260814453643,
+          "relative_noise": 0.9933423564391476,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-010",
+        "components": {
+          "clipping_fraction": 0.12315538194444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12315538194444445,
+          "contrast_std": 0.25788193941116333,
+          "edge_sharpness": 0.08260355144739151,
+          "laplacian_variance": 0.015104833990335464,
+          "noise_mad_sigma": 0.01517258770763874,
+          "exposure_median": 0.11763423681259155,
+          "relative_sharpness": 1.0180990565775676,
+          "relative_noise": 1.0299365105716565,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-011",
+        "components": {
+          "clipping_fraction": 0.1254340277777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1254340277777778,
+          "contrast_std": 0.2510293424129486,
+          "edge_sharpness": 0.08095573633909225,
+          "laplacian_variance": 0.014115933328866959,
+          "noise_mad_sigma": 0.014843559823930264,
+          "exposure_median": 0.11159955710172653,
+          "relative_sharpness": 0.9977895301979156,
+          "relative_noise": 1.0076016368535183,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-012",
+        "components": {
+          "clipping_fraction": 0.12293836805555555,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1228298611111111,
+          "contrast_std": 0.2483835369348526,
+          "edge_sharpness": 0.0815567895770073,
+          "laplacian_variance": 0.014858368784189224,
+          "noise_mad_sigma": 0.014776327647268772,
+          "exposure_median": 0.11147956550121307,
+          "relative_sharpness": 1.0051975861925047,
+          "relative_noise": 1.0030378225086514,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-013",
+        "components": {
+          "clipping_fraction": 0.12565104166666666,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1255425347222222,
+          "contrast_std": 0.24800260365009308,
+          "edge_sharpness": 0.07980404794216156,
+          "laplacian_variance": 0.013932110741734505,
+          "noise_mad_sigma": 0.014391272328794003,
+          "exposure_median": 0.11037763953208923,
+          "relative_sharpness": 0.9835948273087398,
+          "relative_noise": 0.9768997280234701,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-014",
+        "components": {
+          "clipping_fraction": 0.12879774305555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12879774305555555,
+          "contrast_std": 0.24460476636886597,
+          "edge_sharpness": 0.08085080981254578,
+          "laplacian_variance": 0.014390594325959682,
+          "noise_mad_sigma": 0.014894761145114899,
+          "exposure_median": 0.11045507341623306,
+          "relative_sharpness": 0.9964962976938027,
+          "relative_noise": 1.0110772542691957,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-015",
+        "components": {
+          "clipping_fraction": 0.12565104166666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12565104166666666,
+          "contrast_std": 0.25072696805000305,
+          "edge_sharpness": 0.08131442964076996,
+          "laplacian_variance": 0.014325297437608242,
+          "noise_mad_sigma": 0.014409291557967663,
+          "exposure_median": 0.11329838633537292,
+          "relative_sharpness": 1.0022104698020844,
+          "relative_noise": 0.9781228985449341,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-016",
+        "components": {
+          "clipping_fraction": 0.1267361111111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1267361111111111,
+          "contrast_std": 0.2383539378643036,
+          "edge_sharpness": 0.07948725670576096,
+          "laplacian_variance": 0.014080201275646687,
+          "noise_mad_sigma": 0.014303750358521938,
+          "exposure_median": 0.10628446191549301,
+          "relative_sharpness": 0.9796903358763478,
+          "relative_noise": 0.9709586140620735,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-017",
+        "components": {
+          "clipping_fraction": 0.08257378472222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.08257378472222222,
+          "contrast_std": 0.2332899123430252,
+          "edge_sharpness": 0.07872194796800613,
+          "laplacian_variance": 0.013485025614500046,
+          "noise_mad_sigma": 0.016751039773225784,
+          "exposure_median": 0.1322600543498993,
+          "relative_sharpness": 0.9702578103947408,
+          "relative_noise": 1.137084048213958,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-018",
+        "components": {
+          "clipping_fraction": 0.20540364583333334,
+          "highlight_clipping_fraction": 0.1328125,
+          "underexposed_fraction": 0.07259114583333333,
+          "contrast_std": 0.39725345373153687,
+          "edge_sharpness": 0.08445000648498535,
+          "laplacian_variance": 0.014020095579326153,
+          "noise_mad_sigma": 0.015700913965702057,
+          "exposure_median": 0.1915856897830963,
+          "relative_sharpness": 1.0408568448184816,
+          "relative_noise": 1.065800037160411,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "highlight_clipping_fraction>0.02"
+        ],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-019",
+        "components": {
+          "clipping_fraction": 0.1740451388888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1740451388888889,
+          "contrast_std": 0.2514198422431946,
+          "edge_sharpness": 0.09939800202846527,
+          "laplacian_variance": 0.019148608669638634,
+          "noise_mad_sigma": 0.02344840206205845,
+          "exposure_median": 0.11338423192501068,
+          "relative_sharpness": 1.2250927510704661,
+          "relative_noise": 1.591710383464717,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "rotation-stress-20-frame-000",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 1.5,
+        "dy": -1.25,
+        "rotation_deg": -0.6,
+        "confidence": 0.6229859014795418,
+        "residual": 0.06765308976173401,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-001",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": -7.25,
+        "dy": -0.3500000000000001,
+        "rotation_deg": 0.3999999999999999,
+        "confidence": 0.3718318331951292,
+        "residual": 0.17754147946834564,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-002",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 1.45,
+        "dy": 1.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.5119314388343181,
+        "residual": 0.07139661908149719,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-003",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": -0.2500000000000001,
+        "dy": 1.5999999999999999,
+        "rotation_deg": -0.6,
+        "confidence": 0.6085861598833201,
+        "residual": 0.07685786485671997,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-004",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 1.35,
+        "dy": -1.25,
+        "rotation_deg": -0.6,
+        "confidence": 0.47184394935940455,
+        "residual": 0.06986787915229797,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-005",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.44999999999999996,
+        "dy": 1.35,
+        "rotation_deg": 0.3999999999999999,
+        "confidence": 0.5298167899887971,
+        "residual": 0.06995757669210434,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-006",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.7499999999999999,
+        "dy": 1.45,
+        "rotation_deg": 0.6,
+        "confidence": 0.5041138671822961,
+        "residual": 0.07641947269439697,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-007",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": -1.25,
+        "dy": 1.35,
+        "rotation_deg": -0.6,
+        "confidence": 0.43484317816580365,
+        "residual": 0.07286936044692993,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-008",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.5499999999999999,
+        "dy": -0.3000000000000001,
+        "rotation_deg": 0.6,
+        "confidence": 0.5067858160224135,
+        "residual": 0.06676141917705536,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-009",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.44999999999999996,
+        "dy": -1.25,
+        "rotation_deg": -0.6,
+        "confidence": 0.5142079882106216,
+        "residual": 0.0760277807712555,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-010",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 1.35,
+        "dy": 0.35,
+        "rotation_deg": 0.6,
+        "confidence": 0.5144916980144159,
+        "residual": 0.06723126769065857,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-011",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 3.25,
+        "dy": 1.4,
+        "rotation_deg": -0.6,
+        "confidence": 0.4511289581361485,
+        "residual": 0.07064519077539444,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-012",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 2.25,
+        "dy": -17.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.48502582576033537,
+        "residual": 0.2635895311832428,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-013",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.44999999999999996,
+        "dy": -0.4000000000000001,
+        "rotation_deg": 0.6,
+        "confidence": 0.5119899976514117,
+        "residual": 0.06733361631631851,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-014",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 1.7,
+        "dy": 0.5499999999999999,
+        "rotation_deg": 0.6,
+        "confidence": 0.5728239440850588,
+        "residual": 0.06779567152261734,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-015",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 2.55,
+        "dy": 1.3,
+        "rotation_deg": 0.6,
+        "confidence": 0.5467604511284038,
+        "residual": 0.06727457791566849,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-016",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.25,
+        "dy": 0.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.5038919676808827,
+        "residual": 0.08112219721078873,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-017",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0.7499999999999999,
+        "dy": 0.5499999999999999,
+        "rotation_deg": -0.6,
+        "confidence": 0.3762993711057104,
+        "residual": 0.08863689005374908,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "rotation-stress-20-frame-019",
+        "reference_id": "rotation-stress-20-frame-019",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.1",
+        "thresholds": {
+          "clip": 0.08,
+          "relative_sharpness": 0.55,
+          "relative_noise": 2.3
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.1",
+        "reference": "rotation-stress-20-frame-019",
+        "method": "rotation-grid+phase-correlation"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.1",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "denoise-0.1",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.1",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "rotation-stress-20",
+    "generator_version": "lunar-sim-0.1",
+    "metric_version": "metrics-0.1",
+    "seed": 2803,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 20,
+      "seed": 2803,
+      "shot_scale": 0.012,
+      "read_noise_sigma": 0.005,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.7,
+      "rotation_span_deg": 0.9,
+      "translation_span_px": 1.8,
+      "inject_outliers": true
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "f92aa61ef861173a1df6ea33543c5a5c946bef458ed539db11e09405162908c3",
+    "sha256_oracle": "252ebfa2e327a6d6a3a65385e8b5d32c416dc562a20015274daff51569b4ac7b",
+    "frame_count": 20,
+    "expected_bad_indices": [
+      17,
+      18,
+      19
+    ]
+  }
+}

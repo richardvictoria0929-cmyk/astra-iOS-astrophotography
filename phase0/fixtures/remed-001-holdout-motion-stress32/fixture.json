@@ -1,0 +1,31 @@
+{
+  "fixture_id": "remed-001-holdout-motion-stress32",
+  "generator_version": "lunar-remediation-0.1",
+  "seed": 63403,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 32,
+    "seed": 63403,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.004,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.65,
+    "translation_span_px": 2.0
+  },
+  "frame_count": 32,
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "1a78d97053b84e203adb915741601f4f60c2aabfe20457687dbb898522ecb1a3",
+  "sha256_oracle": "7ec8e6e7d374b0386b4ff88b295245aba81680ca5b52cf9087c7e50fa07713b3",
+  "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+  "class_counts_committed": {
+    "strong_blur": 0,
+    "clipping": 0,
+    "large_motion": 0,
+    "abnormal_noise": 0,
+    "mixed": 0
+  }
+}

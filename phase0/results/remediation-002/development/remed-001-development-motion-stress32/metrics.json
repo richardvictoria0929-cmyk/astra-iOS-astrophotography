@@ -1,0 +1,849 @@
+{
+  "fixture_id": "remed-001-development-motion-stress32",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.4",
+  "alignment_version": "align-0.4",
+  "reconstruction_version": "reconstruct-0.5",
+  "source_count": 32,
+  "accepted_count": 32,
+  "rejected_count": 0,
+  "runtime_seconds": 2.708073100016918,
+  "registration": {
+    "translation_error_px": 0.04245410133411434,
+    "rotation_error_deg": 0.28473222797304804,
+    "rms_translation_px": 0.04245410133411434,
+    "evaluated_frame_count": 31,
+    "accepted_nonreference_count": 31,
+    "valid_coverage_fraction": 1.0,
+    "records": [
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-000",
+        "estimate": [
+          0.7827493059080332,
+          0.43643229955597346,
+          0.6501164526386238
+        ],
+        "truth_eval_only": [
+          0.8286906480789185,
+          0.4516856074333191,
+          0.4448438286781311
+        ],
+        "residual": 0.06640538573265076,
+        "confidence": 0.9228262305259705
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-001",
+        "estimate": [
+          -0.44520504429710567,
+          -1.878048472038721,
+          0.23865714423065493
+        ],
+        "truth_eval_only": [
+          -0.4336099624633789,
+          -1.8665142059326172,
+          0.2131909728050232
+        ],
+        "residual": 0.06788861006498337,
+        "confidence": 0.9201845526695251
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-002",
+        "estimate": [
+          0.9466422908116771,
+          -1.7674637789076821,
+          0.9428337680937154
+        ],
+        "truth_eval_only": [
+          0.9552462100982666,
+          -1.7901508808135986,
+          0.3861476480960846
+        ],
+        "residual": 0.06818292289972305,
+        "confidence": 0.9191928505897522
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-003",
+        "estimate": [
+          2.22152153767867,
+          0.61918579219599,
+          -0.620174458148334
+        ],
+        "truth_eval_only": [
+          2.2875590324401855,
+          0.6601169109344482,
+          -0.41279837489128113
+        ],
+        "residual": 0.06798270344734192,
+        "confidence": 0.9219701886177063
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-004",
+        "estimate": [
+          0.14506212029142143,
+          -1.0014448298769656,
+          -0.8108588388264425
+        ],
+        "truth_eval_only": [
+          0.23897895216941833,
+          -0.9707561135292053,
+          -0.3965027928352356
+        ],
+        "residual": 0.0676792711019516,
+        "confidence": 0.9206450581550598
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-005",
+        "estimate": [
+          0.1655404720329324,
+          -0.8496944754435662,
+          -0.5305577223666621
+        ],
+        "truth_eval_only": [
+          0.1989997923374176,
+          -0.8598325252532959,
+          -0.41413089632987976
+        ],
+        "residual": 0.06740022450685501,
+        "confidence": 0.9206122756004333
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-007",
+        "estimate": [
+          1.3407091125828452,
+          0.9575850043851228,
+          -0.2070154185264148
+        ],
+        "truth_eval_only": [
+          1.373799204826355,
+          0.9358195662498474,
+          0.07737917453050613
+        ],
+        "residual": 0.06821660697460175,
+        "confidence": 0.917902946472168
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-008",
+        "estimate": [
+          -0.5056177654608267,
+          -1.1018560364851102,
+          -0.9052928491962984
+        ],
+        "truth_eval_only": [
+          -0.4430336356163025,
+          -1.094699740409851,
+          -0.7057515978813171
+        ],
+        "residual": 0.07006020843982697,
+        "confidence": 0.91767418384552
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-009",
+        "estimate": [
+          0.5999496507068358,
+          -1.17191266499252,
+          -0.5655741377316373
+        ],
+        "truth_eval_only": [
+          0.6562116742134094,
+          -1.1782121658325195,
+          -0.6885730624198914
+        ],
+        "residual": 0.07051312923431396,
+        "confidence": 0.9167972207069397
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-010",
+        "estimate": [
+          0.9674249119862565,
+          0.14357548962805067,
+          0.03252130454929589
+        ],
+        "truth_eval_only": [
+          1.0312492847442627,
+          0.0973818302154541,
+          -0.19603057205677032
+        ],
+        "residual": 0.07248415797948837,
+        "confidence": 0.9068195223808289
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-011",
+        "estimate": [
+          0.5315481197381482,
+          0.3254267569228197,
+          0.09862727301369262
+        ],
+        "truth_eval_only": [
+          0.5714634656906128,
+          0.34689968824386597,
+          -0.14185433089733124
+        ],
+        "residual": 0.0644899383187294,
+        "confidence": 0.9284650087356567
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-012",
+        "estimate": [
+          -0.2249364660936964,
+          -1.937280967055285,
+          -0.5442559500824641
+        ],
+        "truth_eval_only": [
+          -0.13509809970855713,
+          -1.9203941822052002,
+          -0.49016374349594116
+        ],
+        "residual": 0.07090223580598831,
+        "confidence": 0.9162581562995911
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-013",
+        "estimate": [
+          -1.0495884170501601,
+          1.4785663072145072,
+          0.27357568649028696
+        ],
+        "truth_eval_only": [
+          -1.0174480676651,
+          1.4979705810546875,
+          -0.24930420517921448
+        ],
+        "residual": 0.06961367279291153,
+        "confidence": 0.9228549599647522
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-014",
+        "estimate": [
+          1.852911627638324,
+          0.447270813807675,
+          -0.08702123899554101
+        ],
+        "truth_eval_only": [
+          1.9014252424240112,
+          0.48080718517303467,
+          -0.2470632791519165
+        ],
+        "residual": 0.06564918905496597,
+        "confidence": 0.9257767200469971
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-015",
+        "estimate": [
+          -0.6081013560257709,
+          0.8995818135912533,
+          -0.736994717649398
+        ],
+        "truth_eval_only": [
+          -0.562187910079956,
+          0.8886131644248962,
+          -0.5555290579795837
+        ],
+        "residual": 0.06858468055725098,
+        "confidence": 0.918067216873169
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-016",
+        "estimate": [
+          -0.6170778833044258,
+          1.1089395438383574,
+          0.17552887807304632
+        ],
+        "truth_eval_only": [
+          -0.4897805452346802,
+          1.0948591232299805,
+          -0.05365282669663429
+        ],
+        "residual": 0.06877744942903519,
+        "confidence": 0.9188794493675232
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-017",
+        "estimate": [
+          -0.5915594988373649,
+          1.4830897786536326,
+          -0.5613653875706133
+        ],
+        "truth_eval_only": [
+          -0.5291458368301392,
+          1.4565212726593018,
+          -0.4562739133834839
+        ],
+        "residual": 0.0671401247382164,
+        "confidence": 0.9250925183296204
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-018",
+        "estimate": [
+          -0.007870144107602547,
+          -1.0934839374353944,
+          -0.4977301050643415
+        ],
+        "truth_eval_only": [
+          0.028552114963531494,
+          -1.04605233669281,
+          -0.48578357696533203
+        ],
+        "residual": 0.07234276831150055,
+        "confidence": 0.9109287261962891
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-019",
+        "estimate": [
+          -0.3538933944716283,
+          -0.29372599475793637,
+          -0.07330818301779073
+        ],
+        "truth_eval_only": [
+          -0.3122003674507141,
+          -0.27899259328842163,
+          0.29415076971054077
+        ],
+        "residual": 0.06468813121318817,
+        "confidence": 0.9285427927970886
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-020",
+        "estimate": [
+          -0.08367350701467519,
+          -1.8780813592764665,
+          0.6450893086349219
+        ],
+        "truth_eval_only": [
+          -0.10656583309173584,
+          -1.8632395267486572,
+          0.40553009510040283
+        ],
+        "residual": 0.07046665251255035,
+        "confidence": 0.9171890020370483
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-021",
+        "estimate": [
+          0.052553522201239725,
+          0.2798661756040027,
+          -0.35078703818046925
+        ],
+        "truth_eval_only": [
+          0.06663069128990173,
+          0.25795209407806396,
+          -0.12442662566900253
+        ],
+        "residual": 0.06933212280273438,
+        "confidence": 0.9178234338760376
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-022",
+        "estimate": [
+          2.409889681400081,
+          -1.6984728126866553,
+          0.16841448744862425
+        ],
+        "truth_eval_only": [
+          2.46958065032959,
+          -1.713111162185669,
+          0.15468353033065796
+        ],
+        "residual": 0.06487708538770676,
+        "confidence": 0.9276797771453857
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-023",
+        "estimate": [
+          0.4984996278945421,
+          -0.07769356869192788,
+          0.8094825603326616
+        ],
+        "truth_eval_only": [
+          0.5768725275993347,
+          -0.04159092903137207,
+          0.5055471062660217
+        ],
+        "residual": 0.06853634119033813,
+        "confidence": 0.9176456928253174
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-024",
+        "estimate": [
+          0.3077563246876457,
+          -1.400542452164294,
+          0.2973070166579985
+        ],
+        "truth_eval_only": [
+          0.3594484329223633,
+          -1.3508472442626953,
+          0.3638727068901062
+        ],
+        "residual": 0.0638670027256012,
+        "confidence": 0.9286131858825684
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-025",
+        "estimate": [
+          -0.6551599245326273,
+          -0.28168376290094405,
+          -0.24637313638091748
+        ],
+        "truth_eval_only": [
+          -0.6116998195648193,
+          -0.2520725131034851,
+          -0.2682851254940033
+        ],
+        "residual": 0.0664900690317154,
+        "confidence": 0.9267514944076538
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-026",
+        "estimate": [
+          2.0588953434307826,
+          1.6091154021656817,
+          -0.24344875719375692
+        ],
+        "truth_eval_only": [
+          2.0665035247802734,
+          1.6555118560791016,
+          -0.22871387004852295
+        ],
+        "residual": 0.06961766630411148,
+        "confidence": 0.9165438413619995
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-027",
+        "estimate": [
+          -1.2353326069064685,
+          0.8936706230721019,
+          0.21306926581192456
+        ],
+        "truth_eval_only": [
+          -1.1968077421188354,
+          0.9187542796134949,
+          0.21798557043075562
+        ],
+        "residual": 0.07112511992454529,
+        "confidence": 0.9201182723045349
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-028",
+        "estimate": [
+          -0.4408302375021758,
+          0.3732801525847251,
+          -1.0220810228515067
+        ],
+        "truth_eval_only": [
+          -0.4274253845214844,
+          0.3789336085319519,
+          -0.6608425378799438
+        ],
+        "residual": 0.06793336570262909,
+        "confidence": 0.9198940396308899
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-029",
+        "estimate": [
+          0.42680994852295395,
+          0.25548425532416275,
+          -1.1046680179255794
+        ],
+        "truth_eval_only": [
+          0.5031830668449402,
+          0.25203871726989746,
+          -0.23552599549293518
+        ],
+        "residual": 0.06744672358036041,
+        "confidence": 0.9203580617904663
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-030",
+        "estimate": [
+          1.9611818892003061,
+          -1.2351804583642747,
+          0.35143648963210794
+        ],
+        "truth_eval_only": [
+          1.9969743490219116,
+          -1.2491977214813232,
+          0.3556748628616333
+        ],
+        "residual": 0.07091466337442398,
+        "confidence": 0.9164066314697266
+      },
+      {
+        "frame_id": "remed-001-development-motion-stress32-frame-031",
+        "estimate": [
+          1.8088882765569985,
+          -1.6813041426433495,
+          -0.7447912868918873
+        ],
+        "truth_eval_only": [
+          1.8163074254989624,
+          -1.6743838787078857,
+          -0.4987373948097229
+        ],
+        "residual": 0.0657505989074707,
+        "confidence": 0.92403644323349
+      }
+    ]
+  },
+  "snr_proxy_gain_sigma_vs_best": 6.068672412422732,
+  "mtf50_retention_denoised_vs_best": 1.0,
+  "stage_by_stage_edge": {
+    "A_best_source": {
+      "cycles_per_pixel": 0.234375,
+      "retention_vs_best": 1.0
+    },
+    "B_aligned_individual_sources": {
+      "bilinear": {
+        "count": 32,
+        "mean_cycles_per_pixel": 0.219970703125,
+        "median_cycles_per_pixel": 0.21875,
+        "minimum_cycles_per_pixel": 0.1953125,
+        "mean_retention_vs_best": 0.9385416666666667,
+        "median_retention_vs_best": 0.9333333333333333,
+        "minimum_retention_vs_best": 0.8333333333333334
+      },
+      "bicubic": {
+        "count": 32,
+        "mean_cycles_per_pixel": 0.232666015625,
+        "median_cycles_per_pixel": 0.234375,
+        "minimum_cycles_per_pixel": 0.2109375,
+        "mean_retention_vs_best": 0.9927083333333333,
+        "median_retention_vs_best": 1.0,
+        "minimum_retention_vs_best": 0.9
+      },
+      "fourier_translation": {
+        "count": 32,
+        "mean_cycles_per_pixel": 0.238037109375,
+        "median_cycles_per_pixel": 0.234375,
+        "minimum_cycles_per_pixel": 0.2109375,
+        "mean_retention_vs_best": 1.015625,
+        "median_retention_vs_best": 1.0,
+        "minimum_retention_vs_best": 0.9
+      }
+    },
+    "C_aligned_mean_stack": {
+      "cycles_per_pixel": 0.234375,
+      "retention_vs_best": 1.0
+    },
+    "D_quality_weighted_stack": {
+      "cycles_per_pixel": 0.234375,
+      "retention_vs_best": 1.0
+    },
+    "E_median_stack": {
+      "cycles_per_pixel": 0.2421875,
+      "retention_vs_best": 1.0333333333333334
+    },
+    "F_sigma_clipped_stack": {
+      "cycles_per_pixel": 0.234375,
+      "retention_vs_best": 1.0
+    },
+    "G_denoised_stack": {
+      "cycles_per_pixel": 0.234375,
+      "retention_vs_best": 1.0
+    },
+    "fourier_translation_pipeline": {
+      "C_mean": {
+        "cycles_per_pixel": 0.2421875,
+        "retention_vs_best": 1.0333333333333334
+      },
+      "D_weighted": {
+        "cycles_per_pixel": 0.2421875,
+        "retention_vs_best": 1.0333333333333334
+      },
+      "E_median": {
+        "cycles_per_pixel": 0.2421875,
+        "retention_vs_best": 1.0333333333333334
+      },
+      "F_sigma_clipped": {
+        "cycles_per_pixel": 0.2421875,
+        "retention_vs_best": 1.0333333333333334
+      },
+      "G_denoised": {
+        "cycles_per_pixel": 0.2421875,
+        "retention_vs_best": 1.0333333333333334
+      },
+      "B_aligned_individual_sources": {
+        "count": 32,
+        "mean_cycles_per_pixel": 0.238037109375,
+        "median_cycles_per_pixel": 0.234375,
+        "minimum_cycles_per_pixel": 0.2109375,
+        "mean_retention_vs_best": 1.015625,
+        "median_retention_vs_best": 1.0,
+        "minimum_retention_vs_best": 0.9
+      }
+    }
+  },
+  "image_metrics": {
+    "best_single": {
+      "snr_proxy": 5.260901217106664,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.1316189236111111,
+      "ringing_halo_peak": 0.18211901187896729,
+      "seam_interpolation_proxy": 0.1832076460123062,
+      "reconstruction_error": {
+        "rmse": 0.052138324826955795,
+        "psnr_db": 21.915778443908454
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 32.707420349121094,
+        "high_frequency_error_rmse": 0.029196415096521378
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 34.095321032195045,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.004952728748321533,
+      "seam_interpolation_proxy": 0.07912566512823105,
+      "reconstruction_error": {
+        "rmse": 0.008379245176911354,
+        "psnr_db": 37.794821951156344
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.5538986921310425,
+        "high_frequency_error_rmse": 0.0037994571030139923
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 33.52703725590663,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0041245222091674805,
+      "seam_interpolation_proxy": 0.0791538879275322,
+      "reconstruction_error": {
+        "rmse": 0.008514214307069778,
+        "psnr_db": 37.65602836482512
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.5571821928024292,
+        "high_frequency_error_rmse": 0.0038107021246105433
+      }
+    },
+    "median": {
+      "snr_proxy": 27.087033071579295,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.00010850694444444444,
+      "ringing_halo_peak": 0.005020320415496826,
+      "seam_interpolation_proxy": 0.09203934669494629,
+      "reconstruction_error": {
+        "rmse": 0.010256694629788399,
+        "psnr_db": 36.0387714014444
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.8577950596809387,
+        "high_frequency_error_rmse": 0.004728225059807301
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 31.926686080736385,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.00010850694444444444,
+      "ringing_halo_peak": 0.004952728748321533,
+      "seam_interpolation_proxy": 0.08646346628665924,
+      "reconstruction_error": {
+        "rmse": 0.008946389891207218,
+        "psnr_db": 37.22596348925521
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.6155155301094055,
+        "high_frequency_error_rmse": 0.004005215596407652
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 33.10736095274765,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.004952728748321533,
+      "seam_interpolation_proxy": 0.08041098713874817,
+      "reconstruction_error": {
+        "rmse": 0.008743386715650558,
+        "psnr_db": 37.42532616377612
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.5691286325454712,
+        "high_frequency_error_rmse": 0.003851337591186166
+      }
+    },
+    "fourier_mean": {
+      "snr_proxy": 30.332391216340028,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.008137762546539307,
+      "seam_interpolation_proxy": 0.08318062126636505,
+      "reconstruction_error": {
+        "rmse": 0.009088211692869663,
+        "psnr_db": 37.0893512213973
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.791056752204895,
+        "high_frequency_error_rmse": 0.004540568217635155
+      }
+    },
+    "fourier_weighted_mean": {
+      "snr_proxy": 29.955338668479335,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.007135868072509766,
+      "seam_interpolation_proxy": 0.08322300761938095,
+      "reconstruction_error": {
+        "rmse": 0.009202483110129833,
+        "psnr_db": 36.9808193319699
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.7913559079170227,
+        "high_frequency_error_rmse": 0.004541426431387663
+      }
+    },
+    "fourier_median": {
+      "snr_proxy": 23.692523671587118,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.00021701388888888888,
+      "ringing_halo_peak": 0.008062601089477539,
+      "seam_interpolation_proxy": 0.09444324672222137,
+      "reconstruction_error": {
+        "rmse": 0.0112414276227355,
+        "psnr_db": 35.2424905397329
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.2025258541107178,
+        "high_frequency_error_rmse": 0.005598266609013081
+      }
+    },
+    "fourier_sigma_clipped": {
+      "snr_proxy": 28.2491798760811,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.008137762546539307,
+      "seam_interpolation_proxy": 0.08889554440975189,
+      "reconstruction_error": {
+        "rmse": 0.009670243598520756,
+        "psnr_db": 36.550171626080605
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.8736698627471924,
+        "high_frequency_error_rmse": 0.004771776031702757
+      }
+    },
+    "fourier_sigma_clipped_denoised": {
+      "snr_proxy": 29.24999566462171,
+      "mtf50_proxy_cycles_per_pixel": 0.2421875,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.008137762546539307,
+      "seam_interpolation_proxy": 0.08265155553817749,
+      "reconstruction_error": {
+        "rmse": 0.009439517743885517,
+        "psnr_db": 36.75992376928789
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.8124798536300659,
+        "high_frequency_error_rmse": 0.004601640161126852
+      }
+    }
+  },
+  "frame_rejection_by_class": {
+    "strong_blur": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 32,
+      "recall": 0.0,
+      "precision": 0.0,
+      "false_rejection_rate_one_vs_rest": 0.0,
+      "good_frames_rejected": 0,
+      "good_frame_false_rejection_rate": 0.0,
+      "positive_count": 0
+    },
+    "clipping": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 32,
+      "recall": 0.0,
+      "precision": 0.0,
+      "false_rejection_rate_one_vs_rest": 0.0,
+      "good_frames_rejected": 0,
+      "good_frame_false_rejection_rate": 0.0,
+      "positive_count": 0
+    },
+    "large_motion": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 32,
+      "recall": 0.0,
+      "precision": 0.0,
+      "false_rejection_rate_one_vs_rest": 0.0,
+      "good_frames_rejected": 0,
+      "good_frame_false_rejection_rate": 0.0,
+      "positive_count": 0
+    },
+    "abnormal_noise": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 32,
+      "recall": 0.0,
+      "precision": 0.0,
+      "false_rejection_rate_one_vs_rest": 0.0,
+      "good_frames_rejected": 0,
+      "good_frame_false_rejection_rate": 0.0,
+      "positive_count": 0
+    },
+    "mixed": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 32,
+      "recall": 0.0,
+      "precision": 0.0,
+      "false_rejection_rate_one_vs_rest": 0.0,
+      "good_frames_rejected": 0,
+      "good_frame_false_rejection_rate": 0.0,
+      "positive_count": 0
+    }
+  },
+  "good_frame_false_rejection_rate": 0.0,
+  "rejected_reason_counts": {},
+  "rejected_frame_ids": [],
+  "clean_frame_count": 32,
+  "integrity_audit": {
+    "pass": true,
+    "source_count": 32,
+    "decision_count": 32,
+    "source_hash_count": 32,
+    "output_hashes_match": true,
+    "lineage_edges_complete": true,
+    "deconvolution": "disabled"
+  },
+  "fixture_protocol": {
+    "fixture_id": "remed-001-development-motion-stress32",
+    "generator_version": "lunar-remediation-0.1",
+    "seed": 41403,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 32,
+      "seed": 41403,
+      "shot_scale": 0.012,
+      "read_noise_sigma": 0.004,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.65,
+      "translation_span_px": 2.0
+    },
+    "frame_count": 32,
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "8ea18876c71fde7bf4a3d7ab687ce8ed662a55c9b32bb4ec3a1dcf6c2376278c",
+    "sha256_oracle": "f23e7c22cc1f13fa5efadd2fc02d4c33a4a4a7876e3e6956055753d903476dbd",
+    "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+    "class_counts_committed": {
+      "strong_blur": 0,
+      "clipping": 0,
+      "large_motion": 0,
+      "abnormal_noise": 0,
+      "mixed": 0
+    }
+  },
+  "reconstruction_json_sha256": "8ac6876e6dc2c76d80816633afedf48757dcf4a3e3ccf53c47476b65b484f366",
+  "images_npz_sha256": "d360cfc7418a95938410c15e1617486f5d37a45fe6762658c2e6e0c0fb765943"
+}

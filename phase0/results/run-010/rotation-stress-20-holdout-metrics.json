@@ -1,0 +1,1744 @@
+{
+  "fixture_id": "rotation-stress-20-holdout",
+  "metric_version": "metrics-0.3",
+  "algorithm_version": "reconstruct-0.3",
+  "source_count": 20,
+  "accepted_count": 19,
+  "rejected_count": 1,
+  "runtime_seconds": 1.3932698999997228,
+  "registration": {
+    "translation_error_px": 0.0843283693616047,
+    "rotation_error_deg": 0.24883681564728813,
+    "rms_translation_px": 0.0843283693616047,
+    "evaluated_frame_count": 18,
+    "records": [
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-000",
+        "estimate": [
+          6.641112705815531,
+          3.384320650723062,
+          -0.3546154714476216
+        ],
+        "truth_eval_only": [
+          6.665314674377441,
+          3.390941619873047,
+          -0.6173405051231384
+        ],
+        "residual": 0.167009636759758,
+        "confidence": 0.9207045435905457
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-001",
+        "estimate": [
+          4.936114945259578,
+          1.3988652968807234,
+          0.2712315667257512
+        ],
+        "truth_eval_only": [
+          4.9297099113464355,
+          1.341871976852417,
+          0.4242312014102936
+        ],
+        "residual": 0.16695180535316467,
+        "confidence": 0.9113708138465881
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-002",
+        "estimate": [
+          6.020554191675623,
+          1.387455852114689,
+          -0.8535394989515069
+        ],
+        "truth_eval_only": [
+          6.022489547729492,
+          1.3453121185302734,
+          -0.7415329217910767
+        ],
+        "residual": 0.1730664074420929,
+        "confidence": 0.9144392013549805
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-003",
+        "estimate": [
+          5.834106843781303,
+          1.6240262168660107,
+          -0.4109947253348665
+        ],
+        "truth_eval_only": [
+          5.858206272125244,
+          1.6223564147949219,
+          -0.6748412251472473
+        ],
+        "residual": 0.1576845943927765,
+        "confidence": 0.9127633571624756
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-004",
+        "estimate": [
+          6.337833938219298,
+          2.680023762251225,
+          -0.16558208744861544
+        ],
+        "truth_eval_only": [
+          6.303366661071777,
+          2.6610662937164307,
+          -0.5023490190505981
+        ],
+        "residual": 0.1785140484571457,
+        "confidence": 0.9148899912834167
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-005",
+        "estimate": [
+          6.659208308103261,
+          0.5300794838668746,
+          -0.6746240100247312
+        ],
+        "truth_eval_only": [
+          6.63620662689209,
+          0.5183225870132446,
+          -0.7963210344314575
+        ],
+        "residual": 0.17356984317302704,
+        "confidence": 0.9125406742095947
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-006",
+        "estimate": [
+          4.649202113750656,
+          0.618152551789448,
+          0.10948529616875506
+        ],
+        "truth_eval_only": [
+          4.629387855529785,
+          0.6259183883666992,
+          -0.03488588333129883
+        ],
+        "residual": 0.17116539180278778,
+        "confidence": 0.9199926257133484
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-007",
+        "estimate": [
+          5.921099943567584,
+          1.62856395465734,
+          -0.4605404908573548
+        ],
+        "truth_eval_only": [
+          5.907262325286865,
+          1.572295904159546,
+          -0.09600856900215149
+        ],
+        "residual": 0.16922003030776978,
+        "confidence": 0.9091407656669617
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-008",
+        "estimate": [
+          6.0834815721882265,
+          0.5204648184306568,
+          -0.9605673303852076
+        ],
+        "truth_eval_only": [
+          6.081932067871094,
+          0.5124075412750244,
+          -1.2018063068389893
+        ],
+        "residual": 0.17434687912464142,
+        "confidence": 0.9101935029029846
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-009",
+        "estimate": [
+          6.7451167229097,
+          0.43171270384592664,
+          -0.9544819722439093
+        ],
+        "truth_eval_only": [
+          6.790931701660156,
+          0.48174190521240234,
+          -1.0919603109359741
+        ],
+        "residual": 0.17692136764526367,
+        "confidence": 0.9083148837089539
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-010",
+        "estimate": [
+          5.241071891778053,
+          0.43949688748042326,
+          0.3135924855988728
+        ],
+        "truth_eval_only": [
+          5.210428237915039,
+          0.37844347953796387,
+          0.09177836775779724
+        ],
+        "residual": 0.17522914707660675,
+        "confidence": 0.9141945242881775
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-011",
+        "estimate": [
+          3.7244925574556986,
+          1.0721950968701568,
+          -0.8429429455586719
+        ],
+        "truth_eval_only": [
+          3.7600014209747314,
+          0.9907344579696655,
+          -1.1256840229034424
+        ],
+        "residual": 0.1670457124710083,
+        "confidence": 0.9075108766555786
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-012",
+        "estimate": [
+          5.608130541719239,
+          2.5772621857641673,
+          -0.9406546286785339
+        ],
+        "truth_eval_only": [
+          5.56596565246582,
+          2.5627377033233643,
+          -0.9519418478012085
+        ],
+        "residual": 0.1694093644618988,
+        "confidence": 0.9095650315284729
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-013",
+        "estimate": [
+          6.0171729602321875,
+          2.926052278442233,
+          -0.5411843474233022
+        ],
+        "truth_eval_only": [
+          6.079194068908691,
+          2.9264121055603027,
+          -1.1231505870819092
+        ],
+        "residual": 0.1768925040960312,
+        "confidence": 0.8960490822792053
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-014",
+        "estimate": [
+          6.587769407910683,
+          2.1287606859267934,
+          0.006119368735343829
+        ],
+        "truth_eval_only": [
+          6.555810928344727,
+          2.1158761978149414,
+          -0.005854547023773193
+        ],
+        "residual": 0.17103055119514465,
+        "confidence": 0.9134623408317566
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-015",
+        "estimate": [
+          3.7675260176758734,
+          2.0050475490602446,
+          0.5889505812924543
+        ],
+        "truth_eval_only": [
+          3.7906453609466553,
+          1.9762614965438843,
+          0.44283440709114075
+        ],
+        "residual": 0.17506271600723267,
+        "confidence": 0.9031062126159668
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-016",
+        "estimate": [
+          4.6490251742562325,
+          2.809148093918901,
+          -0.943798632280044
+        ],
+        "truth_eval_only": [
+          4.5989861488342285,
+          2.7997827529907227,
+          -0.8391531109809875
+        ],
+        "residual": 0.16490939259529114,
+        "confidence": 0.908896803855896
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-017",
+        "estimate": [
+          3.1029012876965743,
+          1.1806240508447199,
+          -0.9766421915479303
+        ],
+        "truth_eval_only": [
+          3.5627689361572266,
+          1.1172996759414673,
+          -0.6928877830505371
+        ],
+        "residual": 0.18955151736736298,
+        "confidence": 0.8752216100692749
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 20.279623926404987,
+  "mtf50_proxy_retention_vs_best_single": 0.9,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3333333333333333,
+  "frame_rejection": {
+    "true_positive": 1,
+    "false_negative": 2,
+    "false_positive": 0,
+    "true_negative": 15,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {
+      "17": "strong_blur",
+      "18": "highlight_clipped",
+      "19": "abnormal_noise"
+    },
+    "required_blur_or_clipping_recall": 0.0,
+    "required_blur_or_clipping_count": 2,
+    "abnormal_noise_recall": 1.0,
+    "recall_by_kind": {
+      "abnormal_noise": 1.0,
+      "highlight_clipped": 0.0,
+      "strong_blur": 0.0
+    }
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 4.551680723636361,
+      "edge_sharpness": 0.1415434032678604,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.12239583333333333,
+      "ringing_halo_peak": 0.13353028893470764,
+      "seam_interpolation_proxy": 0.21339604258537292,
+      "reconstruction_error": {
+        "rmse": 0.04515553265810013,
+        "psnr_db": 21.20121362383727
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 53.20962905883789,
+        "high_frequency_error_rmse": 0.025471676141023636
+      }
+    },
+    "best_single": {
+      "snr_proxy": 1.2208786175506585,
+      "edge_sharpness": 0.2153516411781311,
+      "mtf50_proxy_cycles_per_pixel": 0.234375,
+      "clipping_fraction": 0.08409288194444445,
+      "ringing_halo_peak": 0.44480833411216736,
+      "seam_interpolation_proxy": 0.22876231372356415,
+      "reconstruction_error": {
+        "rmse": 0.165427103638649,
+        "psnr_db": 9.872008362713965
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 90.39212036132812,
+        "high_frequency_error_rmse": 0.03285863995552063
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 23.33076545936538,
+      "edge_sharpness": 0.10613299161195755,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.00832095742225647,
+      "seam_interpolation_proxy": 0.2818754017353058,
+      "reconstruction_error": {
+        "rmse": 0.011623919010162354,
+        "psnr_db": 32.93709017611278
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.9874799847602844,
+        "high_frequency_error_rmse": 0.0034343807492405176
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 23.33076545936538,
+      "edge_sharpness": 0.10613299161195755,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.00832095742225647,
+      "seam_interpolation_proxy": 0.2818754017353058,
+      "reconstruction_error": {
+        "rmse": 0.011623919010162354,
+        "psnr_db": 32.93709017611278
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.9874799847602844,
+        "high_frequency_error_rmse": 0.0034343807492405176
+      }
+    },
+    "median": {
+      "snr_proxy": 22.75748393804289,
+      "edge_sharpness": 0.10506359487771988,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.009057790040969849,
+      "seam_interpolation_proxy": 0.28121820092201233,
+      "reconstruction_error": {
+        "rmse": 0.01090523973107338,
+        "psnr_db": 33.4914373397993
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.4907124042510986,
+        "high_frequency_error_rmse": 0.00421969685703516
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 24.75895922371658,
+      "edge_sharpness": 0.10414538532495499,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.284481018781662,
+      "reconstruction_error": {
+        "rmse": 0.010655459016561508,
+        "psnr_db": 33.692698422664165
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1280481815338135,
+        "high_frequency_error_rmse": 0.003670693375170231
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 25.913644112633,
+      "edge_sharpness": 0.10239364951848984,
+      "mtf50_proxy_cycles_per_pixel": 0.2109375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.2775537371635437,
+      "reconstruction_error": {
+        "rmse": 0.010424179956316948,
+        "psnr_db": 33.88330368007156
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.9596998691558838,
+        "high_frequency_error_rmse": 0.0033857275266200304
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.04515553265810013,
+      "psnr_db": 21.20121362383727
+    },
+    "best_single": {
+      "rmse": 0.165427103638649,
+      "psnr_db": 9.872008362713965
+    },
+    "registered_stack": {
+      "rmse": 0.010655459016561508,
+      "psnr_db": 33.692698422664165
+    },
+    "stack_denoised": {
+      "rmse": 0.010424179956316948,
+      "psnr_db": 33.88330368007156
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "rotation-stress-20-holdout",
+    "reference_id": "rotation-stress-20-holdout-frame-018",
+    "accepted_ids": [
+      "rotation-stress-20-holdout-frame-000",
+      "rotation-stress-20-holdout-frame-001",
+      "rotation-stress-20-holdout-frame-002",
+      "rotation-stress-20-holdout-frame-003",
+      "rotation-stress-20-holdout-frame-004",
+      "rotation-stress-20-holdout-frame-005",
+      "rotation-stress-20-holdout-frame-006",
+      "rotation-stress-20-holdout-frame-007",
+      "rotation-stress-20-holdout-frame-008",
+      "rotation-stress-20-holdout-frame-009",
+      "rotation-stress-20-holdout-frame-010",
+      "rotation-stress-20-holdout-frame-011",
+      "rotation-stress-20-holdout-frame-012",
+      "rotation-stress-20-holdout-frame-013",
+      "rotation-stress-20-holdout-frame-014",
+      "rotation-stress-20-holdout-frame-015",
+      "rotation-stress-20-holdout-frame-016",
+      "rotation-stress-20-holdout-frame-017",
+      "rotation-stress-20-holdout-frame-018"
+    ],
+    "rejected_ids": [
+      "rotation-stress-20-holdout-frame-019"
+    ],
+    "assessments": [
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-000",
+        "components": {
+          "clipping_fraction": 0.12239583333333333,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12239583333333333,
+          "contrast_std": 0.1751083880662918,
+          "edge_sharpness": 0.06947952508926392,
+          "limb_edge_sharpness": 0.1724155992269516,
+          "laplacian_variance": 0.010555765591561794,
+          "noise_mad_sigma": 0.013710974715650082,
+          "exposure_median": 0.09695544093847275,
+          "relative_sharpness": 1.0046877392095324,
+          "relative_noise": 1.0145725633977474,
+          "relative_limb_edge_sharpness": 0.9964760897635135,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-001",
+        "components": {
+          "clipping_fraction": 0.1264105902777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1264105902777778,
+          "contrast_std": 0.1747947633266449,
+          "edge_sharpness": 0.07022745907306671,
+          "limb_edge_sharpness": 0.1757768988609314,
+          "laplacian_variance": 0.01073537115007639,
+          "noise_mad_sigma": 0.013629739172756672,
+          "exposure_median": 0.09594622254371643,
+          "relative_sharpness": 1.015503013238815,
+          "relative_noise": 1.0085613676438598,
+          "relative_limb_edge_sharpness": 1.0159027236110856,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-002",
+        "components": {
+          "clipping_fraction": 0.1340060763888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1340060763888889,
+          "contrast_std": 0.16985206305980682,
+          "edge_sharpness": 0.06759224086999893,
+          "limb_edge_sharpness": 0.16639676690101624,
+          "laplacian_variance": 0.009980903007090092,
+          "noise_mad_sigma": 0.013204135000705719,
+          "exposure_median": 0.09510532021522522,
+          "relative_sharpness": 0.977397234372847,
+          "relative_noise": 0.9770678870718597,
+          "relative_limb_edge_sharpness": 0.9616902436568884,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-003",
+        "components": {
+          "clipping_fraction": 0.11957465277777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.11957465277777778,
+          "contrast_std": 0.18204821646213531,
+          "edge_sharpness": 0.07152634114027023,
+          "limb_edge_sharpness": 0.17586663365364075,
+          "laplacian_variance": 0.010801885277032852,
+          "noise_mad_sigma": 0.014069654047489166,
+          "exposure_median": 0.10113877803087234,
+          "relative_sharpness": 1.0342851060340947,
+          "relative_noise": 1.0411137989181074,
+          "relative_limb_edge_sharpness": 1.0164213459153069,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-004",
+        "components": {
+          "clipping_fraction": 0.1238064236111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1238064236111111,
+          "contrast_std": 0.166263148188591,
+          "edge_sharpness": 0.06794372946023941,
+          "limb_edge_sharpness": 0.17687082290649414,
+          "laplacian_variance": 0.010097351856529713,
+          "noise_mad_sigma": 0.012917601503431797,
+          "exposure_median": 0.09065382927656174,
+          "relative_sharpness": 0.9824798292327421,
+          "relative_noise": 0.9558652351191359,
+          "relative_limb_edge_sharpness": 1.0222250584828032,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-005",
+        "components": {
+          "clipping_fraction": 0.12239583333333333,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12239583333333333,
+          "contrast_std": 0.17033493518829346,
+          "edge_sharpness": 0.06949559599161148,
+          "limb_edge_sharpness": 0.16954979300498962,
+          "laplacian_variance": 0.0105995312333107,
+          "noise_mad_sigma": 0.013531774282455444,
+          "exposure_median": 0.09338656067848206,
+          "relative_sharpness": 1.00492012765096,
+          "relative_noise": 1.0013122484574284,
+          "relative_limb_edge_sharpness": 0.9799131604758821,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-006",
+        "components": {
+          "clipping_fraction": 0.12999131944444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12999131944444445,
+          "contrast_std": 0.17123167216777802,
+          "edge_sharpness": 0.06837823987007141,
+          "limb_edge_sharpness": 0.17600789666175842,
+          "laplacian_variance": 0.010065234266221523,
+          "noise_mad_sigma": 0.013265177607536316,
+          "exposure_median": 0.09395407140254974,
+          "relative_sharpness": 0.9887629361013666,
+          "relative_noise": 0.9815848638275609,
+          "relative_limb_edge_sharpness": 1.017237775580537,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-007",
+        "components": {
+          "clipping_fraction": 0.12706163194444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12706163194444445,
+          "contrast_std": 0.17318445444107056,
+          "edge_sharpness": 0.06852542608976364,
+          "limb_edge_sharpness": 0.18014271557331085,
+          "laplacian_variance": 0.010035463608801365,
+          "noise_mad_sigma": 0.013691138476133347,
+          "exposure_median": 0.09705948829650879,
+          "relative_sharpness": 0.9908912780857915,
+          "relative_noise": 1.0131047389146568,
+          "relative_limb_edge_sharpness": 1.0411349646941537,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-008",
+        "components": {
+          "clipping_fraction": 0.12901475694444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12901475694444445,
+          "contrast_std": 0.169012650847435,
+          "edge_sharpness": 0.06742370128631592,
+          "limb_edge_sharpness": 0.1702156662940979,
+          "laplacian_variance": 0.009759492240846157,
+          "noise_mad_sigma": 0.01307364460080862,
+          "exposure_median": 0.095430389046669,
+          "relative_sharpness": 0.9749601185019446,
+          "relative_noise": 0.9674119740337238,
+          "relative_limb_edge_sharpness": 0.9837615756679157,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-009",
+        "components": {
+          "clipping_fraction": 0.12727864583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12727864583333334,
+          "contrast_std": 0.16810354590415955,
+          "edge_sharpness": 0.06931167095899582,
+          "limb_edge_sharpness": 0.17843760550022125,
+          "laplacian_variance": 0.010506529361009598,
+          "noise_mad_sigma": 0.013938996940851212,
+          "exposure_median": 0.09520408511161804,
+          "relative_sharpness": 1.0022605351312175,
+          "relative_noise": 1.0314455500622115,
+          "relative_limb_edge_sharpness": 1.0312802797012246,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-010",
+        "components": {
+          "clipping_fraction": 0.13151041666666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13151041666666666,
+          "contrast_std": 0.16840799152851105,
+          "edge_sharpness": 0.06900457292795181,
+          "limb_edge_sharpness": 0.1728113889694214,
+          "laplacian_variance": 0.010338953696191311,
+          "noise_mad_sigma": 0.013300477527081966,
+          "exposure_median": 0.09239877760410309,
+          "relative_sharpness": 0.9978198365782424,
+          "relative_noise": 0.9841969560094745,
+          "relative_limb_edge_sharpness": 0.9987635568877943,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-011",
+        "components": {
+          "clipping_fraction": 0.12445746527777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12445746527777778,
+          "contrast_std": 0.1750764548778534,
+          "edge_sharpness": 0.06998845934867859,
+          "limb_edge_sharpness": 0.17986446619033813,
+          "laplacian_variance": 0.010745376348495483,
+          "noise_mad_sigma": 0.013729761354625225,
+          "exposure_median": 0.09603133797645569,
+          "relative_sharpness": 1.0120470297320379,
+          "relative_noise": 1.0159627204695771,
+          "relative_limb_edge_sharpness": 1.039526822168959,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-012",
+        "components": {
+          "clipping_fraction": 0.12662760416666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12662760416666666,
+          "contrast_std": 0.17288684844970703,
+          "edge_sharpness": 0.06904055178165436,
+          "limb_edge_sharpness": 0.1722920835018158,
+          "laplacian_variance": 0.010271977633237839,
+          "noise_mad_sigma": 0.013431626372039318,
+          "exposure_median": 0.09586313366889954,
+          "relative_sharpness": 0.9983400979522129,
+          "relative_noise": 0.9939015920820038,
+          "relative_limb_edge_sharpness": 0.9957622305340733,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-013",
+        "components": {
+          "clipping_fraction": 0.13053385416666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13053385416666666,
+          "contrast_std": 0.16796232759952545,
+          "edge_sharpness": 0.06788302958011627,
+          "limb_edge_sharpness": 0.17323926091194153,
+          "laplacian_variance": 0.010001907125115395,
+          "noise_mad_sigma": 0.0133333969861269,
+          "exposure_median": 0.09250015020370483,
+          "relative_sharpness": 0.9816020969043641,
+          "relative_noise": 0.9866329009835954,
+          "relative_limb_edge_sharpness": 1.0012364431122058,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-014",
+        "components": {
+          "clipping_fraction": 0.1264105902777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1264105902777778,
+          "contrast_std": 0.1719994992017746,
+          "edge_sharpness": 0.06927013397216797,
+          "limb_edge_sharpness": 0.16647103428840637,
+          "laplacian_variance": 0.010395689867436886,
+          "noise_mad_sigma": 0.013496306724846363,
+          "exposure_median": 0.09622721374034882,
+          "relative_sharpness": 1.0016599020477872,
+          "relative_noise": 0.9986877515425716,
+          "relative_limb_edge_sharpness": 0.9621194720800432,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-015",
+        "components": {
+          "clipping_fraction": 0.1310763888888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1310763888888889,
+          "contrast_std": 0.1684134602546692,
+          "edge_sharpness": 0.06689700484275818,
+          "limb_edge_sharpness": 0.16564588248729706,
+          "laplacian_variance": 0.009504852816462517,
+          "noise_mad_sigma": 0.012956380844116211,
+          "exposure_median": 0.0946323573589325,
+          "relative_sharpness": 0.9673439832671703,
+          "relative_noise": 0.958734794424803,
+          "relative_limb_edge_sharpness": 0.9573505066040806,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-016",
+        "components": {
+          "clipping_fraction": 0.12879774305555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12879774305555555,
+          "contrast_std": 0.1764373779296875,
+          "edge_sharpness": 0.06941963732242584,
+          "limb_edge_sharpness": 0.17941400408744812,
+          "laplacian_variance": 0.010274052619934082,
+          "noise_mad_sigma": 0.013434271328151226,
+          "exposure_median": 0.09768205881118774,
+          "relative_sharpness": 1.003821750200633,
+          "relative_noise": 0.9940973112017736,
+          "relative_limb_edge_sharpness": 1.0369233760951289,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-017",
+        "components": {
+          "clipping_fraction": 0.09342447916666667,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.09342447916666667,
+          "contrast_std": 0.15494808554649353,
+          "edge_sharpness": 0.06797638535499573,
+          "limb_edge_sharpness": 0.12618830800056458,
+          "laplacian_variance": 0.00992801133543253,
+          "noise_mad_sigma": 0.01545039564371109,
+          "exposure_median": 0.10557939112186432,
+          "relative_sharpness": 0.9829520399600382,
+          "relative_noise": 1.1432846926525837,
+          "relative_limb_edge_sharpness": 0.7293054241847308,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-018",
+        "components": {
+          "clipping_fraction": 0.08409288194444445,
+          "highlight_clipping_fraction": 0.0006510416666666666,
+          "underexposed_fraction": 0.08344184027777778,
+          "contrast_std": 0.2833711504936218,
+          "edge_sharpness": 0.09255467355251312,
+          "limb_edge_sharpness": 0.2639354467391968,
+          "laplacian_variance": 0.017703959718346596,
+          "noise_mad_sigma": 0.017400460317730904,
+          "exposure_median": 0.16069576144218445,
+          "relative_sharpness": 1.338358971298142,
+          "relative_noise": 1.287583851256777,
+          "relative_limb_edge_sharpness": 1.5254151196056542,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-019",
+        "components": {
+          "clipping_fraction": 0.1769748263888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1769748263888889,
+          "contrast_std": 0.17398247122764587,
+          "edge_sharpness": 0.08933635801076889,
+          "limb_edge_sharpness": 0.1395498812198639,
+          "laplacian_variance": 0.015486887656152248,
+          "noise_mad_sigma": 0.022921185940504074,
+          "exposure_median": 0.09587226808071136,
+          "relative_sharpness": 1.2918214890464457,
+          "relative_noise": 1.6961016162643416,
+          "relative_limb_edge_sharpness": 0.8065286469926064,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "relative_noise>1.35"
+        ],
+        "score_version": "quality-0.2"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-000",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.641112705815531,
+        "dy": 3.384320650723062,
+        "rotation_deg": -0.3546154714476216,
+        "confidence": 0.9207045435905457,
+        "residual": 0.167009636759758,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-001",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 4.936114945259578,
+        "dy": 1.3988652968807234,
+        "rotation_deg": 0.2712315667257512,
+        "confidence": 0.9113708138465881,
+        "residual": 0.16695180535316467,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-002",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.020554191675623,
+        "dy": 1.387455852114689,
+        "rotation_deg": -0.8535394989515069,
+        "confidence": 0.9144392013549805,
+        "residual": 0.1730664074420929,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-003",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 5.834106843781303,
+        "dy": 1.6240262168660107,
+        "rotation_deg": -0.4109947253348665,
+        "confidence": 0.9127633571624756,
+        "residual": 0.1576845943927765,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-004",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.337833938219298,
+        "dy": 2.680023762251225,
+        "rotation_deg": -0.16558208744861544,
+        "confidence": 0.9148899912834167,
+        "residual": 0.1785140484571457,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-005",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.659208308103261,
+        "dy": 0.5300794838668746,
+        "rotation_deg": -0.6746240100247312,
+        "confidence": 0.9125406742095947,
+        "residual": 0.17356984317302704,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-006",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 4.649202113750656,
+        "dy": 0.618152551789448,
+        "rotation_deg": 0.10948529616875506,
+        "confidence": 0.9199926257133484,
+        "residual": 0.17116539180278778,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-007",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 5.921099943567584,
+        "dy": 1.62856395465734,
+        "rotation_deg": -0.4605404908573548,
+        "confidence": 0.9091407656669617,
+        "residual": 0.16922003030776978,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-008",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.0834815721882265,
+        "dy": 0.5204648184306568,
+        "rotation_deg": -0.9605673303852076,
+        "confidence": 0.9101935029029846,
+        "residual": 0.17434687912464142,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-009",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.7451167229097,
+        "dy": 0.43171270384592664,
+        "rotation_deg": -0.9544819722439093,
+        "confidence": 0.9083148837089539,
+        "residual": 0.17692136764526367,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-010",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 5.241071891778053,
+        "dy": 0.43949688748042326,
+        "rotation_deg": 0.3135924855988728,
+        "confidence": 0.9141945242881775,
+        "residual": 0.17522914707660675,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-011",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 3.7244925574556986,
+        "dy": 1.0721950968701568,
+        "rotation_deg": -0.8429429455586719,
+        "confidence": 0.9075108766555786,
+        "residual": 0.1670457124710083,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-012",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 5.608130541719239,
+        "dy": 2.5772621857641673,
+        "rotation_deg": -0.9406546286785339,
+        "confidence": 0.9095650315284729,
+        "residual": 0.1694093644618988,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-013",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.0171729602321875,
+        "dy": 2.926052278442233,
+        "rotation_deg": -0.5411843474233022,
+        "confidence": 0.8960490822792053,
+        "residual": 0.1768925040960312,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-014",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 6.587769407910683,
+        "dy": 2.1287606859267934,
+        "rotation_deg": 0.006119368735343829,
+        "confidence": 0.9134623408317566,
+        "residual": 0.17103055119514465,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-015",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 3.7675260176758734,
+        "dy": 2.0050475490602446,
+        "rotation_deg": 0.5889505812924543,
+        "confidence": 0.9031062126159668,
+        "residual": 0.17506271600723267,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-016",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 4.6490251742562325,
+        "dy": 2.809148093918901,
+        "rotation_deg": -0.943798632280044,
+        "confidence": 0.908896803855896,
+        "residual": 0.16490939259529114,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-017",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 3.1029012876965743,
+        "dy": 1.1806240508447199,
+        "rotation_deg": -0.9766421915479303,
+        "confidence": 0.8752216100692749,
+        "residual": 0.18955151736736298,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "rotation-stress-20-holdout-frame-018",
+        "reference_id": "rotation-stress-20-holdout-frame-018",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.2",
+        "thresholds": {
+          "highlight_clip": 0.02,
+          "relative_limb_sharpness": 0.68,
+          "relative_noise": 1.35
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.2",
+        "reference": "rotation-stress-20-holdout-frame-018",
+        "method": "robust-Lucas-Kanade-rigid"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.3",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "reconstruct-0.3",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.3",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ],
+    "baseline_source_ids": {
+      "ordinary_single": "rotation-stress-20-holdout-frame-000",
+      "best_single": "rotation-stress-20-holdout-frame-018",
+      "registered_mean": "rotation-stress-20-holdout-frame-018",
+      "weighted_mean": "rotation-stress-20-holdout-frame-018",
+      "median": "rotation-stress-20-holdout-frame-018",
+      "sigma_clipped": "rotation-stress-20-holdout-frame-018",
+      "sigma_clipped_denoised": "rotation-stress-20-holdout-frame-018",
+      "half_stack_a": "rotation-stress-20-holdout-frame-018",
+      "half_stack_b": "rotation-stress-20-holdout-frame-018"
+    },
+    "source_hashes_sha256": {
+      "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+      "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+      "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+      "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+      "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+      "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+      "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+      "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+      "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+      "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+      "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+      "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+      "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+      "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+      "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+      "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+      "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+      "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+      "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824",
+      "rotation-stress-20-holdout-frame-019": "91b1f00ebbddcab992976e88c7e808d32b425595f8b7cae73408a1c7b801daae"
+    },
+    "output_hashes_sha256": {
+      "ordinary_single": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+      "best_single": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824",
+      "registered_mean": "06ea81aca77e5408b5ef7fb552619ec86bf5b2fa15283ba2d0e69431f4f154cc",
+      "weighted_mean": "06ea81aca77e5408b5ef7fb552619ec86bf5b2fa15283ba2d0e69431f4f154cc",
+      "median": "bfbd513894c1c7cc4b898d4787012073b1463a6ddb82180af14b17cbe622cd07",
+      "sigma_clipped": "4fe534e431659ce346154334563248eb6dfcaebadcba5bb9b9d105abf5121df2",
+      "sigma_clipped_denoised": "9f2e359a269142b347c7e071c1fb9ddd0e6fb820d428a9074edd58b4a8a52c55",
+      "half_stack_a": "729a2367334f6475e61737cf38bb815530253094f056278f5dd1cc5a153af4cb",
+      "half_stack_b": "6c63a984f7ae4d353284367dc378140906f41ba4de99ca258426027275924c69"
+    },
+    "lineage_edges": [
+      {
+        "operation": "ordinary_single",
+        "operation_version": "reconstruct-0.3",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789"
+        },
+        "child_artifact_id": "ordinary_single",
+        "child_hash_sha256": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789"
+      },
+      {
+        "operation": "best_single",
+        "operation_version": "reconstruct-0.3",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "best_single",
+        "child_hash_sha256": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+      },
+      {
+        "operation": "registered_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008",
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "registered_mean",
+        "child_hash_sha256": "06ea81aca77e5408b5ef7fb552619ec86bf5b2fa15283ba2d0e69431f4f154cc"
+      },
+      {
+        "operation": "weighted_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008",
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "weighted_mean",
+        "child_hash_sha256": "06ea81aca77e5408b5ef7fb552619ec86bf5b2fa15283ba2d0e69431f4f154cc"
+      },
+      {
+        "operation": "median",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008",
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "median",
+        "child_hash_sha256": "bfbd513894c1c7cc4b898d4787012073b1463a6ddb82180af14b17cbe622cd07"
+      },
+      {
+        "operation": "sigma_clipped",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008",
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "sigma_clipped",
+        "child_hash_sha256": "4fe534e431659ce346154334563248eb6dfcaebadcba5bb9b9d105abf5121df2"
+      },
+      {
+        "operation": "sigma_clipped_denoised",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008",
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac",
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "sigma_clipped_denoised",
+        "child_hash_sha256": "9f2e359a269142b347c7e071c1fb9ddd0e6fb820d428a9074edd58b4a8a52c55"
+      },
+      {
+        "operation": "half_stack_a",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-000",
+          "rotation-stress-20-holdout-frame-001",
+          "rotation-stress-20-holdout-frame-002",
+          "rotation-stress-20-holdout-frame-003",
+          "rotation-stress-20-holdout-frame-004",
+          "rotation-stress-20-holdout-frame-005",
+          "rotation-stress-20-holdout-frame-006",
+          "rotation-stress-20-holdout-frame-007",
+          "rotation-stress-20-holdout-frame-008"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-000": "6120e97283dd609f75e7d0f6857bb0953f5545494e9d26e46bf7da60db902789",
+          "rotation-stress-20-holdout-frame-001": "70a4be43cb68785a7bfd051e721e9d466db0d3cd3558fb03ec7572ada14cdcc6",
+          "rotation-stress-20-holdout-frame-002": "817256e545290f43053b646cedef185f18a45c00607921dd3287f65ee9b51ada",
+          "rotation-stress-20-holdout-frame-003": "3bb65c1507524a6da97686a4fdda36759db236603d131630b2e21222cc84d8c6",
+          "rotation-stress-20-holdout-frame-004": "3c025aefa4bd87d63c5f4d6aadca1e4a97a0ef3be31684f55a9963a259c2c6ad",
+          "rotation-stress-20-holdout-frame-005": "ccdc697e4ab5b034b186e4d6ccc46416135db9872218b5aada1cbd1d1ef64cd7",
+          "rotation-stress-20-holdout-frame-006": "7868617458dd0c44b6487ff2e99c36f8c9b12474d88a6f852092cff060524f88",
+          "rotation-stress-20-holdout-frame-007": "b9d0ee3d0dc5b04f19141e83947e1b23bc363ec556f6d9ad0a1e1f240afa00e2",
+          "rotation-stress-20-holdout-frame-008": "6b8f22788212dc57c0eb6edee50b10c066d1e4a274c0086eae85dbf8eaf506ac"
+        },
+        "child_artifact_id": "half_stack_a",
+        "child_hash_sha256": "729a2367334f6475e61737cf38bb815530253094f056278f5dd1cc5a153af4cb"
+      },
+      {
+        "operation": "half_stack_b",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "rotation-stress-20-holdout-frame-009",
+          "rotation-stress-20-holdout-frame-010",
+          "rotation-stress-20-holdout-frame-011",
+          "rotation-stress-20-holdout-frame-012",
+          "rotation-stress-20-holdout-frame-013",
+          "rotation-stress-20-holdout-frame-014",
+          "rotation-stress-20-holdout-frame-015",
+          "rotation-stress-20-holdout-frame-016",
+          "rotation-stress-20-holdout-frame-017",
+          "rotation-stress-20-holdout-frame-018"
+        ],
+        "parent_hashes_sha256": {
+          "rotation-stress-20-holdout-frame-009": "336cb1fb9d3242348ea64bf1e9aeece79fb145ffbfa5f185f92beb0290941ec2",
+          "rotation-stress-20-holdout-frame-010": "8e6ef1847f865e48421b66f1ea8920ff7a011e9bc39279343b5ae96255b91b23",
+          "rotation-stress-20-holdout-frame-011": "ee36f970aff4b2e83ad08f50b46cefd7aac6c3bdd9d44d7f8836e3098e3bf4e8",
+          "rotation-stress-20-holdout-frame-012": "e6239ce02a45f64ca299170c765c85e67713d0697df27e56e56115fa0940318d",
+          "rotation-stress-20-holdout-frame-013": "e91ff7557c570ffd6e3a9e383212388d89bca2d4afbfa64ddafb46ac47083673",
+          "rotation-stress-20-holdout-frame-014": "94c4b66af42e3cdb06a4ed6b19a3456e8d17f6c0a19b97d0834d29f3a06819a0",
+          "rotation-stress-20-holdout-frame-015": "2a59e03262f9296a7809fd0eb98cdbc92a89586019acaea6257788faabe3be69",
+          "rotation-stress-20-holdout-frame-016": "1ca3e5ae6a521e960d11b3098d8388ea0b71b92fd76f10259ccb9bc04789f17d",
+          "rotation-stress-20-holdout-frame-017": "034c531ca4e0398f11e69ff91e3c1722126095a6296d54d8155bfddbf1519c7b",
+          "rotation-stress-20-holdout-frame-018": "b3e914847aeda75df329d53d1a770aa545d24e756d78edf6d334e958113e6824"
+        },
+        "child_artifact_id": "half_stack_b",
+        "child_hash_sha256": "6c63a984f7ae4d353284367dc378140906f41ba4de99ca258426027275924c69"
+      }
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "rotation-stress-20-holdout",
+    "generator_version": "lunar-sim-0.2",
+    "metric_version": "metrics-0.3",
+    "seed": 5287,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 20,
+      "seed": 5287,
+      "shot_scale": 0.012,
+      "read_noise_sigma": 0.005,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.7,
+      "rotation_span_deg": 0.9,
+      "translation_span_px": 1.8,
+      "inject_outliers": true
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "ff6851d9259b9e5c1aac3b190d83729ff4d085fe29dd1c4ebc570e2d228d6623",
+    "sha256_oracle": "52b009d09cb8b8dde9492d582ba6ad53bcec0d0ce7a7d77078edf5417b6b3c2e",
+    "frame_count": 20,
+    "expected_bad_indices": [
+      17,
+      18,
+      19
+    ],
+    "golden_reference": {
+      "outputs": "golden/reference-outputs.npz",
+      "metrics": "golden/reference-metrics.json",
+      "sha256_outputs": "ab3df7d2500c812f10a75718eaf00c5d4c38e55fd003aab74135f1ae15ca424d",
+      "algorithm_versions": {
+        "quality": "quality-0.2",
+        "alignment": "align-0.2",
+        "reconstruction": "reconstruct-0.2"
+      }
+    },
+    "golden_references": [
+      {
+        "outputs": "golden-metrics-0.2/reference-outputs.npz",
+        "metrics": "golden-metrics-0.2/reference-metrics.json",
+        "sha256_outputs": "ab3df7d2500c812f10a75718eaf00c5d4c38e55fd003aab74135f1ae15ca424d",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.2"
+        }
+      },
+      {
+        "outputs": "golden-reconstruct-0.3-metrics-0.2/reference-outputs.npz",
+        "metrics": "golden-reconstruct-0.3-metrics-0.2/reference-metrics.json",
+        "sha256_outputs": "ab3df7d2500c812f10a75718eaf00c5d4c38e55fd003aab74135f1ae15ca424d",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.3"
+        }
+      },
+      {
+        "outputs": "golden-reconstruct-0.3-metrics-0.3/reference-outputs.npz",
+        "metrics": "golden-reconstruct-0.3-metrics-0.3/reference-metrics.json",
+        "sha256_outputs": "ab3df7d2500c812f10a75718eaf00c5d4c38e55fd003aab74135f1ae15ca424d",
+        "algorithm_versions": {
+          "quality": "quality-0.2",
+          "alignment": "align-0.2",
+          "reconstruction": "reconstruct-0.3"
+        }
+      }
+    ]
+  },
+  "golden_reference": {
+    "fixture_id": "rotation-stress-20-holdout",
+    "algorithm_versions": {
+      "quality": "quality-0.2",
+      "alignment": "align-0.2",
+      "reconstruction": "reconstruct-0.3"
+    },
+    "metric_version": "metrics-0.3",
+    "python_version": "3.12.14",
+    "accepted_ids": [
+      "rotation-stress-20-holdout-frame-000",
+      "rotation-stress-20-holdout-frame-001",
+      "rotation-stress-20-holdout-frame-002",
+      "rotation-stress-20-holdout-frame-003",
+      "rotation-stress-20-holdout-frame-004",
+      "rotation-stress-20-holdout-frame-005",
+      "rotation-stress-20-holdout-frame-006",
+      "rotation-stress-20-holdout-frame-007",
+      "rotation-stress-20-holdout-frame-008",
+      "rotation-stress-20-holdout-frame-009",
+      "rotation-stress-20-holdout-frame-010",
+      "rotation-stress-20-holdout-frame-011",
+      "rotation-stress-20-holdout-frame-012",
+      "rotation-stress-20-holdout-frame-013",
+      "rotation-stress-20-holdout-frame-014",
+      "rotation-stress-20-holdout-frame-015",
+      "rotation-stress-20-holdout-frame-016",
+      "rotation-stress-20-holdout-frame-017",
+      "rotation-stress-20-holdout-frame-018"
+    ],
+    "rejected_ids": [
+      "rotation-stress-20-holdout-frame-019"
+    ],
+    "alignment_reference_id": "rotation-stress-20-holdout-frame-018",
+    "expected_metric_ranges": {
+      "ordinary_single": {
+        "rmse_range": [
+          0.044703977331519124,
+          0.04560708798468113
+        ],
+        "snr_proxy_range": [
+          4.4606471091636335,
+          4.642714338109088
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "best_single": {
+        "rmse_range": [
+          0.1637728326022625,
+          0.16708137467503548
+        ],
+        "snr_proxy_range": [
+          1.1964610451996454,
+          1.2452961899016717
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.219375,
+          0.249375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "registered_mean": {
+        "rmse_range": [
+          0.011423919010162353,
+          0.011823919010162354
+        ],
+        "snr_proxy_range": [
+          22.864150150178073,
+          23.79738076855269
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "weighted_mean": {
+        "rmse_range": [
+          0.011423919010162353,
+          0.011823919010162354
+        ],
+        "snr_proxy_range": [
+          22.864150150178073,
+          23.79738076855269
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "median": {
+        "rmse_range": [
+          0.010705239731073379,
+          0.01110523973107338
+        ],
+        "snr_proxy_range": [
+          22.30233425928203,
+          23.212633616803746
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "sigma_clipped": {
+        "rmse_range": [
+          0.010455459016561508,
+          0.010855459016561509
+        ],
+        "snr_proxy_range": [
+          24.26378003924225,
+          25.25413840819091
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      },
+      "sigma_clipped_denoised": {
+        "rmse_range": [
+          0.010224179956316947,
+          0.010624179956316948
+        ],
+        "snr_proxy_range": [
+          25.39537123038034,
+          26.43191699488566
+        ],
+        "mtf50_proxy_range_cycles_per_pixel": [
+          0.1959375,
+          0.2259375
+        ],
+        "clipping_fraction_tolerance": 0.001
+      }
+    },
+    "numerical_output_tolerances": {
+      "normalized_pixel_absolute_error_max": 0.001,
+      "registration_translation_abs_px": 0.1,
+      "metric_ranges_are_regression_checks_not_scientific_gate_replacements": true
+    },
+    "output_names": [
+      "ordinary_single",
+      "best_single",
+      "registered_mean",
+      "weighted_mean",
+      "median",
+      "sigma_clipped",
+      "sigma_clipped_denoised",
+      "half_stack_a",
+      "half_stack_b"
+    ],
+    "sha256_reference_outputs": "ab3df7d2500c812f10a75718eaf00c5d4c38e55fd003aab74135f1ae15ca424d"
+  }
+}

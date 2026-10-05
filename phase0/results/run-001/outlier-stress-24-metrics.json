@@ -1,0 +1,1311 @@
+{
+  "fixture_id": "outlier-stress-24",
+  "metric_version": "metrics-0.1",
+  "algorithm_version": "reconstruct-0.1",
+  "source_count": 24,
+  "accepted_count": 23,
+  "rejected_count": 1,
+  "runtime_seconds": 4.790041700005531,
+  "registration": {
+    "translation_error_px": 2.231433419763639,
+    "rotation_error_deg": 0.5818206232880679,
+    "rms_translation_px": 2.231433419763639,
+    "evaluated_frame_count": 22,
+    "records": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "estimate": [
+          -2.45,
+          5.25,
+          0.0
+        ],
+        "truth_eval_only": [
+          -1.0172282457351685,
+          -1.5486177206039429,
+          -7.335841655731201e-05
+        ],
+        "residual": 0.16864828765392303,
+        "confidence": 0.3456289954376549
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "estimate": [
+          -0.45000000000000007,
+          -0.75,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.34919309616088867,
+          -1.4327439069747925,
+          0.07242129743099213
+        ],
+        "residual": 0.0842551738023758,
+        "confidence": 0.409842894070412
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "estimate": [
+          -0.45000000000000007,
+          -0.4000000000000001,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.2948846220970154,
+          -0.2185070514678955,
+          0.07595391571521759
+        ],
+        "residual": 0.08196403086185455,
+        "confidence": 0.574942134014139
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "estimate": [
+          -1.55,
+          -1.55,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -1.5712988376617432,
+          -1.7496633529663086,
+          -0.4114156663417816
+        ],
+        "residual": 0.08113552629947662,
+        "confidence": 0.5956771994872405
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "estimate": [
+          -0.45000000000000007,
+          0.35,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.38736510276794434,
+          -0.06961607933044434,
+          -0.31273341178894043
+        ],
+        "residual": 0.08287950605154037,
+        "confidence": 0.4530305338625089
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "estimate": [
+          1.25,
+          -9.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -2.147583484649658,
+          -0.5017744302749634,
+          -0.45377999544143677
+        ],
+        "residual": 0.1926710158586502,
+        "confidence": 0.4743711915986849
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "estimate": [
+          -3.3000000000000003,
+          -2.3000000000000003,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -2.3509082794189453,
+          -1.5149562358856201,
+          -0.06782752275466919
+        ],
+        "residual": 0.09014775604009628,
+        "confidence": 0.4891723887938301
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "estimate": [
+          -1.55,
+          -0.75,
+          0.6
+        ],
+        "truth_eval_only": [
+          -1.6950587034225464,
+          -2.066619634628296,
+          0.01933041214942932
+        ],
+        "residual": 0.09176496416330338,
+        "confidence": 0.420252175101096
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "estimate": [
+          -0.4000000000000001,
+          -1.4000000000000001,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.10634016990661621,
+          -1.2494240999221802,
+          -0.4881262183189392
+        ],
+        "residual": 0.08285048604011536,
+        "confidence": 0.3852051093656058
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "estimate": [
+          -2.4,
+          -2.35,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -2.0667569637298584,
+          -2.177649974822998,
+          -0.1606733202934265
+        ],
+        "residual": 0.08177036046981812,
+        "confidence": 0.46198187494984316
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "estimate": [
+          -1.35,
+          0.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -1.0073869228363037,
+          -0.3627387285232544,
+          0.02617497742176056
+        ],
+        "residual": 0.08435466140508652,
+        "confidence": 0.4438954529833799
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "estimate": [
+          0.35,
+          -4.25,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.310457706451416,
+          -0.5629643201828003,
+          -0.17771068215370178
+        ],
+        "residual": 0.1278327852487564,
+        "confidence": 0.37265274883743776
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "estimate": [
+          -0.65,
+          -2.35,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.8862172961235046,
+          -2.0839860439300537,
+          0.07845436036586761
+        ],
+        "residual": 0.08211425691843033,
+        "confidence": 0.38745137025136234
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "estimate": [
+          -2.35,
+          -1.6,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -2.045234203338623,
+          -1.9316426515579224,
+          -0.17241361737251282
+        ],
+        "residual": 0.08328977227210999,
+        "confidence": 0.4868161657332496
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-014",
+        "estimate": [
+          -1.6,
+          -1.55,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -1.851922869682312,
+          -1.6999211311340332,
+          -0.4094131588935852
+        ],
+        "residual": 0.08419185131788254,
+        "confidence": 0.39041763585768013
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "estimate": [
+          -2.25,
+          -0.4000000000000001,
+          0.6
+        ],
+        "truth_eval_only": [
+          -1.289952039718628,
+          -0.14457345008850098,
+          -0.40941673517227173
+        ],
+        "residual": 0.08829248696565628,
+        "confidence": 0.43640056185291964
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "estimate": [
+          -0.4000000000000001,
+          -2.35,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.14572429656982422,
+          -1.968038558959961,
+          -0.35672515630722046
+        ],
+        "residual": 0.08169877529144287,
+        "confidence": 0.6647354762837485
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "estimate": [
+          -5.25,
+          0.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -1.6882054805755615,
+          -1.3001295328140259,
+          -0.14635305106639862
+        ],
+        "residual": 0.12951812148094177,
+        "confidence": 0.389246523839659
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "estimate": [
+          -7.25,
+          1.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.8122274875640869,
+          -1.0858635902404785,
+          -0.05032473802566528
+        ],
+        "residual": 0.17447881400585175,
+        "confidence": 0.46725595772863143
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "estimate": [
+          -1.5,
+          -0.6000000000000001,
+          -0.4
+        ],
+        "truth_eval_only": [
+          -1.4501707553863525,
+          -0.6652567982673645,
+          0.0014869719743728638
+        ],
+        "residual": 0.0807466059923172,
+        "confidence": 0.5037806580144607
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "estimate": [
+          -1.5,
+          -0.5,
+          0.0
+        ],
+        "truth_eval_only": [
+          -1.3244733810424805,
+          -0.42075663805007935,
+          -0.17141948640346527
+        ],
+        "residual": 0.08223512023687363,
+        "confidence": 0.4911349380318931
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "estimate": [
+          -2.45,
+          -0.5,
+          0.19999999999999996
+        ],
+        "truth_eval_only": [
+          -2.080324172973633,
+          -0.10255157947540283,
+          -0.024563878774642944
+        ],
+        "residual": 0.09292709082365036,
+        "confidence": 0.39367398233134915
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 4.015777944982997,
+  "mtf50_proxy_retention_vs_best_single": 1.0909090909090908,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3333333333333333,
+  "frame_rejection": {
+    "true_positive": 1,
+    "false_negative": 2,
+    "false_positive": 0,
+    "true_negative": 19,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {
+      "21": "strong_blur",
+      "22": "highlight_clipped",
+      "23": "abnormal_noise"
+    }
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 4.459137901175198,
+      "edge_sharpness": 0.19659465551376343,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.15831163194444445,
+      "ringing_halo_peak": 0.21145322918891907,
+      "seam_interpolation_proxy": 0.18763720989227295,
+      "reconstruction_error": {
+        "rmse": 0.0667269304394722,
+        "psnr_db": 20.24838216750025
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 41.89002990722656,
+        "high_frequency_error_rmse": 0.03535310551524162
+      }
+    },
+    "best_single": {
+      "snr_proxy": 3.87650970717147,
+      "edge_sharpness": 0.1892816424369812,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.19075520833333334,
+      "ringing_halo_peak": 0.255775511264801,
+      "seam_interpolation_proxy": 0.3344712555408478,
+      "reconstruction_error": {
+        "rmse": 0.09348185360431671,
+        "psnr_db": 17.319858802720443
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 62.13044357299805,
+        "high_frequency_error_rmse": 0.04305508732795715
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 13.242414777649875,
+      "edge_sharpness": 0.08059762418270111,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.008963316679000854,
+      "seam_interpolation_proxy": 0.14671719074249268,
+      "reconstruction_error": {
+        "rmse": 0.05883678421378136,
+        "psnr_db": 21.34142654927227
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.3042445182800293,
+        "high_frequency_error_rmse": 0.006238091737031937
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 13.242414777649875,
+      "edge_sharpness": 0.08059762418270111,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.008963316679000854,
+      "seam_interpolation_proxy": 0.14671719074249268,
+      "reconstruction_error": {
+        "rmse": 0.05883678421378136,
+        "psnr_db": 21.34142654927227
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.3042445182800293,
+        "high_frequency_error_rmse": 0.006238091737031937
+      }
+    },
+    "median": {
+      "snr_proxy": 15.155754063489978,
+      "edge_sharpness": 0.09539725631475449,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.015629231929779053,
+      "seam_interpolation_proxy": 0.07175484299659729,
+      "reconstruction_error": {
+        "rmse": 0.056820087134838104,
+        "psnr_db": 21.644367199188054
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.7432752847671509,
+        "high_frequency_error_rmse": 0.007211992051452398
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 15.567202185571682,
+      "edge_sharpness": 0.09603121876716614,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.00991898775100708,
+      "seam_interpolation_proxy": 0.0628802478313446,
+      "reconstruction_error": {
+        "rmse": 0.05680223926901817,
+        "psnr_db": 21.64709596912207
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.5977885723114014,
+        "high_frequency_error_rmse": 0.006904494483023882
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 15.623408775462787,
+      "edge_sharpness": 0.09522116184234619,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.00841611623764038,
+      "seam_interpolation_proxy": 0.05948857218027115,
+      "reconstruction_error": {
+        "rmse": 0.05649755895137787,
+        "psnr_db": 21.693811427308848
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.5017331838607788,
+        "high_frequency_error_rmse": 0.006693736650049686
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.0667269304394722,
+      "psnr_db": 20.24838216750025
+    },
+    "best_single": {
+      "rmse": 0.09348185360431671,
+      "psnr_db": 17.319858802720443
+    },
+    "registered_stack": {
+      "rmse": 0.05680223926901817,
+      "psnr_db": 21.64709596912207
+    },
+    "stack_denoised": {
+      "rmse": 0.05649755895137787,
+      "psnr_db": 21.693811427308848
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "outlier-stress-24",
+    "reference_id": "outlier-stress-24-frame-023",
+    "accepted_ids": [
+      "outlier-stress-24-frame-000",
+      "outlier-stress-24-frame-001",
+      "outlier-stress-24-frame-002",
+      "outlier-stress-24-frame-003",
+      "outlier-stress-24-frame-004",
+      "outlier-stress-24-frame-005",
+      "outlier-stress-24-frame-006",
+      "outlier-stress-24-frame-007",
+      "outlier-stress-24-frame-008",
+      "outlier-stress-24-frame-009",
+      "outlier-stress-24-frame-010",
+      "outlier-stress-24-frame-011",
+      "outlier-stress-24-frame-012",
+      "outlier-stress-24-frame-013",
+      "outlier-stress-24-frame-014",
+      "outlier-stress-24-frame-015",
+      "outlier-stress-24-frame-016",
+      "outlier-stress-24-frame-017",
+      "outlier-stress-24-frame-018",
+      "outlier-stress-24-frame-019",
+      "outlier-stress-24-frame-020",
+      "outlier-stress-24-frame-021",
+      "outlier-stress-24-frame-023"
+    ],
+    "rejected_ids": [
+      "outlier-stress-24-frame-022"
+    ],
+    "assessments": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "components": {
+          "clipping_fraction": 0.15831163194444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15831163194444445,
+          "contrast_std": 0.24599027633666992,
+          "edge_sharpness": 0.09441269934177399,
+          "laplacian_variance": 0.020278895273804665,
+          "noise_mad_sigma": 0.016858888790011406,
+          "exposure_median": 0.10071724653244019,
+          "relative_sharpness": 0.9681764949295466,
+          "relative_noise": 0.9611793761563018,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "components": {
+          "clipping_fraction": 0.158203125,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.158203125,
+          "contrast_std": 0.26037925481796265,
+          "edge_sharpness": 0.09850279241800308,
+          "laplacian_variance": 0.02242913469672203,
+          "noise_mad_sigma": 0.017193332314491272,
+          "exposure_median": 0.10824842751026154,
+          "relative_sharpness": 1.0101192844704339,
+          "relative_noise": 0.9802470752332143,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "components": {
+          "clipping_fraction": 0.15538194444444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15538194444444445,
+          "contrast_std": 0.24879001080989838,
+          "edge_sharpness": 0.09694227576255798,
+          "laplacian_variance": 0.022193532437086105,
+          "noise_mad_sigma": 0.017678922042250633,
+          "exposure_median": 0.10516084730625153,
+          "relative_sharpness": 0.9941166115643377,
+          "relative_noise": 1.0079321046209273,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "components": {
+          "clipping_fraction": 0.14908854166666666,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1488715277777778,
+          "contrast_std": 0.25885072350502014,
+          "edge_sharpness": 0.09746719896793365,
+          "laplacian_variance": 0.021648861467838287,
+          "noise_mad_sigma": 0.018262192606925964,
+          "exposure_median": 0.1099996566772461,
+          "relative_sharpness": 0.9994995559418526,
+          "relative_noise": 1.0411862321300387,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "components": {
+          "clipping_fraction": 0.1496310763888889,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1494140625,
+          "contrast_std": 0.2660214900970459,
+          "edge_sharpness": 0.09917322546243668,
+          "laplacian_variance": 0.02239256165921688,
+          "noise_mad_sigma": 0.017776312306523323,
+          "exposure_median": 0.10963961482048035,
+          "relative_sharpness": 1.0169943925816312,
+          "relative_noise": 1.0134846362630356,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "components": {
+          "clipping_fraction": 0.1586371527777778,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.15852864583333334,
+          "contrast_std": 0.24646984040737152,
+          "edge_sharpness": 0.09569567441940308,
+          "laplacian_variance": 0.02144613489508629,
+          "noise_mad_sigma": 0.017440540716052055,
+          "exposure_median": 0.10197223722934723,
+          "relative_sharpness": 0.9813330546127342,
+          "relative_noise": 0.9943412198801362,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "components": {
+          "clipping_fraction": 0.15711805555555555,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1570095486111111,
+          "contrast_std": 0.25195935368537903,
+          "edge_sharpness": 0.09595277905464172,
+          "laplacian_variance": 0.021175827831029892,
+          "noise_mad_sigma": 0.017027560621500015,
+          "exposure_median": 0.10539126396179199,
+          "relative_sharpness": 0.9839695925606049,
+          "relative_noise": 0.9707958987981391,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "components": {
+          "clipping_fraction": 0.15592447916666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15592447916666666,
+          "contrast_std": 0.2566758096218109,
+          "edge_sharpness": 0.09756480157375336,
+          "laplacian_variance": 0.021215684711933136,
+          "noise_mad_sigma": 0.018524769693613052,
+          "exposure_median": 0.10747186839580536,
+          "relative_sharpness": 1.0005004440581475,
+          "relative_noise": 1.0561565948578817,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "components": {
+          "clipping_fraction": 0.16048177083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16048177083333334,
+          "contrast_std": 0.246892049908638,
+          "edge_sharpness": 0.09358575940132141,
+          "laplacian_variance": 0.020182404667139053,
+          "noise_mad_sigma": 0.017063573002815247,
+          "exposure_median": 0.10345834493637085,
+          "relative_sharpness": 0.9596964512633195,
+          "relative_noise": 0.9728490802763268,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "components": {
+          "clipping_fraction": 0.15321180555555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15321180555555555,
+          "contrast_std": 0.25750526785850525,
+          "edge_sharpness": 0.09761977195739746,
+          "laplacian_variance": 0.021610893309116364,
+          "noise_mad_sigma": 0.017861800268292427,
+          "exposure_median": 0.10748511552810669,
+          "relative_sharpness": 1.0010641503575386,
+          "relative_noise": 1.0183585794265249,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "components": {
+          "clipping_fraction": 0.1521267361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1521267361111111,
+          "contrast_std": 0.2590405344963074,
+          "edge_sharpness": 0.0986078605055809,
+          "laplacian_variance": 0.022523071616888046,
+          "noise_mad_sigma": 0.01779831573367119,
+          "exposure_median": 0.11158980429172516,
+          "relative_sharpness": 1.0111967290670745,
+          "relative_noise": 1.01473912228775,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "components": {
+          "clipping_fraction": 0.1577690972222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1577690972222222,
+          "contrast_std": 0.25171610713005066,
+          "edge_sharpness": 0.09714766591787338,
+          "laplacian_variance": 0.02169046737253666,
+          "noise_mad_sigma": 0.017433570697903633,
+          "exposure_median": 0.10528413951396942,
+          "relative_sharpness": 0.996222831617918,
+          "relative_noise": 0.9939438367679309,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "components": {
+          "clipping_fraction": 0.1519097222222222,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.15169270833333334,
+          "contrast_std": 0.2575380802154541,
+          "edge_sharpness": 0.09784490615129471,
+          "laplacian_variance": 0.021978450939059258,
+          "noise_mad_sigma": 0.01750655099749565,
+          "exposure_median": 0.105282723903656,
+          "relative_sharpness": 1.003372840144568,
+          "relative_noise": 0.9981046779542798,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "components": {
+          "clipping_fraction": 0.15711805555555555,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1570095486111111,
+          "contrast_std": 0.2633243799209595,
+          "edge_sharpness": 0.09891724586486816,
+          "laplacian_variance": 0.022820638492703438,
+          "noise_mad_sigma": 0.017547529190778732,
+          "exposure_median": 0.10994452983140945,
+          "relative_sharpness": 1.0143693915883836,
+          "relative_noise": 1.0004409763157223,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-014",
+        "components": {
+          "clipping_fraction": 0.1480034722222222,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.14778645833333334,
+          "contrast_std": 0.2740876376628876,
+          "edge_sharpness": 0.10238337516784668,
+          "laplacian_variance": 0.024197040125727654,
+          "noise_mad_sigma": 0.018235307186841965,
+          "exposure_median": 0.11577983945608139,
+          "relative_sharpness": 1.049913602726572,
+          "relative_noise": 1.0396534080141724,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "components": {
+          "clipping_fraction": 0.1591796875,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1591796875,
+          "contrast_std": 0.24664410948753357,
+          "edge_sharpness": 0.09700604528188705,
+          "laplacian_variance": 0.02206883206963539,
+          "noise_mad_sigma": 0.01715698651969433,
+          "exposure_median": 0.10226698219776154,
+          "relative_sharpness": 0.9947705506015414,
+          "relative_noise": 0.978174884781995,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "components": {
+          "clipping_fraction": 0.1577690972222222,
+          "highlight_clipping_fraction": 0.00043402777777777775,
+          "underexposed_fraction": 0.15733506944444445,
+          "contrast_std": 0.26186877489089966,
+          "edge_sharpness": 0.09835299104452133,
+          "laplacian_variance": 0.022280415520071983,
+          "noise_mad_sigma": 0.01684759557247162,
+          "exposure_median": 0.110043004155159,
+          "relative_sharpness": 1.0085831122211038,
+          "relative_noise": 0.9605355135669642,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "components": {
+          "clipping_fraction": 0.15657552083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15657552083333334,
+          "contrast_std": 0.25560060143470764,
+          "edge_sharpness": 0.09605845808982849,
+          "laplacian_variance": 0.0216642115265131,
+          "noise_mad_sigma": 0.0170412827283144,
+          "exposure_median": 0.10638776421546936,
+          "relative_sharpness": 0.9850533022584315,
+          "relative_noise": 0.9715782401630821,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "components": {
+          "clipping_fraction": 0.1527777777777778,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1525607638888889,
+          "contrast_std": 0.2650093138217926,
+          "edge_sharpness": 0.09965290129184723,
+          "laplacian_variance": 0.022929463535547256,
+          "noise_mad_sigma": 0.017721379175782204,
+          "exposure_median": 0.1099630743265152,
+          "relative_sharpness": 1.0219133374530194,
+          "relative_noise": 1.010352722114142,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "components": {
+          "clipping_fraction": 0.15950520833333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15950520833333334,
+          "contrast_std": 0.2509068250656128,
+          "edge_sharpness": 0.09723186492919922,
+          "laplacian_variance": 0.021867848932743073,
+          "noise_mad_sigma": 0.01753205992281437,
+          "exposure_median": 0.10571271181106567,
+          "relative_sharpness": 0.9970862695264867,
+          "relative_noise": 0.9995590236842777,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "components": {
+          "clipping_fraction": 0.15516493055555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15516493055555555,
+          "contrast_std": 0.2559049129486084,
+          "edge_sharpness": 0.09710777550935745,
+          "laplacian_variance": 0.021949447691440582,
+          "noise_mad_sigma": 0.017327073961496353,
+          "exposure_median": 0.1088571846485138,
+          "relative_sharpness": 0.9958137663526782,
+          "relative_noise": 0.9878721159126821,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "components": {
+          "clipping_fraction": 0.11762152777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.11762152777777778,
+          "contrast_std": 0.2385307252407074,
+          "edge_sharpness": 0.09670872241258621,
+          "laplacian_variance": 0.021176530048251152,
+          "noise_mad_sigma": 0.020325062796473503,
+          "exposure_median": 0.12654811143875122,
+          "relative_sharpness": 0.9917215856268188,
+          "relative_noise": 1.158797084575753,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-022",
+        "components": {
+          "clipping_fraction": 0.2160373263888889,
+          "highlight_clipping_fraction": 0.10601128472222222,
+          "underexposed_fraction": 0.11002604166666667,
+          "contrast_std": 0.3980138301849365,
+          "edge_sharpness": 0.10743081569671631,
+          "laplacian_variance": 0.023862525820732117,
+          "noise_mad_sigma": 0.02140974998474121,
+          "exposure_median": 0.17739450931549072,
+          "relative_sharpness": 1.1016737294221988,
+          "relative_noise": 1.2206385836169944,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "highlight_clipping_fraction>0.02"
+        ],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-023",
+        "components": {
+          "clipping_fraction": 0.19075520833333334,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1906467013888889,
+          "contrast_std": 0.2562405467033386,
+          "edge_sharpness": 0.11861278116703033,
+          "laplacian_variance": 0.029207268729805946,
+          "noise_mad_sigma": 0.028124675154685974,
+          "exposure_median": 0.11182282119989395,
+          "relative_sharpness": 1.2163417371261338,
+          "relative_noise": 1.6034780261316033,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -2.45,
+        "dy": 5.25,
+        "rotation_deg": 0.0,
+        "confidence": 0.3456289954376549,
+        "residual": 0.16864828765392303,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.45000000000000007,
+        "dy": -0.75,
+        "rotation_deg": 0.6,
+        "confidence": 0.409842894070412,
+        "residual": 0.0842551738023758,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.45000000000000007,
+        "dy": -0.4000000000000001,
+        "rotation_deg": -0.6,
+        "confidence": 0.574942134014139,
+        "residual": 0.08196403086185455,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.55,
+        "dy": -1.55,
+        "rotation_deg": -0.6,
+        "confidence": 0.5956771994872405,
+        "residual": 0.08113552629947662,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.45000000000000007,
+        "dy": 0.35,
+        "rotation_deg": -0.6,
+        "confidence": 0.4530305338625089,
+        "residual": 0.08287950605154037,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": 1.25,
+        "dy": -9.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.4743711915986849,
+        "residual": 0.1926710158586502,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -3.3000000000000003,
+        "dy": -2.3000000000000003,
+        "rotation_deg": -0.6,
+        "confidence": 0.4891723887938301,
+        "residual": 0.09014775604009628,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.55,
+        "dy": -0.75,
+        "rotation_deg": 0.6,
+        "confidence": 0.420252175101096,
+        "residual": 0.09176496416330338,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.4000000000000001,
+        "dy": -1.4000000000000001,
+        "rotation_deg": 0.6,
+        "confidence": 0.3852051093656058,
+        "residual": 0.08285048604011536,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -2.4,
+        "dy": -2.35,
+        "rotation_deg": -0.6,
+        "confidence": 0.46198187494984316,
+        "residual": 0.08177036046981812,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.35,
+        "dy": 0.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.4438954529833799,
+        "residual": 0.08435466140508652,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": 0.35,
+        "dy": -4.25,
+        "rotation_deg": -0.6,
+        "confidence": 0.37265274883743776,
+        "residual": 0.1278327852487564,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.65,
+        "dy": -2.35,
+        "rotation_deg": -0.6,
+        "confidence": 0.38745137025136234,
+        "residual": 0.08211425691843033,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -2.35,
+        "dy": -1.6,
+        "rotation_deg": -0.6,
+        "confidence": 0.4868161657332496,
+        "residual": 0.08328977227210999,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-014",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.6,
+        "dy": -1.55,
+        "rotation_deg": -0.6,
+        "confidence": 0.39041763585768013,
+        "residual": 0.08419185131788254,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -2.25,
+        "dy": -0.4000000000000001,
+        "rotation_deg": 0.6,
+        "confidence": 0.43640056185291964,
+        "residual": 0.08829248696565628,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -0.4000000000000001,
+        "dy": -2.35,
+        "rotation_deg": -0.6,
+        "confidence": 0.6647354762837485,
+        "residual": 0.08169877529144287,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -5.25,
+        "dy": 0.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.389246523839659,
+        "residual": 0.12951812148094177,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -7.25,
+        "dy": 1.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.46725595772863143,
+        "residual": 0.17447881400585175,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.5,
+        "dy": -0.6000000000000001,
+        "rotation_deg": -0.4,
+        "confidence": 0.5037806580144607,
+        "residual": 0.0807466059923172,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -1.5,
+        "dy": -0.5,
+        "rotation_deg": 0.0,
+        "confidence": 0.4911349380318931,
+        "residual": 0.08223512023687363,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": -2.45,
+        "dy": -0.5,
+        "rotation_deg": 0.19999999999999996,
+        "confidence": 0.39367398233134915,
+        "residual": 0.09292709082365036,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-023",
+        "reference_id": "outlier-stress-24-frame-023",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.1",
+        "thresholds": {
+          "clip": 0.08,
+          "relative_sharpness": 0.55,
+          "relative_noise": 2.3
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.1",
+        "reference": "outlier-stress-24-frame-023",
+        "method": "rotation-grid+phase-correlation"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.1",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "denoise-0.1",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.1",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "outlier-stress-24",
+    "generator_version": "lunar-sim-0.1",
+    "metric_version": "metrics-0.1",
+    "seed": 4107,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 24,
+      "seed": 4107,
+      "shot_scale": 0.018,
+      "read_noise_sigma": 0.006,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.3,
+      "translation_span_px": 1.25,
+      "inject_outliers": true
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "f28ac8ec30e3cfd18190a16794deeb44f53d1f3f24ebfdbc50d4f40da1613957",
+    "sha256_oracle": "690bff7b4c3f508b31c21927c8fde1621e813cb12da49c9bf64c8a4c75ddb396",
+    "frame_count": 24,
+    "expected_bad_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+}

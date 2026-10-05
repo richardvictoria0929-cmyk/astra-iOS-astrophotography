@@ -1,0 +1,31 @@
+{
+  "fixture_id": "remed-001-holdout-outlier-150",
+  "generator_version": "lunar-remediation-0.1",
+  "seed": 63402,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 150,
+    "seed": 63402,
+    "shot_scale": 0.015,
+    "read_noise_sigma": 0.005,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.3,
+    "translation_span_px": 1.25
+  },
+  "frame_count": 150,
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "c19eff90109a2d1d47c2049c477798bc4690ec4043ee70d2b3d6513fca9347fd",
+  "sha256_oracle": "bf9d08a1a3c20e663e8bd99058c3f2657fbf1b16b73be576965115a7bb192fe6",
+  "sha256_failure_labels_commitment": "39b1e16730e30268e64f24eeb730741842bb9b969bd72b566bb57cf80c12971d",
+  "class_counts_committed": {
+    "strong_blur": 20,
+    "clipping": 20,
+    "large_motion": 20,
+    "abnormal_noise": 10,
+    "mixed": 10
+  }
+}

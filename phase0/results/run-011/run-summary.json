@@ -1,0 +1,55 @@
+{
+  "run_id": "run-011",
+  "created_utc": "2026-10-05T20:12:49.106154+00:00",
+  "status": "FAIL",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0"
+  },
+  "generator_version": "lunar-sim-0.2",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.2",
+  "alignment_version": "align-0.2",
+  "reconstruction_version": "reconstruct-0.3",
+  "scenarios": [
+    "gate-noise-16-holdout",
+    "outlier-stress-24-holdout",
+    "rotation-stress-20-holdout"
+  ],
+  "gates": {
+    "registration_rms_le_0.25px": {
+      "pass": true,
+      "value_by_fixture": {
+        "gate-noise-16-holdout": 0.031100318825746345,
+        "outlier-stress-24-holdout": 0.08474260534703841,
+        "rotation-stress-20-holdout": 0.0843283693616047
+      }
+    },
+    "registration_valid_fraction_ge_0.90": {
+      "pass": true,
+      "evaluated_fraction_by_fixture": {
+        "gate-noise-16-holdout": 1.0,
+        "outlier-stress-24-holdout": 1.0,
+        "rotation-stress-20-holdout": 1.0
+      }
+    },
+    "snr_proxy_gain_16_frames_ge_2.5": {
+      "pass": true,
+      "value": 3.170750657514131
+    },
+    "edge_proxy_loss_le_5_percent": {
+      "pass": false,
+      "retention": 0.9032258064516129
+    },
+    "seeded_blur_or_clipping_recall_ge_0.90": {
+      "pass": false,
+      "value": 0.0
+    },
+    "integrity_records_present": {
+      "pass": true
+    }
+  },
+  "deconvolution_requested": true
+}

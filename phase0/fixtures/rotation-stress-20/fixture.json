@@ -1,0 +1,30 @@
+{
+  "fixture_id": "rotation-stress-20",
+  "generator_version": "lunar-sim-0.1",
+  "metric_version": "metrics-0.1",
+  "seed": 2803,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 20,
+    "seed": 2803,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.005,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.7,
+    "rotation_span_deg": 0.9,
+    "translation_span_px": 1.8,
+    "inject_outliers": true
+  },
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "f92aa61ef861173a1df6ea33543c5a5c946bef458ed539db11e09405162908c3",
+  "sha256_oracle": "252ebfa2e327a6d6a3a65385e8b5d32c416dc562a20015274daff51569b4ac7b",
+  "frame_count": 20,
+  "expected_bad_indices": [
+    17,
+    18,
+    19
+  ]
+}

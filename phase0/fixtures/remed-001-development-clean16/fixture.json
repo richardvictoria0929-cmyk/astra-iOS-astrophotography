@@ -1,0 +1,31 @@
+{
+  "fixture_id": "remed-001-development-clean16",
+  "generator_version": "lunar-remediation-0.1",
+  "seed": 41401,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 16,
+    "seed": 41401,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.004,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.3,
+    "translation_span_px": 1.25
+  },
+  "frame_count": 16,
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "7b75f90a646771a78b67f3526efc836a7b784118a685b925a898dc982cd06988",
+  "sha256_oracle": "f73a6e9bcf176feb6c9ce0973e1de1cbcc17acd2a9c6269a0f919ab87b0d8013",
+  "sha256_failure_labels_commitment": "24c746e0ea0f76101c67cf683291a204b15ed9c50e5fd8820999b88b46424575",
+  "class_counts_committed": {
+    "strong_blur": 0,
+    "clipping": 0,
+    "large_motion": 0,
+    "abnormal_noise": 0,
+    "mixed": 0
+  }
+}

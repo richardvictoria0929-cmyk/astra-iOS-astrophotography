@@ -1,0 +1,26 @@
+{
+  "fixture_id": "gate-noise-16",
+  "generator_version": "lunar-sim-0.1",
+  "metric_version": "metrics-0.1",
+  "seed": 1402,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 16,
+    "seed": 1402,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.004,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.3,
+    "translation_span_px": 1.25,
+    "inject_outliers": false
+  },
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "e353674db48dfc9cc10ee282c9419d3a7f5e31f0f30507d256e6e962eed035b3",
+  "sha256_oracle": "d239ec6901c785750d31beeab336b260a04be429e75bc0926cd0a118545273e2",
+  "frame_count": 16,
+  "expected_bad_indices": []
+}

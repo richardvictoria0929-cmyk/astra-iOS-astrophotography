@@ -1,0 +1,1824 @@
+{
+  "fixture_id": "outlier-stress-24-holdout",
+  "metric_version": "metrics-0.1",
+  "algorithm_version": "reconstruct-0.2",
+  "source_count": 24,
+  "accepted_count": 23,
+  "rejected_count": 1,
+  "runtime_seconds": 1.68054759997176,
+  "registration": {
+    "translation_error_px": 0.08474260534703841,
+    "rotation_error_deg": 0.2660683916595334,
+    "rms_translation_px": 0.08474260534703841,
+    "evaluated_frame_count": 22,
+    "records": [
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-000",
+        "estimate": [
+          3.3413789394128406,
+          1.570572623336161,
+          -0.2460467773589741
+        ],
+        "truth_eval_only": [
+          3.3251724243164062,
+          1.5130882263183594,
+          0.007174558937549591
+        ],
+        "residual": 0.19675704836845398,
+        "confidence": 0.9017040133476257
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-001",
+        "estimate": [
+          4.13696087983071,
+          0.8988820328312722,
+          -0.017457500239923377
+        ],
+        "truth_eval_only": [
+          4.0924577713012695,
+          0.8249651789665222,
+          -0.2965230941772461
+        ],
+        "residual": 0.20510339736938477,
+        "confidence": 0.8745777606964111
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-002",
+        "estimate": [
+          2.451233446860639,
+          0.7999625271940826,
+          0.18993050051251553
+        ],
+        "truth_eval_only": [
+          2.4792747497558594,
+          0.7764009833335876,
+          0.035567328333854675
+        ],
+        "residual": 0.1992381513118744,
+        "confidence": 0.8996313810348511
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-003",
+        "estimate": [
+          3.983423000198136,
+          -0.32852312727195104,
+          -0.031010451013446558
+        ],
+        "truth_eval_only": [
+          3.9516830444335938,
+          -0.3903771638870239,
+          0.045552149415016174
+        ],
+        "residual": 0.18324895203113556,
+        "confidence": 0.8835704922676086
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-004",
+        "estimate": [
+          3.0437900352583607,
+          1.546456577670826,
+          -0.18789137689818441
+        ],
+        "truth_eval_only": [
+          3.032803773880005,
+          1.5277273654937744,
+          0.16978615522384644
+        ],
+        "residual": 0.20284326374530792,
+        "confidence": 0.8869758248329163
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-005",
+        "estimate": [
+          3.3868951396642113,
+          0.5929458288751647,
+          0.017931241284333516
+        ],
+        "truth_eval_only": [
+          3.4010465145111084,
+          0.51800537109375,
+          -0.229620099067688
+        ],
+        "residual": 0.19735901057720184,
+        "confidence": 0.9085661172866821
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-006",
+        "estimate": [
+          2.040911107129145,
+          0.5344559025859319,
+          -0.08369942287227235
+        ],
+        "truth_eval_only": [
+          2.0109105110168457,
+          0.42871659994125366,
+          -0.01333271712064743
+        ],
+        "residual": 0.19818954169750214,
+        "confidence": 0.8878719210624695
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-007",
+        "estimate": [
+          4.285693566570976,
+          0.6108529367187017,
+          -0.17774247458601003
+        ],
+        "truth_eval_only": [
+          4.227248668670654,
+          0.5527634620666504,
+          -0.10960055887699127
+        ],
+        "residual": 0.18934366106987,
+        "confidence": 0.9012182950973511
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-008",
+        "estimate": [
+          3.26107599412301,
+          0.996851850646258,
+          -0.06349647488759813
+        ],
+        "truth_eval_only": [
+          3.270378828048706,
+          0.9900321960449219,
+          0.13695859909057617
+        ],
+        "residual": 0.1925007551908493,
+        "confidence": 0.8772780299186707
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-009",
+        "estimate": [
+          3.1832549999705595,
+          0.09959452583384357,
+          -0.016635998075422733
+        ],
+        "truth_eval_only": [
+          3.2999329566955566,
+          0.014312267303466797,
+          -0.0161893293261528
+        ],
+        "residual": 0.20028086006641388,
+        "confidence": 0.8771304488182068
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-010",
+        "estimate": [
+          2.264700475214973,
+          1.8083905811438352,
+          -0.1493534003462483
+        ],
+        "truth_eval_only": [
+          2.313135862350464,
+          1.8204543590545654,
+          -0.0724019706249237
+        ],
+        "residual": 0.20398148894309998,
+        "confidence": 0.8884739875793457
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-011",
+        "estimate": [
+          4.3579884490322565,
+          1.8039271310033906,
+          -0.4245777984082091
+        ],
+        "truth_eval_only": [
+          4.412126064300537,
+          1.7426011562347412,
+          -0.022994741797447205
+        ],
+        "residual": 0.1840764284133911,
+        "confidence": 0.893254280090332
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-012",
+        "estimate": [
+          3.921363263467083,
+          1.1443458601492746,
+          0.3980595047698687
+        ],
+        "truth_eval_only": [
+          3.985238790512085,
+          1.0599424839019775,
+          0.09959281980991364
+        ],
+        "residual": 0.19371400773525238,
+        "confidence": 0.8742334842681885
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-013",
+        "estimate": [
+          4.368801170531812,
+          0.9504424416506495,
+          -0.41455166357148926
+        ],
+        "truth_eval_only": [
+          4.389226913452148,
+          0.9648084044456482,
+          -0.25722092390060425
+        ],
+        "residual": 0.19682766497135162,
+        "confidence": 0.8871341943740845
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-014",
+        "estimate": [
+          3.777686004996784,
+          1.4058778030142534,
+          0.2810421181499981
+        ],
+        "truth_eval_only": [
+          3.8558051586151123,
+          1.3426527976989746,
+          0.015156298875808716
+        ],
+        "residual": 0.19426700472831726,
+        "confidence": 0.8962525725364685
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-015",
+        "estimate": [
+          3.846294700467196,
+          1.8247319651757792,
+          0.29531584215831064
+        ],
+        "truth_eval_only": [
+          3.813950300216675,
+          1.790849208831787,
+          -0.0930483490228653
+        ],
+        "residual": 0.2047037035226822,
+        "confidence": 0.8822447061538696
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-016",
+        "estimate": [
+          2.979534552431457,
+          0.4181235733721761,
+          -0.46429444868848974
+        ],
+        "truth_eval_only": [
+          2.9788026809692383,
+          0.3589925765991211,
+          -0.3403072953224182
+        ],
+        "residual": 0.1929888278245926,
+        "confidence": 0.8947997689247131
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-017",
+        "estimate": [
+          2.5906107181578895,
+          1.2241980128406886,
+          -0.21337072258793863
+        ],
+        "truth_eval_only": [
+          2.6402547359466553,
+          1.1455802917480469,
+          -0.28746235370635986
+        ],
+        "residual": 0.2013595700263977,
+        "confidence": 0.8988167643547058
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-018",
+        "estimate": [
+          4.250259638755308,
+          0.8082247635189946,
+          -0.48027037802143824
+        ],
+        "truth_eval_only": [
+          4.2206621170043945,
+          0.7531057596206665,
+          -0.2080269157886505
+        ],
+        "residual": 0.19478479027748108,
+        "confidence": 0.8841639161109924
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-019",
+        "estimate": [
+          3.2977391073613544,
+          0.1003920030458124,
+          -0.15551418693678234
+        ],
+        "truth_eval_only": [
+          3.297942638397217,
+          0.029144287109375,
+          -0.07908901572227478
+        ],
+        "residual": 0.18890081346035004,
+        "confidence": 0.8881849050521851
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-020",
+        "estimate": [
+          3.714494271830508,
+          1.098217099959468,
+          -0.24137025517158484
+        ],
+        "truth_eval_only": [
+          3.7764978408813477,
+          1.0803117752075195,
+          -0.20222842693328857
+        ],
+        "residual": 0.20459102094173431,
+        "confidence": 0.8861418962478638
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-021",
+        "estimate": [
+          3.744906230598101,
+          0.4926485471988284,
+          0.446062461799868
+        ],
+        "truth_eval_only": [
+          4.021228790283203,
+          0.14963865280151367,
+          -0.29004377126693726
+        ],
+        "residual": 0.21108613908290863,
+        "confidence": 0.8647841215133667
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 19.272864425576238,
+  "mtf50_proxy_retention_vs_best_single": 1.0,
+  "frc_resolution_proxy_cycles_per_pixel": 0.375,
+  "frame_rejection": {
+    "true_positive": 1,
+    "false_negative": 2,
+    "false_positive": 0,
+    "true_negative": 19,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {
+      "21": "strong_blur",
+      "22": "highlight_clipped",
+      "23": "abnormal_noise"
+    }
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 3.800203366646797,
+      "edge_sharpness": 0.17958149313926697,
+      "mtf50_proxy_cycles_per_pixel": 0.2265625,
+      "clipping_fraction": 0.1567925347222222,
+      "ringing_halo_peak": 0.23874163627624512,
+      "seam_interpolation_proxy": 0.19875387847423553,
+      "reconstruction_error": {
+        "rmse": 0.05843206122517586,
+        "psnr_db": 19.596401196589003
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 47.12617492675781,
+        "high_frequency_error_rmse": 0.03253304585814476
+      }
+    },
+    "best_single": {
+      "snr_proxy": 1.200790605758821,
+      "edge_sharpness": 0.2725248634815216,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.12489149305555555,
+      "ringing_halo_peak": 0.5142400860786438,
+      "seam_interpolation_proxy": 0.19736142456531525,
+      "reconstruction_error": {
+        "rmse": 0.18872839212417603,
+        "psnr_db": 9.456416540707528
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 75.03252410888672,
+        "high_frequency_error_rmse": 0.041762471199035645
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 23.773228122811044,
+      "edge_sharpness": 0.1292678862810135,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.013257801532745361,
+      "seam_interpolation_proxy": 0.11370810866355896,
+      "reconstruction_error": {
+        "rmse": 0.010531003586947918,
+        "psnr_db": 34.52376612563947
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.7690700888633728,
+        "high_frequency_error_rmse": 0.004228091798722744
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 23.773228122811044,
+      "edge_sharpness": 0.1292678862810135,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.013257801532745361,
+      "seam_interpolation_proxy": 0.11370810866355896,
+      "reconstruction_error": {
+        "rmse": 0.010531003586947918,
+        "psnr_db": 34.52376612563947
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.7690700888633728,
+        "high_frequency_error_rmse": 0.004228091798722744
+      }
+    },
+    "median": {
+      "snr_proxy": 20.52996399894096,
+      "edge_sharpness": 0.12791576981544495,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0197562575340271,
+      "seam_interpolation_proxy": 0.1300181746482849,
+      "reconstruction_error": {
+        "rmse": 0.011887732893228531,
+        "psnr_db": 33.47118057316442
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1673448085784912,
+        "high_frequency_error_rmse": 0.0052090794779360294
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 23.14267454829532,
+      "edge_sharpness": 0.1270090490579605,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.01797807216644287,
+      "seam_interpolation_proxy": 0.12841413915157318,
+      "reconstruction_error": {
+        "rmse": 0.011005901731550694,
+        "psnr_db": 34.14064872337889
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.7988752722740173,
+        "high_frequency_error_rmse": 0.004309242591261864
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 24.342188706266526,
+      "edge_sharpness": 0.12461981177330017,
+      "mtf50_proxy_cycles_per_pixel": 0.1953125,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.010556995868682861,
+      "seam_interpolation_proxy": 0.12253778427839279,
+      "reconstruction_error": {
+        "rmse": 0.010918382555246353,
+        "psnr_db": 34.20999520097004
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.6929062008857727,
+        "high_frequency_error_rmse": 0.00401327246800065
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.05843206122517586,
+      "psnr_db": 19.596401196589003
+    },
+    "best_single": {
+      "rmse": 0.18872839212417603,
+      "psnr_db": 9.456416540707528
+    },
+    "registered_stack": {
+      "rmse": 0.011005901731550694,
+      "psnr_db": 34.14064872337889
+    },
+    "stack_denoised": {
+      "rmse": 0.010918382555246353,
+      "psnr_db": 34.20999520097004
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "outlier-stress-24-holdout",
+    "reference_id": "outlier-stress-24-holdout-frame-022",
+    "accepted_ids": [
+      "outlier-stress-24-holdout-frame-000",
+      "outlier-stress-24-holdout-frame-001",
+      "outlier-stress-24-holdout-frame-002",
+      "outlier-stress-24-holdout-frame-003",
+      "outlier-stress-24-holdout-frame-004",
+      "outlier-stress-24-holdout-frame-005",
+      "outlier-stress-24-holdout-frame-006",
+      "outlier-stress-24-holdout-frame-007",
+      "outlier-stress-24-holdout-frame-008",
+      "outlier-stress-24-holdout-frame-009",
+      "outlier-stress-24-holdout-frame-010",
+      "outlier-stress-24-holdout-frame-011",
+      "outlier-stress-24-holdout-frame-012",
+      "outlier-stress-24-holdout-frame-013",
+      "outlier-stress-24-holdout-frame-014",
+      "outlier-stress-24-holdout-frame-015",
+      "outlier-stress-24-holdout-frame-016",
+      "outlier-stress-24-holdout-frame-017",
+      "outlier-stress-24-holdout-frame-018",
+      "outlier-stress-24-holdout-frame-019",
+      "outlier-stress-24-holdout-frame-020",
+      "outlier-stress-24-holdout-frame-021",
+      "outlier-stress-24-holdout-frame-022"
+    ],
+    "rejected_ids": [
+      "outlier-stress-24-holdout-frame-023"
+    ],
+    "assessments": [
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-000",
+        "components": {
+          "clipping_fraction": 0.1567925347222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1567925347222222,
+          "contrast_std": 0.19599883258342743,
+          "edge_sharpness": 0.08787845075130463,
+          "limb_edge_sharpness": 0.22988100349903107,
+          "laplacian_variance": 0.017318997532129288,
+          "noise_mad_sigma": 0.016058892011642456,
+          "exposure_median": 0.10095135867595673,
+          "relative_sharpness": 1.0040038955349035,
+          "relative_noise": 0.9624321618631119,
+          "relative_limb_edge_sharpness": 1.0073769029257875,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-001",
+        "components": {
+          "clipping_fraction": 0.1654730902777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1654730902777778,
+          "contrast_std": 0.19096378982067108,
+          "edge_sharpness": 0.085081547498703,
+          "limb_edge_sharpness": 0.21651457250118256,
+          "laplacian_variance": 0.01622093841433525,
+          "noise_mad_sigma": 0.016319453716278076,
+          "exposure_median": 0.09703344106674194,
+          "relative_sharpness": 0.9720495115301926,
+          "relative_noise": 0.9780479941701845,
+          "relative_limb_edge_sharpness": 0.9488029726887001,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-002",
+        "components": {
+          "clipping_fraction": 0.1626519097222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1626519097222222,
+          "contrast_std": 0.19384416937828064,
+          "edge_sharpness": 0.08605398237705231,
+          "limb_edge_sharpness": 0.22171445190906525,
+          "laplacian_variance": 0.01656169444322586,
+          "noise_mad_sigma": 0.01678047887980938,
+          "exposure_median": 0.10189078748226166,
+          "relative_sharpness": 0.9831594980817274,
+          "relative_noise": 1.0056778857274007,
+          "relative_limb_edge_sharpness": 0.9715897116265372,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-003",
+        "components": {
+          "clipping_fraction": 0.14930555555555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.14930555555555555,
+          "contrast_std": 0.20813359320163727,
+          "edge_sharpness": 0.09090316295623779,
+          "limb_edge_sharpness": 0.2343209683895111,
+          "laplacian_variance": 0.018612194806337357,
+          "noise_mad_sigma": 0.017320148646831512,
+          "exposure_median": 0.10851336270570755,
+          "relative_sharpness": 1.0385609776257003,
+          "relative_noise": 1.0380210598511648,
+          "relative_limb_edge_sharpness": 1.026833569689859,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-004",
+        "components": {
+          "clipping_fraction": 0.16276041666666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16276041666666666,
+          "contrast_std": 0.1916617453098297,
+          "edge_sharpness": 0.08605379611253738,
+          "limb_edge_sharpness": 0.23267292976379395,
+          "laplacian_variance": 0.01663474552333355,
+          "noise_mad_sigma": 0.017072854563593864,
+          "exposure_median": 0.09681139886379242,
+          "relative_sharpness": 0.9831573700253383,
+          "relative_noise": 1.0232003749014298,
+          "relative_limb_edge_sharpness": 1.0196115895287883,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-005",
+        "components": {
+          "clipping_fraction": 0.1613498263888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1613498263888889,
+          "contrast_std": 0.19519194960594177,
+          "edge_sharpness": 0.08558972924947739,
+          "limb_edge_sharpness": 0.23132523894309998,
+          "laplacian_variance": 0.01651725172996521,
+          "noise_mad_sigma": 0.015839891508221626,
+          "exposure_median": 0.10106108337640762,
+          "relative_sharpness": 0.9778554452153588,
+          "relative_noise": 0.9493071512581702,
+          "relative_limb_edge_sharpness": 1.0137057835492267,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-006",
+        "components": {
+          "clipping_fraction": 0.15852864583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15852864583333334,
+          "contrast_std": 0.19550684094429016,
+          "edge_sharpness": 0.08793695271015167,
+          "limb_edge_sharpness": 0.2215668261051178,
+          "laplacian_variance": 0.01723017543554306,
+          "noise_mad_sigma": 0.016575153917074203,
+          "exposure_median": 0.1035194993019104,
+          "relative_sharpness": 1.0046722754855821,
+          "relative_noise": 0.9933724696609366,
+          "relative_limb_edge_sharpness": 0.9709427907287296,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-007",
+        "components": {
+          "clipping_fraction": 0.1537543402777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1537543402777778,
+          "contrast_std": 0.20232874155044556,
+          "edge_sharpness": 0.08820177614688873,
+          "limb_edge_sharpness": 0.22636231780052185,
+          "laplacian_variance": 0.017371628433465958,
+          "noise_mad_sigma": 0.016193481162190437,
+          "exposure_median": 0.1043175607919693,
+          "relative_sharpness": 1.0076978609373033,
+          "relative_noise": 0.9704982804366289,
+          "relative_limb_edge_sharpness": 0.9919574352560788,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-008",
+        "components": {
+          "clipping_fraction": 0.1545138888888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1545138888888889,
+          "contrast_std": 0.20091839134693146,
+          "edge_sharpness": 0.0874294862151146,
+          "limb_edge_sharpness": 0.22861440479755402,
+          "laplacian_variance": 0.01694895699620247,
+          "noise_mad_sigma": 0.01661517098546028,
+          "exposure_median": 0.10425830632448196,
+          "relative_sharpness": 0.9988745135369498,
+          "relative_noise": 0.9957707492938225,
+          "relative_limb_edge_sharpness": 1.0018264561393084,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-009",
+        "components": {
+          "clipping_fraction": 0.1597222222222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1597222222222222,
+          "contrast_std": 0.19464033842086792,
+          "edge_sharpness": 0.08624999225139618,
+          "limb_edge_sharpness": 0.2304973304271698,
+          "laplacian_variance": 0.016981838271021843,
+          "noise_mad_sigma": 0.01674705743789673,
+          "exposure_median": 0.10135846585035324,
+          "relative_sharpness": 0.9853988943810714,
+          "relative_noise": 1.0036748913384195,
+          "relative_limb_edge_sharpness": 1.0100777503320881,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-010",
+        "components": {
+          "clipping_fraction": 0.1584201388888889,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1584201388888889,
+          "contrast_std": 0.19079238176345825,
+          "edge_sharpness": 0.08484185487031937,
+          "limb_edge_sharpness": 0.22052253782749176,
+          "laplacian_variance": 0.016008587554097176,
+          "noise_mad_sigma": 0.016370801255106926,
+          "exposure_median": 0.09666132926940918,
+          "relative_sharpness": 0.9693110434464843,
+          "relative_noise": 0.9811253249577365,
+          "relative_limb_edge_sharpness": 0.9663665453023386,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-011",
+        "components": {
+          "clipping_fraction": 0.1521267361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1521267361111111,
+          "contrast_std": 0.20678718388080597,
+          "edge_sharpness": 0.08943255990743637,
+          "limb_edge_sharpness": 0.22876198589801788,
+          "laplacian_variance": 0.017341366037726402,
+          "noise_mad_sigma": 0.017479173839092255,
+          "exposure_median": 0.10532796382904053,
+          "relative_sharpness": 1.0217594617004755,
+          "relative_noise": 1.0475516650428083,
+          "relative_limb_edge_sharpness": 1.0024731811389942,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-012",
+        "components": {
+          "clipping_fraction": 0.16145833333333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16145833333333334,
+          "contrast_std": 0.20095914602279663,
+          "edge_sharpness": 0.08917028456926346,
+          "limb_edge_sharpness": 0.2324821949005127,
+          "laplacian_variance": 0.018099956214427948,
+          "noise_mad_sigma": 0.016774442046880722,
+          "exposure_median": 0.10228736698627472,
+          "relative_sharpness": 1.0187629880601565,
+          "relative_noise": 1.0053160897727282,
+          "relative_limb_edge_sharpness": 1.0187757575421186,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-013",
+        "components": {
+          "clipping_fraction": 0.16048177083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16048177083333334,
+          "contrast_std": 0.19676735997200012,
+          "edge_sharpness": 0.08795082569122314,
+          "limb_edge_sharpness": 0.22778081893920898,
+          "laplacian_variance": 0.017455078661441803,
+          "noise_mad_sigma": 0.0164825189858675,
+          "exposure_median": 0.10343296825885773,
+          "relative_sharpness": 1.0048307731254398,
+          "relative_noise": 0.9878207269229773,
+          "relative_limb_edge_sharpness": 0.9981735438606916,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-014",
+        "components": {
+          "clipping_fraction": 0.1527777777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1527777777777778,
+          "contrast_std": 0.19854547083377838,
+          "edge_sharpness": 0.08871260285377502,
+          "limb_edge_sharpness": 0.22466646134853363,
+          "laplacian_variance": 0.017608311027288437,
+          "noise_mad_sigma": 0.017079057171940804,
+          "exposure_median": 0.10239620506763458,
+          "relative_sharpness": 1.0135340130231945,
+          "relative_noise": 1.0235721060119078,
+          "relative_limb_edge_sharpness": 0.9845259094039751,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-015",
+        "components": {
+          "clipping_fraction": 0.16026475694444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16026475694444445,
+          "contrast_std": 0.1906316578388214,
+          "edge_sharpness": 0.08509467542171478,
+          "limb_edge_sharpness": 0.22100286185741425,
+          "laplacian_variance": 0.016372747719287872,
+          "noise_mad_sigma": 0.016185099259018898,
+          "exposure_median": 0.09834165871143341,
+          "relative_sharpness": 0.972199496944494,
+          "relative_noise": 0.969995941098145,
+          "relative_limb_edge_sharpness": 0.9684714053225193,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-016",
+        "components": {
+          "clipping_fraction": 0.16015625,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16015625,
+          "contrast_std": 0.19967328011989594,
+          "edge_sharpness": 0.08698394894599915,
+          "limb_edge_sharpness": 0.2356410175561905,
+          "laplacian_variance": 0.01727425493299961,
+          "noise_mad_sigma": 0.01684429496526718,
+          "exposure_median": 0.10212881863117218,
+          "relative_sharpness": 0.9937842877765548,
+          "relative_noise": 1.0095024741886884,
+          "relative_limb_edge_sharpness": 1.0326182453307275,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-017",
+        "components": {
+          "clipping_fraction": 0.16200086805555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16200086805555555,
+          "contrast_std": 0.19299373030662537,
+          "edge_sharpness": 0.08547810465097427,
+          "limb_edge_sharpness": 0.23321984708309174,
+          "laplacian_variance": 0.01645643822848797,
+          "noise_mad_sigma": 0.01591668836772442,
+          "exposure_median": 0.09927871823310852,
+          "relative_sharpness": 0.9765801435825182,
+          "relative_noise": 0.9539096959083233,
+          "relative_limb_edge_sharpness": 1.0220082724511899,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-018",
+        "components": {
+          "clipping_fraction": 0.15657552083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15657552083333334,
+          "contrast_std": 0.19907991588115692,
+          "edge_sharpness": 0.08751693367958069,
+          "limb_edge_sharpness": 0.22278159856796265,
+          "laplacian_variance": 0.017016947269439697,
+          "noise_mad_sigma": 0.016627587378025055,
+          "exposure_median": 0.10037887096405029,
+          "relative_sharpness": 0.9998735934504893,
+          "relative_noise": 0.9965148813005632,
+          "relative_limb_edge_sharpness": 0.9762661262925807,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-019",
+        "components": {
+          "clipping_fraction": 0.15625,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15625,
+          "contrast_std": 0.20335379242897034,
+          "edge_sharpness": 0.08982384949922562,
+          "limb_edge_sharpness": 0.2425713837146759,
+          "laplacian_variance": 0.018554214388132095,
+          "noise_mad_sigma": 0.016743890941143036,
+          "exposure_median": 0.10559143126010895,
+          "relative_sharpness": 1.0262299123181182,
+          "relative_noise": 1.0034851186994367,
+          "relative_limb_edge_sharpness": 1.0629882658657481,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-020",
+        "components": {
+          "clipping_fraction": 0.15440538194444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15440538194444445,
+          "contrast_std": 0.19091489911079407,
+          "edge_sharpness": 0.08647850155830383,
+          "limb_edge_sharpness": 0.22391432523727417,
+          "laplacian_variance": 0.017055431380867958,
+          "noise_mad_sigma": 0.0163465216755867,
+          "exposure_median": 0.09554177522659302,
+          "relative_sharpness": 0.98800959395918,
+          "relative_noise": 0.979670215340595,
+          "relative_limb_edge_sharpness": 0.9812299235034159,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-021",
+        "components": {
+          "clipping_fraction": 0.115234375,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.115234375,
+          "contrast_std": 0.18228574097156525,
+          "edge_sharpness": 0.08753906190395355,
+          "limb_edge_sharpness": 0.17300793528556824,
+          "laplacian_variance": 0.01708918809890747,
+          "noise_mad_sigma": 0.019817456603050232,
+          "exposure_median": 0.12078018486499786,
+          "relative_sharpness": 1.0001264065495106,
+          "relative_noise": 1.1876882656209673,
+          "relative_limb_edge_sharpness": 0.7581496312299479,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "alignment_low_confidence"
+        ],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-022",
+        "components": {
+          "clipping_fraction": 0.12489149305555555,
+          "highlight_clipping_fraction": 0.011393229166666666,
+          "underexposed_fraction": 0.1134982638888889,
+          "contrast_std": 0.3234435021877289,
+          "edge_sharpness": 0.11583776026964188,
+          "limb_edge_sharpness": 0.335249125957489,
+          "laplacian_variance": 0.028714291751384735,
+          "noise_mad_sigma": 0.021606916561722755,
+          "exposure_median": 0.17322830855846405,
+          "relative_sharpness": 1.3234366510385043,
+          "relative_noise": 1.2949331375177382,
+          "relative_limb_edge_sharpness": 1.46911759160237,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-023",
+        "components": {
+          "clipping_fraction": 0.18717447916666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.18717447916666666,
+          "contrast_std": 0.19273193180561066,
+          "edge_sharpness": 0.10741281509399414,
+          "limb_edge_sharpness": 0.12165981531143188,
+          "laplacian_variance": 0.023185767233371735,
+          "noise_mad_sigma": 0.026188496500253677,
+          "exposure_median": 0.10301609337329865,
+          "relative_sharpness": 1.2271823622600606,
+          "relative_noise": 1.5695137176593934,
+          "relative_limb_edge_sharpness": 0.533133604314852,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "relative_limb_edge_sharpness<0.68",
+          "relative_noise>1.35"
+        ],
+        "score_version": "quality-0.2"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-000",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.3413789394128406,
+        "dy": 1.570572623336161,
+        "rotation_deg": -0.2460467773589741,
+        "confidence": 0.9017040133476257,
+        "residual": 0.19675704836845398,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-001",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 4.13696087983071,
+        "dy": 0.8988820328312722,
+        "rotation_deg": -0.017457500239923377,
+        "confidence": 0.8745777606964111,
+        "residual": 0.20510339736938477,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-002",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 2.451233446860639,
+        "dy": 0.7999625271940826,
+        "rotation_deg": 0.18993050051251553,
+        "confidence": 0.8996313810348511,
+        "residual": 0.1992381513118744,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-003",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.983423000198136,
+        "dy": -0.32852312727195104,
+        "rotation_deg": -0.031010451013446558,
+        "confidence": 0.8835704922676086,
+        "residual": 0.18324895203113556,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-004",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.0437900352583607,
+        "dy": 1.546456577670826,
+        "rotation_deg": -0.18789137689818441,
+        "confidence": 0.8869758248329163,
+        "residual": 0.20284326374530792,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-005",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.3868951396642113,
+        "dy": 0.5929458288751647,
+        "rotation_deg": 0.017931241284333516,
+        "confidence": 0.9085661172866821,
+        "residual": 0.19735901057720184,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-006",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 2.040911107129145,
+        "dy": 0.5344559025859319,
+        "rotation_deg": -0.08369942287227235,
+        "confidence": 0.8878719210624695,
+        "residual": 0.19818954169750214,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-007",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 4.285693566570976,
+        "dy": 0.6108529367187017,
+        "rotation_deg": -0.17774247458601003,
+        "confidence": 0.9012182950973511,
+        "residual": 0.18934366106987,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-008",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.26107599412301,
+        "dy": 0.996851850646258,
+        "rotation_deg": -0.06349647488759813,
+        "confidence": 0.8772780299186707,
+        "residual": 0.1925007551908493,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-009",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.1832549999705595,
+        "dy": 0.09959452583384357,
+        "rotation_deg": -0.016635998075422733,
+        "confidence": 0.8771304488182068,
+        "residual": 0.20028086006641388,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-010",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 2.264700475214973,
+        "dy": 1.8083905811438352,
+        "rotation_deg": -0.1493534003462483,
+        "confidence": 0.8884739875793457,
+        "residual": 0.20398148894309998,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-011",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 4.3579884490322565,
+        "dy": 1.8039271310033906,
+        "rotation_deg": -0.4245777984082091,
+        "confidence": 0.893254280090332,
+        "residual": 0.1840764284133911,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-012",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.921363263467083,
+        "dy": 1.1443458601492746,
+        "rotation_deg": 0.3980595047698687,
+        "confidence": 0.8742334842681885,
+        "residual": 0.19371400773525238,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-013",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 4.368801170531812,
+        "dy": 0.9504424416506495,
+        "rotation_deg": -0.41455166357148926,
+        "confidence": 0.8871341943740845,
+        "residual": 0.19682766497135162,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-014",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.777686004996784,
+        "dy": 1.4058778030142534,
+        "rotation_deg": 0.2810421181499981,
+        "confidence": 0.8962525725364685,
+        "residual": 0.19426700472831726,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-015",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.846294700467196,
+        "dy": 1.8247319651757792,
+        "rotation_deg": 0.29531584215831064,
+        "confidence": 0.8822447061538696,
+        "residual": 0.2047037035226822,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-016",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 2.979534552431457,
+        "dy": 0.4181235733721761,
+        "rotation_deg": -0.46429444868848974,
+        "confidence": 0.8947997689247131,
+        "residual": 0.1929888278245926,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-017",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 2.5906107181578895,
+        "dy": 1.2241980128406886,
+        "rotation_deg": -0.21337072258793863,
+        "confidence": 0.8988167643547058,
+        "residual": 0.2013595700263977,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-018",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 4.250259638755308,
+        "dy": 0.8082247635189946,
+        "rotation_deg": -0.48027037802143824,
+        "confidence": 0.8841639161109924,
+        "residual": 0.19478479027748108,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-019",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.2977391073613544,
+        "dy": 0.1003920030458124,
+        "rotation_deg": -0.15551418693678234,
+        "confidence": 0.8881849050521851,
+        "residual": 0.18890081346035004,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-020",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.714494271830508,
+        "dy": 1.098217099959468,
+        "rotation_deg": -0.24137025517158484,
+        "confidence": 0.8861418962478638,
+        "residual": 0.20459102094173431,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-021",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 3.744906230598101,
+        "dy": 0.4926485471988284,
+        "rotation_deg": 0.446062461799868,
+        "confidence": 0.8647841215133667,
+        "residual": 0.21108613908290863,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      },
+      {
+        "frame_id": "outlier-stress-24-holdout-frame-022",
+        "reference_id": "outlier-stress-24-holdout-frame-022",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.2"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.2",
+        "thresholds": {
+          "highlight_clip": 0.02,
+          "relative_limb_sharpness": 0.68,
+          "relative_noise": 1.35
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.2",
+        "reference": "outlier-stress-24-holdout-frame-022",
+        "method": "robust-Lucas-Kanade-rigid"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.2",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "reconstruct-0.2",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.2",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ],
+    "baseline_source_ids": {
+      "ordinary_single": "outlier-stress-24-holdout-frame-000",
+      "best_single": "outlier-stress-24-holdout-frame-022",
+      "registered_mean": "outlier-stress-24-holdout-frame-022",
+      "weighted_mean": "outlier-stress-24-holdout-frame-022",
+      "median": "outlier-stress-24-holdout-frame-022",
+      "sigma_clipped": "outlier-stress-24-holdout-frame-022",
+      "sigma_clipped_denoised": "outlier-stress-24-holdout-frame-022",
+      "half_stack_a": "outlier-stress-24-holdout-frame-022",
+      "half_stack_b": "outlier-stress-24-holdout-frame-022"
+    },
+    "source_hashes_sha256": {
+      "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+      "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+      "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+      "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+      "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+      "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+      "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+      "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+      "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+      "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+      "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+      "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+      "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+      "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+      "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+      "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+      "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+      "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+      "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+      "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+      "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+      "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+      "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51",
+      "outlier-stress-24-holdout-frame-023": "30b3ce8436bb6e21a7ef083e091a7927a05b5fa4c8d1d8f66f0028ce032d8141"
+    },
+    "output_hashes_sha256": {
+      "ordinary_single": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+      "best_single": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51",
+      "registered_mean": "ac242dfc4aa288f768c5468ad70b43ad5617047b5a4f6528c196b9c20d1aa8fc",
+      "weighted_mean": "ac242dfc4aa288f768c5468ad70b43ad5617047b5a4f6528c196b9c20d1aa8fc",
+      "median": "24e4cc8ea1b378612847cee1f1b477e81cb17c69159460e1d4109c439ee3e77c",
+      "sigma_clipped": "d3dbe79087a0981dc6930ed3aed26209ac5c15d9b2ed81b65c66ff659bd3ab47",
+      "sigma_clipped_denoised": "8bd6832987b6e74b5b1aaf4f0c5ea3e140e5dc3d84126d9d968848897d41ee70",
+      "half_stack_a": "93b6638b953924da3c6b88ea75307b2c3b7cb3044e1a1497cff164b4ebb91bd7",
+      "half_stack_b": "a40b9a2d0762eeb3face295194b90e31cdc85c22c6808eb503e7cbc7cfa7ed78"
+    },
+    "lineage_edges": [
+      {
+        "operation": "ordinary_single",
+        "operation_version": "reconstruct-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d"
+        },
+        "child_artifact_id": "ordinary_single",
+        "child_hash_sha256": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d"
+      },
+      {
+        "operation": "best_single",
+        "operation_version": "reconstruct-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "best_single",
+        "child_hash_sha256": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+      },
+      {
+        "operation": "registered_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010",
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "registered_mean",
+        "child_hash_sha256": "ac242dfc4aa288f768c5468ad70b43ad5617047b5a4f6528c196b9c20d1aa8fc"
+      },
+      {
+        "operation": "weighted_mean",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010",
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "weighted_mean",
+        "child_hash_sha256": "ac242dfc4aa288f768c5468ad70b43ad5617047b5a4f6528c196b9c20d1aa8fc"
+      },
+      {
+        "operation": "median",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010",
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "median",
+        "child_hash_sha256": "24e4cc8ea1b378612847cee1f1b477e81cb17c69159460e1d4109c439ee3e77c"
+      },
+      {
+        "operation": "sigma_clipped",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010",
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "sigma_clipped",
+        "child_hash_sha256": "d3dbe79087a0981dc6930ed3aed26209ac5c15d9b2ed81b65c66ff659bd3ab47"
+      },
+      {
+        "operation": "sigma_clipped_denoised",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010",
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526",
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "sigma_clipped_denoised",
+        "child_hash_sha256": "8bd6832987b6e74b5b1aaf4f0c5ea3e140e5dc3d84126d9d968848897d41ee70"
+      },
+      {
+        "operation": "half_stack_a",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-000",
+          "outlier-stress-24-holdout-frame-001",
+          "outlier-stress-24-holdout-frame-002",
+          "outlier-stress-24-holdout-frame-003",
+          "outlier-stress-24-holdout-frame-004",
+          "outlier-stress-24-holdout-frame-005",
+          "outlier-stress-24-holdout-frame-006",
+          "outlier-stress-24-holdout-frame-007",
+          "outlier-stress-24-holdout-frame-008",
+          "outlier-stress-24-holdout-frame-009",
+          "outlier-stress-24-holdout-frame-010"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-000": "3fbdcf4bfd674c73cd670ae84dc47d62eef64097b78a1c76d6e5607a9fede81d",
+          "outlier-stress-24-holdout-frame-001": "fc8394e8309d4c69c3a00ae7c7bc5c9de91687e199b887f5a58281d972b124d3",
+          "outlier-stress-24-holdout-frame-002": "b86f8eb487070061277c42affad4a40c72965cbd784eb3e64caaaaf06497a36f",
+          "outlier-stress-24-holdout-frame-003": "f43926812e15a81e57836d84a847900d88530af92970471f613b95498a0c4bda",
+          "outlier-stress-24-holdout-frame-004": "0a844214e01068af57083a2b3d6018a3dcee2c0e7898387e19524d3e7240d757",
+          "outlier-stress-24-holdout-frame-005": "27ef7e67c39d4954ce54dc715e28991f7387388cd9290e2b312c2540bb4a4cb3",
+          "outlier-stress-24-holdout-frame-006": "5945183e58cbcf0badec1b53c108ba11195591ce073d1c8e7e1f48351de52783",
+          "outlier-stress-24-holdout-frame-007": "d44bd5fac9748959c11675f88fd6fe5140d853a66eee27ac7ce3b65d11a76da7",
+          "outlier-stress-24-holdout-frame-008": "868e6c05c68012c69206f18a434a6dedfe3d916bd44b2d0d50b4f2d9b540240c",
+          "outlier-stress-24-holdout-frame-009": "4a4c5d0e2f0d846e762f294f22f09d7fcf9efcd88d161fd003e8768e483e1652",
+          "outlier-stress-24-holdout-frame-010": "2102e9ae22050c953fd31ff6737a01e2960ea68939b44b9578c760bf244b7526"
+        },
+        "child_artifact_id": "half_stack_a",
+        "child_hash_sha256": "93b6638b953924da3c6b88ea75307b2c3b7cb3044e1a1497cff164b4ebb91bd7"
+      },
+      {
+        "operation": "half_stack_b",
+        "operation_version": "align-0.2",
+        "parent_source_ids": [
+          "outlier-stress-24-holdout-frame-011",
+          "outlier-stress-24-holdout-frame-012",
+          "outlier-stress-24-holdout-frame-013",
+          "outlier-stress-24-holdout-frame-014",
+          "outlier-stress-24-holdout-frame-015",
+          "outlier-stress-24-holdout-frame-016",
+          "outlier-stress-24-holdout-frame-017",
+          "outlier-stress-24-holdout-frame-018",
+          "outlier-stress-24-holdout-frame-019",
+          "outlier-stress-24-holdout-frame-020",
+          "outlier-stress-24-holdout-frame-021",
+          "outlier-stress-24-holdout-frame-022"
+        ],
+        "parent_hashes_sha256": {
+          "outlier-stress-24-holdout-frame-011": "7adcf11b9555818d78fdbe31014aad421d175912273446f19f37446b7ee838ab",
+          "outlier-stress-24-holdout-frame-012": "49dde849f1061bd4cc064623ac172c6dfb6b5a4ae5e15cc66c56eec459815714",
+          "outlier-stress-24-holdout-frame-013": "40c1cf2db19f59c6e1915bdbb1f4eb0e28157d0530c54844877ce0a1b4804013",
+          "outlier-stress-24-holdout-frame-014": "2fd16d9e6b385b893828d8f19ef45d1fe334df4660d55337772d36697dfa94d1",
+          "outlier-stress-24-holdout-frame-015": "f3e4d03de4c9b01af7b94cbd4a77e068c42b12c59a203ed21b447b46e656e746",
+          "outlier-stress-24-holdout-frame-016": "bddccba5c0eb3eee410076938c5a8bb5c5cdad77a885bba7a22b5f686f035f13",
+          "outlier-stress-24-holdout-frame-017": "d2a02991057d24dfa2a09523dce994a9812dfb048e6e6e3e9a7b31a833cf7145",
+          "outlier-stress-24-holdout-frame-018": "31379b670e49c147f3838246f158f0fa8ff4b54cff08897cb639c04076e04045",
+          "outlier-stress-24-holdout-frame-019": "fe55ba3ea8f91552bbfe0d362874f4e11574c75149a674fca6691f5e4ed67f96",
+          "outlier-stress-24-holdout-frame-020": "848c1d03017a9de6f01274f85a5cc5d1f876679bbfdce38c2007bb01ff290a5c",
+          "outlier-stress-24-holdout-frame-021": "65cd95ba023cdddca9d0924700af33a8a6919e3e9d4994b386170e193495e7cc",
+          "outlier-stress-24-holdout-frame-022": "ecdf33e38156a52a1474b888e7d1ba5cd53c0e9163c8756c09d6f8ea5e130e51"
+        },
+        "child_artifact_id": "half_stack_b",
+        "child_hash_sha256": "a40b9a2d0762eeb3face295194b90e31cdc85c22c6808eb503e7cbc7cfa7ed78"
+      }
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "outlier-stress-24-holdout",
+    "generator_version": "lunar-sim-0.2",
+    "metric_version": "metrics-0.1",
+    "seed": 7381,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 24,
+      "seed": 7381,
+      "shot_scale": 0.018,
+      "read_noise_sigma": 0.006,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.3,
+      "translation_span_px": 1.25,
+      "inject_outliers": true
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "68d74c357540bb098e25c8a436c0dabb4f59c2f39910451834ec1f61d4d86d13",
+    "sha256_oracle": "485795d9576167baa8ae8bc85b238c2d261bc159698d86a8b8c7079c43e00e74",
+    "frame_count": 24,
+    "expected_bad_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+}

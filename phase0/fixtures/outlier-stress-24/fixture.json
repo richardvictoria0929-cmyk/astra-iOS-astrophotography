@@ -1,0 +1,30 @@
+{
+  "fixture_id": "outlier-stress-24",
+  "generator_version": "lunar-sim-0.1",
+  "metric_version": "metrics-0.1",
+  "seed": 4107,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 24,
+    "seed": 4107,
+    "shot_scale": 0.018,
+    "read_noise_sigma": 0.006,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.3,
+    "translation_span_px": 1.25,
+    "inject_outliers": true
+  },
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "f28ac8ec30e3cfd18190a16794deeb44f53d1f3f24ebfdbc50d4f40da1613957",
+  "sha256_oracle": "690bff7b4c3f508b31c21927c8fde1621e813cb12da49c9bf64c8a4c75ddb396",
+  "frame_count": 24,
+  "expected_bad_indices": [
+    21,
+    22,
+    23
+  ]
+}

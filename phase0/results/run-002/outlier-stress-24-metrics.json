@@ -1,0 +1,1335 @@
+{
+  "fixture_id": "outlier-stress-24",
+  "metric_version": "metrics-0.1",
+  "algorithm_version": "reconstruct-0.1",
+  "source_count": 24,
+  "accepted_count": 22,
+  "rejected_count": 2,
+  "runtime_seconds": 1.403971099993214,
+  "registration": {
+    "translation_error_px": 0.05660840020457651,
+    "rotation_error_deg": 0.4616498335132773,
+    "rms_translation_px": 0.05660840020457651,
+    "evaluated_frame_count": 21,
+    "records": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "estimate": [
+          0.9052693642546317,
+          0.19176391385242178,
+          0.6119016629713501
+        ],
+        "truth_eval_only": [
+          0.8346946239471436,
+          0.15130338072776794,
+          0.4093397855758667
+        ],
+        "residual": 0.0915931984782219,
+        "confidence": 0.8806450963020325
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "estimate": [
+          1.487783411669591,
+          0.30593584157847,
+          0.7954033618079611
+        ],
+        "truth_eval_only": [
+          1.5027297735214233,
+          0.26717719435691833,
+          0.4818344712257385
+        ],
+        "residual": 0.0851118341088295,
+        "confidence": 0.8859735131263733
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "estimate": [
+          1.4912065432728814,
+          1.4560142082295073,
+          1.0524461016118336
+        ],
+        "truth_eval_only": [
+          1.5570383071899414,
+          1.4814140796661377,
+          0.4853670597076416
+        ],
+        "residual": 0.0896311029791832,
+        "confidence": 0.8837114572525024
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "estimate": [
+          0.21323793309166733,
+          -0.08215680292750416,
+          0.394034389267952
+        ],
+        "truth_eval_only": [
+          0.2806239724159241,
+          -0.049742281436920166,
+          -0.002002507448196411
+        ],
+        "residual": 0.08667970448732376,
+        "confidence": 0.880618691444397
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "estimate": [
+          1.5176412673208495,
+          1.6387013079087156,
+          0.5687603022914458
+        ],
+        "truth_eval_only": [
+          1.4645577669143677,
+          1.6303050518035889,
+          0.09667973965406418
+        ],
+        "residual": 0.08019537478685379,
+        "confidence": 0.8961138725280762
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "estimate": [
+          -0.32307599954153415,
+          1.1857426154136987,
+          0.28419463953358065
+        ],
+        "truth_eval_only": [
+          -0.29566073417663574,
+          1.1981467008590698,
+          -0.04436682164669037
+        ],
+        "residual": 0.09029838442802429,
+        "confidence": 0.8861384987831116
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "estimate": [
+          -0.5227397944589671,
+          0.2066585024248414,
+          0.10918267022849547
+        ],
+        "truth_eval_only": [
+          -0.4989854097366333,
+          0.18496495485305786,
+          0.341585636138916
+        ],
+        "residual": 0.08455834537744522,
+        "confidence": 0.8944298624992371
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "estimate": [
+          0.1361291183096303,
+          -0.3648940680583723,
+          -0.3723548528924038
+        ],
+        "truth_eval_only": [
+          0.15686416625976562,
+          -0.3666984438896179,
+          0.4287435710430145
+        ],
+        "residual": 0.08575501292943954,
+        "confidence": 0.8852574825286865
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "estimate": [
+          1.7704106819554781,
+          0.4684766114116184,
+          0.1258706169152948
+        ],
+        "truth_eval_only": [
+          1.7455826997756958,
+          0.45049700140953064,
+          -0.0787130743265152
+        ],
+        "residual": 0.08662152290344238,
+        "confidence": 0.895158052444458
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "estimate": [
+          -0.2596954805473607,
+          -0.533878483570568,
+          0.23779935308340805
+        ],
+        "truth_eval_only": [
+          -0.21483415365219116,
+          -0.4777289032936096,
+          0.2487398386001587
+        ],
+        "residual": 0.08175743371248245,
+        "confidence": 0.8969127535820007
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "estimate": [
+          0.8483739676557351,
+          1.382224974682219,
+          1.117436387667826
+        ],
+        "truth_eval_only": [
+          0.8445359468460083,
+          1.3371824026107788,
+          0.43558812141418457
+        ],
+        "residual": 0.08448920398950577,
+        "confidence": 0.8873715996742249
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "estimate": [
+          1.5385374304373427,
+          1.126819194428082,
+          0.8557474285922081
+        ],
+        "truth_eval_only": [
+          1.541465163230896,
+          1.136956810951233,
+          0.23170247673988342
+        ],
+        "residual": 0.08914037048816681,
+        "confidence": 0.8802765011787415
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "estimate": [
+          0.9745410082544714,
+          -0.35369212659018523,
+          0.5881909593356198
+        ],
+        "truth_eval_only": [
+          0.9657055735588074,
+          -0.3840649127960205,
+          0.487867534160614
+        ],
+        "residual": 0.083906389772892,
+        "confidence": 0.8911992907524109
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "estimate": [
+          -0.17380900492248438,
+          -0.21650707805480782,
+          0.7697060689907225
+        ],
+        "truth_eval_only": [
+          -0.19331133365631104,
+          -0.23172152042388916,
+          0.2369995415210724
+        ],
+        "residual": 0.0824938490986824,
+        "confidence": 0.8913344740867615
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "estimate": [
+          0.5947557975486917,
+          1.5685421758308005,
+          0.42340252349572144
+        ],
+        "truth_eval_only": [
+          0.5619708299636841,
+          1.5553476810455322,
+          -3.56137752532959e-06
+        ],
+        "residual": 0.08705557137727737,
+        "confidence": 0.8966488838195801
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "estimate": [
+          1.6610035787750126,
+          -0.29654434716764005,
+          -0.33200789382422113
+        ],
+        "truth_eval_only": [
+          1.7061985731124878,
+          -0.26811742782592773,
+          0.05268801748752594
+        ],
+        "residual": 0.08255624026060104,
+        "confidence": 0.8911796808242798
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "estimate": [
+          0.19370210186001796,
+          0.41821114567541434,
+          0.19597604048890635
+        ],
+        "truth_eval_only": [
+          0.16371744871139526,
+          0.39979156851768494,
+          0.2630601227283478
+        ],
+        "residual": 0.08346794545650482,
+        "confidence": 0.893336296081543
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "estimate": [
+          1.0201826774520775,
+          0.6639321848853708,
+          1.2720837883441636
+        ],
+        "truth_eval_only": [
+          1.039695382118225,
+          0.6140576004981995,
+          0.3590884208679199
+        ],
+        "residual": 0.08321559429168701,
+        "confidence": 0.8886342644691467
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "estimate": [
+          0.39874320305237076,
+          1.0364855759978364,
+          1.0858121056719132
+        ],
+        "truth_eval_only": [
+          0.4017520844936371,
+          1.0346643924713135,
+          0.4109001159667969
+        ],
+        "residual": 0.08926963061094284,
+        "confidence": 0.8808673620223999
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "estimate": [
+          0.49488455349026644,
+          1.321988910256203,
+          0.16177679569754463
+        ],
+        "truth_eval_only": [
+          0.5274495482444763,
+          1.2791645526885986,
+          0.23799367249011993
+        ],
+        "residual": 0.08024421334266663,
+        "confidence": 0.9017692804336548
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "estimate": [
+          -0.5043337586875838,
+          1.4820893184856585,
+          0.2649962462673367
+        ],
+        "truth_eval_only": [
+          -0.2284013032913208,
+          1.5973695516586304,
+          0.38484928011894226
+        ],
+        "residual": 0.09907075017690659,
+        "confidence": 0.8719330430030823
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 7.308394847986668,
+  "mtf50_proxy_retention_vs_best_single": 1.1,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3645833333333333,
+  "frame_rejection": {
+    "true_positive": 2,
+    "false_negative": 1,
+    "false_positive": 0,
+    "true_negative": 20,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {
+      "21": "strong_blur",
+      "22": "highlight_clipped",
+      "23": "abnormal_noise"
+    }
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 4.459137901175198,
+      "edge_sharpness": 0.19659465551376343,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.15831163194444445,
+      "ringing_halo_peak": 0.21145322918891907,
+      "seam_interpolation_proxy": 0.18763720989227295,
+      "reconstruction_error": {
+        "rmse": 0.0667269304394722,
+        "psnr_db": 20.24838216750025
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 41.89002990722656,
+        "high_frequency_error_rmse": 0.03535310551524162
+      }
+    },
+    "best_single": {
+      "snr_proxy": 3.971534271769936,
+      "edge_sharpness": 0.20668162405490875,
+      "mtf50_proxy_cycles_per_pixel": 0.078125,
+      "clipping_fraction": 0.1480034722222222,
+      "ringing_halo_peak": 0.22144460678100586,
+      "seam_interpolation_proxy": 0.1702423244714737,
+      "reconstruction_error": {
+        "rmse": 0.0789201557636261,
+        "psnr_db": 18.79064643209616
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 50.184627532958984,
+        "high_frequency_error_rmse": 0.03869524225592613
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 30.07752357235154,
+      "edge_sharpness": 0.1374974399805069,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.0916343480348587,
+      "reconstruction_error": {
+        "rmse": 0.02827226184308529,
+        "psnr_db": 27.70719401908761
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.0519973039627075,
+        "high_frequency_error_rmse": 0.0056024701334536076
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 30.07752357235154,
+      "edge_sharpness": 0.1374974399805069,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.0916343480348587,
+      "reconstruction_error": {
+        "rmse": 0.02827226184308529,
+        "psnr_db": 27.70719401908761
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.0519973039627075,
+        "high_frequency_error_rmse": 0.0056024701334536076
+      }
+    },
+    "median": {
+      "snr_proxy": 26.501731860194962,
+      "edge_sharpness": 0.13929659128189087,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.10261315107345581,
+      "reconstruction_error": {
+        "rmse": 0.028972096741199493,
+        "psnr_db": 27.494806573119718
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.3382859230041504,
+        "high_frequency_error_rmse": 0.006318975705653429
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 29.025540610405884,
+      "edge_sharpness": 0.1390678584575653,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.0974588617682457,
+      "reconstruction_error": {
+        "rmse": 0.028558658435940742,
+        "psnr_db": 27.619649061347808
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1075832843780518,
+        "high_frequency_error_rmse": 0.00574857834726572
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 30.62413583169965,
+      "edge_sharpness": 0.13683389127254486,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.0,
+      "seam_interpolation_proxy": 0.09198150783777237,
+      "reconstruction_error": {
+        "rmse": 0.028326554223895073,
+        "psnr_db": 27.690530144988696
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 0.9963136911392212,
+        "high_frequency_error_rmse": 0.005452181212604046
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.0667269304394722,
+      "psnr_db": 20.24838216750025
+    },
+    "best_single": {
+      "rmse": 0.0789201557636261,
+      "psnr_db": 18.79064643209616
+    },
+    "registered_stack": {
+      "rmse": 0.028558658435940742,
+      "psnr_db": 27.619649061347808
+    },
+    "stack_denoised": {
+      "rmse": 0.028326554223895073,
+      "psnr_db": 27.690530144988696
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "outlier-stress-24",
+    "reference_id": "outlier-stress-24-frame-014",
+    "accepted_ids": [
+      "outlier-stress-24-frame-000",
+      "outlier-stress-24-frame-001",
+      "outlier-stress-24-frame-002",
+      "outlier-stress-24-frame-003",
+      "outlier-stress-24-frame-004",
+      "outlier-stress-24-frame-005",
+      "outlier-stress-24-frame-006",
+      "outlier-stress-24-frame-007",
+      "outlier-stress-24-frame-008",
+      "outlier-stress-24-frame-009",
+      "outlier-stress-24-frame-010",
+      "outlier-stress-24-frame-011",
+      "outlier-stress-24-frame-012",
+      "outlier-stress-24-frame-013",
+      "outlier-stress-24-frame-014",
+      "outlier-stress-24-frame-015",
+      "outlier-stress-24-frame-016",
+      "outlier-stress-24-frame-017",
+      "outlier-stress-24-frame-018",
+      "outlier-stress-24-frame-019",
+      "outlier-stress-24-frame-020",
+      "outlier-stress-24-frame-021"
+    ],
+    "rejected_ids": [
+      "outlier-stress-24-frame-022",
+      "outlier-stress-24-frame-023"
+    ],
+    "assessments": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "components": {
+          "clipping_fraction": 0.15831163194444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15831163194444445,
+          "contrast_std": 0.24599027633666992,
+          "edge_sharpness": 0.09441269934177399,
+          "limb_edge_sharpness": 0.25064581632614136,
+          "laplacian_variance": 0.020278895273804665,
+          "noise_mad_sigma": 0.016858888790011406,
+          "exposure_median": 0.10071724653244019,
+          "relative_sharpness": 0.9681764949295466,
+          "relative_noise": 0.9611793761563018,
+          "relative_limb_edge_sharpness": 0.9656252782467488,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "components": {
+          "clipping_fraction": 0.158203125,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.158203125,
+          "contrast_std": 0.26037925481796265,
+          "edge_sharpness": 0.09850279241800308,
+          "limb_edge_sharpness": 0.25788456201553345,
+          "laplacian_variance": 0.02242913469672203,
+          "noise_mad_sigma": 0.017193332314491272,
+          "exposure_median": 0.10824842751026154,
+          "relative_sharpness": 1.0101192844704339,
+          "relative_noise": 0.9802470752332143,
+          "relative_limb_edge_sharpness": 0.9935129004019153,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "components": {
+          "clipping_fraction": 0.15538194444444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15538194444444445,
+          "contrast_std": 0.24879001080989838,
+          "edge_sharpness": 0.09694227576255798,
+          "limb_edge_sharpness": 0.2628936171531677,
+          "laplacian_variance": 0.022193532437086105,
+          "noise_mad_sigma": 0.017678922042250633,
+          "exposure_median": 0.10516084730625153,
+          "relative_sharpness": 0.9941166115643377,
+          "relative_noise": 1.0079321046209273,
+          "relative_limb_edge_sharpness": 1.0128105305476252,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "components": {
+          "clipping_fraction": 0.14908854166666666,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1488715277777778,
+          "contrast_std": 0.25885072350502014,
+          "edge_sharpness": 0.09746719896793365,
+          "limb_edge_sharpness": 0.2626805305480957,
+          "laplacian_variance": 0.021648861467838287,
+          "noise_mad_sigma": 0.018262192606925964,
+          "exposure_median": 0.1099996566772461,
+          "relative_sharpness": 0.9994995559418526,
+          "relative_noise": 1.0411862321300387,
+          "relative_limb_edge_sharpness": 1.0119896039695186,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "components": {
+          "clipping_fraction": 0.1496310763888889,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1494140625,
+          "contrast_std": 0.2660214900970459,
+          "edge_sharpness": 0.09917322546243668,
+          "limb_edge_sharpness": 0.2591911554336548,
+          "laplacian_variance": 0.02239256165921688,
+          "noise_mad_sigma": 0.017776312306523323,
+          "exposure_median": 0.10963961482048035,
+          "relative_sharpness": 1.0169943925816312,
+          "relative_noise": 1.0134846362630356,
+          "relative_limb_edge_sharpness": 0.9985466155120334,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "components": {
+          "clipping_fraction": 0.1586371527777778,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.15852864583333334,
+          "contrast_std": 0.24646984040737152,
+          "edge_sharpness": 0.09569567441940308,
+          "limb_edge_sharpness": 0.2498568296432495,
+          "laplacian_variance": 0.02144613489508629,
+          "noise_mad_sigma": 0.017440540716052055,
+          "exposure_median": 0.10197223722934723,
+          "relative_sharpness": 0.9813330546127342,
+          "relative_noise": 0.9943412198801362,
+          "relative_limb_edge_sharpness": 0.9625856684245403,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "components": {
+          "clipping_fraction": 0.15711805555555555,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1570095486111111,
+          "contrast_std": 0.25195935368537903,
+          "edge_sharpness": 0.09595277905464172,
+          "limb_edge_sharpness": 0.2597281038761139,
+          "laplacian_variance": 0.021175827831029892,
+          "noise_mad_sigma": 0.017027560621500015,
+          "exposure_median": 0.10539126396179199,
+          "relative_sharpness": 0.9839695925606049,
+          "relative_noise": 0.9707958987981391,
+          "relative_limb_edge_sharpness": 1.0006152356739557,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "components": {
+          "clipping_fraction": 0.15592447916666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15592447916666666,
+          "contrast_std": 0.2566758096218109,
+          "edge_sharpness": 0.09756480157375336,
+          "limb_edge_sharpness": 0.25673264265060425,
+          "laplacian_variance": 0.021215684711933136,
+          "noise_mad_sigma": 0.018524769693613052,
+          "exposure_median": 0.10747186839580536,
+          "relative_sharpness": 1.0005004440581475,
+          "relative_noise": 1.0561565948578817,
+          "relative_limb_edge_sharpness": 0.9890750746540871,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "components": {
+          "clipping_fraction": 0.16048177083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.16048177083333334,
+          "contrast_std": 0.246892049908638,
+          "edge_sharpness": 0.09358575940132141,
+          "limb_edge_sharpness": 0.24571390450000763,
+          "laplacian_variance": 0.020182404667139053,
+          "noise_mad_sigma": 0.017063573002815247,
+          "exposure_median": 0.10345834493637085,
+          "relative_sharpness": 0.9596964512633195,
+          "relative_noise": 0.9728490802763268,
+          "relative_limb_edge_sharpness": 0.9466248464852947,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "components": {
+          "clipping_fraction": 0.15321180555555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15321180555555555,
+          "contrast_std": 0.25750526785850525,
+          "edge_sharpness": 0.09761977195739746,
+          "limb_edge_sharpness": 0.24993738532066345,
+          "laplacian_variance": 0.021610893309116364,
+          "noise_mad_sigma": 0.017861800268292427,
+          "exposure_median": 0.10748511552810669,
+          "relative_sharpness": 1.0010641503575386,
+          "relative_noise": 1.0183585794265249,
+          "relative_limb_edge_sharpness": 0.9628960131155363,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "components": {
+          "clipping_fraction": 0.1521267361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1521267361111111,
+          "contrast_std": 0.2590405344963074,
+          "edge_sharpness": 0.0986078605055809,
+          "limb_edge_sharpness": 0.2628234922885895,
+          "laplacian_variance": 0.022523071616888046,
+          "noise_mad_sigma": 0.01779831573367119,
+          "exposure_median": 0.11158980429172516,
+          "relative_sharpness": 1.0111967290670745,
+          "relative_noise": 1.01473912228775,
+          "relative_limb_edge_sharpness": 1.0125403710737393,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "components": {
+          "clipping_fraction": 0.1577690972222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1577690972222222,
+          "contrast_std": 0.25171610713005066,
+          "edge_sharpness": 0.09714766591787338,
+          "limb_edge_sharpness": 0.24924275279045105,
+          "laplacian_variance": 0.02169046737253666,
+          "noise_mad_sigma": 0.017433570697903633,
+          "exposure_median": 0.10528413951396942,
+          "relative_sharpness": 0.996222831617918,
+          "relative_noise": 0.9939438367679309,
+          "relative_limb_edge_sharpness": 0.9602199072858152,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "components": {
+          "clipping_fraction": 0.1519097222222222,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.15169270833333334,
+          "contrast_std": 0.2575380802154541,
+          "edge_sharpness": 0.09784490615129471,
+          "limb_edge_sharpness": 0.2668473720550537,
+          "laplacian_variance": 0.021978450939059258,
+          "noise_mad_sigma": 0.01750655099749565,
+          "exposure_median": 0.105282723903656,
+          "relative_sharpness": 1.003372840144568,
+          "relative_noise": 0.9981046779542798,
+          "relative_limb_edge_sharpness": 1.0280425648708524,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "components": {
+          "clipping_fraction": 0.15711805555555555,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1570095486111111,
+          "contrast_std": 0.2633243799209595,
+          "edge_sharpness": 0.09891724586486816,
+          "limb_edge_sharpness": 0.2686093747615814,
+          "laplacian_variance": 0.022820638492703438,
+          "noise_mad_sigma": 0.017547529190778732,
+          "exposure_median": 0.10994452983140945,
+          "relative_sharpness": 1.0143693915883836,
+          "relative_noise": 1.0004409763157223,
+          "relative_limb_edge_sharpness": 1.0348307665599978,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-014",
+        "components": {
+          "clipping_fraction": 0.1480034722222222,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.14778645833333334,
+          "contrast_std": 0.2740876376628876,
+          "edge_sharpness": 0.10238337516784668,
+          "limb_edge_sharpness": 0.2832723557949066,
+          "laplacian_variance": 0.024197040125727654,
+          "noise_mad_sigma": 0.018235307186841965,
+          "exposure_median": 0.11577983945608139,
+          "relative_sharpness": 1.049913602726572,
+          "relative_noise": 1.0396534080141724,
+          "relative_limb_edge_sharpness": 1.0913206188454545,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "components": {
+          "clipping_fraction": 0.1591796875,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1591796875,
+          "contrast_std": 0.24664410948753357,
+          "edge_sharpness": 0.09700604528188705,
+          "limb_edge_sharpness": 0.25532418489456177,
+          "laplacian_variance": 0.02206883206963539,
+          "noise_mad_sigma": 0.01715698651969433,
+          "exposure_median": 0.10226698219776154,
+          "relative_sharpness": 0.9947705506015414,
+          "relative_noise": 0.978174884781995,
+          "relative_limb_edge_sharpness": 0.9836489221951623,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "components": {
+          "clipping_fraction": 0.1577690972222222,
+          "highlight_clipping_fraction": 0.00043402777777777775,
+          "underexposed_fraction": 0.15733506944444445,
+          "contrast_std": 0.26186877489089966,
+          "edge_sharpness": 0.09835299104452133,
+          "limb_edge_sharpness": 0.26783472299575806,
+          "laplacian_variance": 0.022280415520071983,
+          "noise_mad_sigma": 0.01684759557247162,
+          "exposure_median": 0.110043004155159,
+          "relative_sharpness": 1.0085831122211038,
+          "relative_noise": 0.9605355135669642,
+          "relative_limb_edge_sharpness": 1.0318463827075892,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "components": {
+          "clipping_fraction": 0.15657552083333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15657552083333334,
+          "contrast_std": 0.25560060143470764,
+          "edge_sharpness": 0.09605845808982849,
+          "limb_edge_sharpness": 0.2666969895362854,
+          "laplacian_variance": 0.0216642115265131,
+          "noise_mad_sigma": 0.0170412827283144,
+          "exposure_median": 0.10638776421546936,
+          "relative_sharpness": 0.9850533022584315,
+          "relative_noise": 0.9715782401630821,
+          "relative_limb_edge_sharpness": 1.0274632088550308,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "components": {
+          "clipping_fraction": 0.1527777777777778,
+          "highlight_clipping_fraction": 0.00021701388888888888,
+          "underexposed_fraction": 0.1525607638888889,
+          "contrast_std": 0.2650093138217926,
+          "edge_sharpness": 0.09965290129184723,
+          "limb_edge_sharpness": 0.2674306035041809,
+          "laplacian_variance": 0.022929463535547256,
+          "noise_mad_sigma": 0.017721379175782204,
+          "exposure_median": 0.1099630743265152,
+          "relative_sharpness": 1.0219133374530194,
+          "relative_noise": 1.010352722114142,
+          "relative_limb_edge_sharpness": 1.0302894925818376,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "components": {
+          "clipping_fraction": 0.15950520833333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15950520833333334,
+          "contrast_std": 0.2509068250656128,
+          "edge_sharpness": 0.09723186492919922,
+          "limb_edge_sharpness": 0.25940871238708496,
+          "laplacian_variance": 0.021867848932743073,
+          "noise_mad_sigma": 0.01753205992281437,
+          "exposure_median": 0.10571271181106567,
+          "relative_sharpness": 0.9970862695264867,
+          "relative_noise": 0.9995590236842777,
+          "relative_limb_edge_sharpness": 0.9993847643260443,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "components": {
+          "clipping_fraction": 0.15516493055555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.15516493055555555,
+          "contrast_std": 0.2559049129486084,
+          "edge_sharpness": 0.09710777550935745,
+          "limb_edge_sharpness": 0.26345252990722656,
+          "laplacian_variance": 0.021949447691440582,
+          "noise_mad_sigma": 0.017327073961496353,
+          "exposure_median": 0.1088571846485138,
+          "relative_sharpness": 0.9958137663526782,
+          "relative_noise": 0.9878721159126821,
+          "relative_limb_edge_sharpness": 1.0149637692952909,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "components": {
+          "clipping_fraction": 0.11762152777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.11762152777777778,
+          "contrast_std": 0.2385307252407074,
+          "edge_sharpness": 0.09670872241258621,
+          "limb_edge_sharpness": 0.17922082543373108,
+          "laplacian_variance": 0.021176530048251152,
+          "noise_mad_sigma": 0.020325062796473503,
+          "exposure_median": 0.12654811143875122,
+          "relative_sharpness": 0.9917215856268188,
+          "relative_noise": 1.158797084575753,
+          "relative_limb_edge_sharpness": 0.6904570040852865,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-022",
+        "components": {
+          "clipping_fraction": 0.2160373263888889,
+          "highlight_clipping_fraction": 0.10601128472222222,
+          "underexposed_fraction": 0.11002604166666667,
+          "contrast_std": 0.3980138301849365,
+          "edge_sharpness": 0.10743081569671631,
+          "limb_edge_sharpness": 0.3764011561870575,
+          "laplacian_variance": 0.023862525820732117,
+          "noise_mad_sigma": 0.02140974998474121,
+          "exposure_median": 0.17739450931549072,
+          "relative_sharpness": 1.1016737294221988,
+          "relative_noise": 1.2206385836169944,
+          "relative_limb_edge_sharpness": 1.4501038816566023,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "highlight_clipping_fraction>0.02"
+        ],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-023",
+        "components": {
+          "clipping_fraction": 0.19075520833333334,
+          "highlight_clipping_fraction": 0.00010850694444444444,
+          "underexposed_fraction": 0.1906467013888889,
+          "contrast_std": 0.2562405467033386,
+          "edge_sharpness": 0.11861278116703033,
+          "limb_edge_sharpness": 0.24298620223999023,
+          "laplacian_variance": 0.029207268729805946,
+          "noise_mad_sigma": 0.028124675154685974,
+          "exposure_median": 0.11182282119989395,
+          "relative_sharpness": 1.2163417371261338,
+          "relative_noise": 1.6034780261316033,
+          "relative_limb_edge_sharpness": 0.9361162399886425,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "rejected",
+        "reasons": [
+          "relative_noise>1.35"
+        ],
+        "score_version": "quality-0.1"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "outlier-stress-24-frame-000",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.9052693642546317,
+        "dy": 0.19176391385242178,
+        "rotation_deg": 0.6119016629713501,
+        "confidence": 0.8806450963020325,
+        "residual": 0.0915931984782219,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-001",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.487783411669591,
+        "dy": 0.30593584157847,
+        "rotation_deg": 0.7954033618079611,
+        "confidence": 0.8859735131263733,
+        "residual": 0.0851118341088295,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-002",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.4912065432728814,
+        "dy": 1.4560142082295073,
+        "rotation_deg": 1.0524461016118336,
+        "confidence": 0.8837114572525024,
+        "residual": 0.0896311029791832,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-003",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.21323793309166733,
+        "dy": -0.08215680292750416,
+        "rotation_deg": 0.394034389267952,
+        "confidence": 0.880618691444397,
+        "residual": 0.08667970448732376,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-004",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.5176412673208495,
+        "dy": 1.6387013079087156,
+        "rotation_deg": 0.5687603022914458,
+        "confidence": 0.8961138725280762,
+        "residual": 0.08019537478685379,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-005",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": -0.32307599954153415,
+        "dy": 1.1857426154136987,
+        "rotation_deg": 0.28419463953358065,
+        "confidence": 0.8861384987831116,
+        "residual": 0.09029838442802429,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-006",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": -0.5227397944589671,
+        "dy": 0.2066585024248414,
+        "rotation_deg": 0.10918267022849547,
+        "confidence": 0.8944298624992371,
+        "residual": 0.08455834537744522,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-007",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.1361291183096303,
+        "dy": -0.3648940680583723,
+        "rotation_deg": -0.3723548528924038,
+        "confidence": 0.8852574825286865,
+        "residual": 0.08575501292943954,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-008",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.7704106819554781,
+        "dy": 0.4684766114116184,
+        "rotation_deg": 0.1258706169152948,
+        "confidence": 0.895158052444458,
+        "residual": 0.08662152290344238,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-009",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": -0.2596954805473607,
+        "dy": -0.533878483570568,
+        "rotation_deg": 0.23779935308340805,
+        "confidence": 0.8969127535820007,
+        "residual": 0.08175743371248245,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-010",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.8483739676557351,
+        "dy": 1.382224974682219,
+        "rotation_deg": 1.117436387667826,
+        "confidence": 0.8873715996742249,
+        "residual": 0.08448920398950577,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-011",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.5385374304373427,
+        "dy": 1.126819194428082,
+        "rotation_deg": 0.8557474285922081,
+        "confidence": 0.8802765011787415,
+        "residual": 0.08914037048816681,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-012",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.9745410082544714,
+        "dy": -0.35369212659018523,
+        "rotation_deg": 0.5881909593356198,
+        "confidence": 0.8911992907524109,
+        "residual": 0.083906389772892,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-013",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": -0.17380900492248438,
+        "dy": -0.21650707805480782,
+        "rotation_deg": 0.7697060689907225,
+        "confidence": 0.8913344740867615,
+        "residual": 0.0824938490986824,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-014",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-015",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.5947557975486917,
+        "dy": 1.5685421758308005,
+        "rotation_deg": 0.42340252349572144,
+        "confidence": 0.8966488838195801,
+        "residual": 0.08705557137727737,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-016",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.6610035787750126,
+        "dy": -0.29654434716764005,
+        "rotation_deg": -0.33200789382422113,
+        "confidence": 0.8911796808242798,
+        "residual": 0.08255624026060104,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-017",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.19370210186001796,
+        "dy": 0.41821114567541434,
+        "rotation_deg": 0.19597604048890635,
+        "confidence": 0.893336296081543,
+        "residual": 0.08346794545650482,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-018",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 1.0201826774520775,
+        "dy": 0.6639321848853708,
+        "rotation_deg": 1.2720837883441636,
+        "confidence": 0.8886342644691467,
+        "residual": 0.08321559429168701,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-019",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.39874320305237076,
+        "dy": 1.0364855759978364,
+        "rotation_deg": 1.0858121056719132,
+        "confidence": 0.8808673620223999,
+        "residual": 0.08926963061094284,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-020",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": 0.49488455349026644,
+        "dy": 1.321988910256203,
+        "rotation_deg": 0.16177679569754463,
+        "confidence": 0.9017692804336548,
+        "residual": 0.08024421334266663,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "outlier-stress-24-frame-021",
+        "reference_id": "outlier-stress-24-frame-014",
+        "dx": -0.5043337586875838,
+        "dy": 1.4820893184856585,
+        "rotation_deg": 0.2649962462673367,
+        "confidence": 0.8719330430030823,
+        "residual": 0.09907075017690659,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.1",
+        "thresholds": {
+          "highlight_clip": 0.02,
+          "relative_limb_sharpness": 0.68,
+          "relative_noise": 1.35
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.2",
+        "reference": "outlier-stress-24-frame-014",
+        "method": "robust-Lucas-Kanade-rigid"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.1",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "denoise-0.1",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.1",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "outlier-stress-24",
+    "generator_version": "lunar-sim-0.1",
+    "metric_version": "metrics-0.1",
+    "seed": 4107,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 24,
+      "seed": 4107,
+      "shot_scale": 0.018,
+      "read_noise_sigma": 0.006,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.3,
+      "translation_span_px": 1.25,
+      "inject_outliers": true
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "f28ac8ec30e3cfd18190a16794deeb44f53d1f3f24ebfdbc50d4f40da1613957",
+    "sha256_oracle": "690bff7b4c3f508b31c21927c8fde1621e813cb12da49c9bf64c8a4c75ddb396",
+    "frame_count": 24,
+    "expected_bad_indices": [
+      21,
+      22,
+      23
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "fixture_id": "gate-noise-16-holdout",
+  "generator_version": "lunar-sim-0.2",
+  "metric_version": "metrics-0.3",
+  "seed": 9613,
+  "parameters": {
+    "width": 96,
+    "height": 96,
+    "supersample": 4,
+    "frame_count": 16,
+    "seed": 9613,
+    "shot_scale": 0.012,
+    "read_noise_sigma": 0.004,
+    "exposure_jitter": 0.025,
+    "optical_psf_sigma_px": 0.55,
+    "rotation_span_deg": 0.3,
+    "translation_span_px": 1.25,
+    "inject_outliers": false
+  },
+  "observation_file": "observed/frames.npz",
+  "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+  "sha256_observations": "f2325a9a507fc0d1b2de3808a1cde2ef4aea86b755efd6373931be8113d24579",
+  "sha256_oracle": "dedbbc8830b91fad4f88c66e19aa0c467a6f6894076a4860af924a1e7cc8250d",
+  "frame_count": 16,
+  "expected_bad_indices": [],
+  "golden_reference": {
+    "outputs": "golden-reconstruct-0.3-metrics-0.3/reference-outputs.npz",
+    "metrics": "golden-reconstruct-0.3-metrics-0.3/reference-metrics.json",
+    "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+    "algorithm_versions": {
+      "quality": "quality-0.2",
+      "alignment": "align-0.2",
+      "reconstruction": "reconstruct-0.3"
+    }
+  },
+  "golden_references": [
+    {
+      "outputs": "golden-metrics-0.2/reference-outputs.npz",
+      "metrics": "golden-metrics-0.2/reference-metrics.json",
+      "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+      "algorithm_versions": {
+        "quality": "quality-0.2",
+        "alignment": "align-0.2",
+        "reconstruction": "reconstruct-0.2"
+      }
+    },
+    {
+      "outputs": "golden-reconstruct-0.3-metrics-0.2/reference-outputs.npz",
+      "metrics": "golden-reconstruct-0.3-metrics-0.2/reference-metrics.json",
+      "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+      "algorithm_versions": {
+        "quality": "quality-0.2",
+        "alignment": "align-0.2",
+        "reconstruction": "reconstruct-0.3"
+      }
+    },
+    {
+      "outputs": "golden-reconstruct-0.3-metrics-0.3/reference-outputs.npz",
+      "metrics": "golden-reconstruct-0.3-metrics-0.3/reference-metrics.json",
+      "sha256_outputs": "42779b3b2e27d7878f08e50e10877ad093556435507eee2c2793659ad4519dd5",
+      "algorithm_versions": {
+        "quality": "quality-0.2",
+        "alignment": "align-0.2",
+        "reconstruction": "reconstruct-0.3"
+      }
+    }
+  ]
+}

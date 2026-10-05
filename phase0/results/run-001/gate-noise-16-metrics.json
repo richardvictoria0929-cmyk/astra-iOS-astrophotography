@@ -1,0 +1,958 @@
+{
+  "fixture_id": "gate-noise-16",
+  "metric_version": "metrics-0.1",
+  "algorithm_version": "reconstruct-0.1",
+  "source_count": 16,
+  "accepted_count": 16,
+  "rejected_count": 0,
+  "runtime_seconds": 3.9938252000138164,
+  "registration": {
+    "translation_error_px": 0.29721118542195074,
+    "rotation_error_deg": 0.5613618891839556,
+    "rms_translation_px": 0.29721118542195074,
+    "evaluated_frame_count": 15,
+    "records": [
+      {
+        "frame_id": "gate-noise-16-frame-000",
+        "estimate": [
+          0.5499999999999999,
+          2.4,
+          0.6
+        ],
+        "truth_eval_only": [
+          0.6353969573974609,
+          2.3655076026916504,
+          0.055875033140182495
+        ],
+        "residual": 0.05339759215712547,
+        "confidence": 0.4885287161863953
+      },
+      {
+        "frame_id": "gate-noise-16-frame-001",
+        "estimate": [
+          0.35,
+          0.5499999999999999,
+          0.0
+        ],
+        "truth_eval_only": [
+          0.020781636238098145,
+          0.6999878883361816,
+          0.04076334089040756
+        ],
+        "residual": 0.055625490844249725,
+        "confidence": 0.4096914021799104
+      },
+      {
+        "frame_id": "gate-noise-16-frame-002",
+        "estimate": [
+          -1.4500000000000002,
+          2.3,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -1.3716990947723389,
+          2.0145959854125977,
+          0.042723897844552994
+        ],
+        "residual": 0.05496691167354584,
+        "confidence": 0.41039760158336336
+      },
+      {
+        "frame_id": "gate-noise-16-frame-003",
+        "estimate": [
+          -1.5,
+          0.3,
+          0.6
+        ],
+        "truth_eval_only": [
+          -1.5425313711166382,
+          0.0611797571182251,
+          0.23646992444992065
+        ],
+        "residual": 0.05442873761057854,
+        "confidence": 0.4493620633271349
+      },
+      {
+        "frame_id": "gate-noise-16-frame-004",
+        "estimate": [
+          -0.45000000000000007,
+          1.3,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.36311471462249756,
+          1.0191761255264282,
+          -0.21637889742851257
+        ],
+        "residual": 0.054264672100543976,
+        "confidence": 0.419310350300752
+      },
+      {
+        "frame_id": "gate-noise-16-frame-005",
+        "estimate": [
+          -0.2500000000000001,
+          0.49999999999999994,
+          0.6
+        ],
+        "truth_eval_only": [
+          0.08974385261535645,
+          0.5048161149024963,
+          0.07566340267658234
+        ],
+        "residual": 0.05517007037997246,
+        "confidence": 0.6106948027985973
+      },
+      {
+        "frame_id": "gate-noise-16-frame-006",
+        "estimate": [
+          -1.5,
+          0.5499999999999999,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -1.4478310346603394,
+          0.6606419682502747,
+          -0.16641724109649658
+        ],
+        "residual": 0.05335436761379242,
+        "confidence": 0.4312468394932855
+      },
+      {
+        "frame_id": "gate-noise-16-frame-007",
+        "estimate": [
+          -0.45000000000000007,
+          1.5,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.43973127007484436,
+          1.5186372995376587,
+          0.3108544945716858
+        ],
+        "residual": 0.053188711404800415,
+        "confidence": 0.5388181042391892
+      },
+      {
+        "frame_id": "gate-noise-16-frame-008",
+        "estimate": [
+          0.39999999999999997,
+          1.45,
+          -0.4
+        ],
+        "truth_eval_only": [
+          0.2763237953186035,
+          1.2623414993286133,
+          0.350283682346344
+        ],
+        "residual": 0.05482009798288345,
+        "confidence": 0.4043614080643785
+      },
+      {
+        "frame_id": "gate-noise-16-frame-009",
+        "estimate": [
+          0.49999999999999994,
+          0.5999999999999999,
+          -0.6
+        ],
+        "truth_eval_only": [
+          0.5807590484619141,
+          0.8848096132278442,
+          -0.11820489913225174
+        ],
+        "residual": 0.05355718359351158,
+        "confidence": 0.538629703733452
+      },
+      {
+        "frame_id": "gate-noise-16-frame-011",
+        "estimate": [
+          0.3,
+          1.5499999999999998,
+          -0.6
+        ],
+        "truth_eval_only": [
+          -0.01224130392074585,
+          1.6810815334320068,
+          0.37926191091537476
+        ],
+        "residual": 0.055145684629678726,
+        "confidence": 0.49689267613085253
+      },
+      {
+        "frame_id": "gate-noise-16-frame-012",
+        "estimate": [
+          -0.2500000000000001,
+          3.25,
+          0.6
+        ],
+        "truth_eval_only": [
+          0.42280662059783936,
+          2.2133636474609375,
+          -0.21033638715744019
+        ],
+        "residual": 0.06463915854692459,
+        "confidence": 0.413647893953519
+      },
+      {
+        "frame_id": "gate-noise-16-frame-013",
+        "estimate": [
+          0.44999999999999996,
+          2.3,
+          -0.6
+        ],
+        "truth_eval_only": [
+          0.38471662998199463,
+          2.0631327629089355,
+          0.11748311668634415
+        ],
+        "residual": 0.053985655307769775,
+        "confidence": 0.5042588556580193
+      },
+      {
+        "frame_id": "gate-noise-16-frame-014",
+        "estimate": [
+          -0.4000000000000001,
+          0.44999999999999996,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.24781358242034912,
+          0.24635708332061768,
+          0.16297413408756256
+        ],
+        "residual": 0.05471138656139374,
+        "confidence": 0.4320770266472384
+      },
+      {
+        "frame_id": "gate-noise-16-frame-015",
+        "estimate": [
+          0.25,
+          0.35,
+          0.6
+        ],
+        "truth_eval_only": [
+          -0.15287062525749207,
+          0.0679541826248169,
+          0.3283238112926483
+        ],
+        "residual": 0.05641316995024681,
+        "confidence": 0.48480332041799573
+      }
+    ]
+  },
+  "snr_proxy_improvement_vs_best_single": 5.224850704842365,
+  "mtf50_proxy_retention_vs_best_single": 1.0,
+  "frc_resolution_proxy_cycles_per_pixel": 0.3541666666666667,
+  "frame_rejection": {
+    "true_positive": 0,
+    "false_negative": 0,
+    "false_positive": 0,
+    "true_negative": 16,
+    "precision": 0.0,
+    "recall": 0.0,
+    "false_rejection_rate_good": 0.0,
+    "expected_bad_kinds_eval_only": {}
+  },
+  "image_metrics": {
+    "ordinary_single": {
+      "snr_proxy": 4.678866852931884,
+      "edge_sharpness": 0.139204740524292,
+      "mtf50_proxy_cycles_per_pixel": 0.0859375,
+      "clipping_fraction": 0.1332465277777778,
+      "ringing_halo_peak": 0.18850207328796387,
+      "seam_interpolation_proxy": 0.19967126846313477,
+      "reconstruction_error": {
+        "rmse": 0.06667880713939667,
+        "psnr_db": 18.964159684247974
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 33.65388488769531,
+        "high_frequency_error_rmse": 0.027360770851373672
+      }
+    },
+    "best_single": {
+      "snr_proxy": 4.7316182883939035,
+      "edge_sharpness": 0.147698312997818,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.126953125,
+      "ringing_halo_peak": 0.19150671362876892,
+      "seam_interpolation_proxy": 0.20403136312961578,
+      "reconstruction_error": {
+        "rmse": 0.060341473668813705,
+        "psnr_db": 19.831597873709605
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 34.94658660888672,
+        "high_frequency_error_rmse": 0.027881305664777756
+      }
+    },
+    "registered_mean": {
+      "snr_proxy": 24.6376854295335,
+      "edge_sharpness": 0.08764652907848358,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.02653515338897705,
+      "seam_interpolation_proxy": 0.0671955794095993,
+      "reconstruction_error": {
+        "rmse": 0.0375593937933445,
+        "psnr_db": 23.949544638013723
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.2323378324508667,
+        "high_frequency_error_rmse": 0.005235710181295872
+      }
+    },
+    "weighted_mean": {
+      "snr_proxy": 24.6376854295335,
+      "edge_sharpness": 0.08764652907848358,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.02653515338897705,
+      "seam_interpolation_proxy": 0.0671955794095993,
+      "reconstruction_error": {
+        "rmse": 0.0375593937933445,
+        "psnr_db": 23.949544638013723
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.2323378324508667,
+        "high_frequency_error_rmse": 0.005235710181295872
+      }
+    },
+    "median": {
+      "snr_proxy": 23.206218575460483,
+      "edge_sharpness": 0.0882498249411583,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.024698972702026367,
+      "seam_interpolation_proxy": 0.07111682742834091,
+      "reconstruction_error": {
+        "rmse": 0.03763366490602493,
+        "psnr_db": 23.932385849450167
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.3744308948516846,
+        "high_frequency_error_rmse": 0.005529325921088457
+      }
+    },
+    "sigma_clipped": {
+      "snr_proxy": 24.721999149159913,
+      "edge_sharpness": 0.08885446190834045,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.024202585220336914,
+      "seam_interpolation_proxy": 0.060705963522195816,
+      "reconstruction_error": {
+        "rmse": 0.03702161833643913,
+        "psnr_db": 24.074808135842023
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.2526568174362183,
+        "high_frequency_error_rmse": 0.005278697703033686
+      }
+    },
+    "sigma_clipped_denoised": {
+      "snr_proxy": 25.081727969168657,
+      "edge_sharpness": 0.08776165544986725,
+      "mtf50_proxy_cycles_per_pixel": 0.09375,
+      "clipping_fraction": 0.0,
+      "ringing_halo_peak": 0.021400868892669678,
+      "seam_interpolation_proxy": 0.05743645131587982,
+      "reconstruction_error": {
+        "rmse": 0.03679076209664345,
+        "psnr_db": 24.129140440195748
+      },
+      "false_detail": {
+        "unsupported_high_frequency_energy_ratio": 1.1838088035583496,
+        "high_frequency_error_rmse": 0.005131584592163563
+      }
+    }
+  },
+  "baseline_comparisons": {
+    "ordinary_single": {
+      "rmse": 0.06667880713939667,
+      "psnr_db": 18.964159684247974
+    },
+    "best_single": {
+      "rmse": 0.060341473668813705,
+      "psnr_db": 19.831597873709605
+    },
+    "registered_stack": {
+      "rmse": 0.03702161833643913,
+      "psnr_db": 24.074808135842023
+    },
+    "stack_denoised": {
+      "rmse": 0.03679076209664345,
+      "psnr_db": 24.129140440195748
+    },
+    "deconvolution_tested": false
+  },
+  "reconstruction_record": {
+    "fixture_id": "gate-noise-16",
+    "reference_id": "gate-noise-16-frame-010",
+    "accepted_ids": [
+      "gate-noise-16-frame-000",
+      "gate-noise-16-frame-001",
+      "gate-noise-16-frame-002",
+      "gate-noise-16-frame-003",
+      "gate-noise-16-frame-004",
+      "gate-noise-16-frame-005",
+      "gate-noise-16-frame-006",
+      "gate-noise-16-frame-007",
+      "gate-noise-16-frame-008",
+      "gate-noise-16-frame-009",
+      "gate-noise-16-frame-010",
+      "gate-noise-16-frame-011",
+      "gate-noise-16-frame-012",
+      "gate-noise-16-frame-013",
+      "gate-noise-16-frame-014",
+      "gate-noise-16-frame-015"
+    ],
+    "rejected_ids": [],
+    "assessments": [
+      {
+        "frame_id": "gate-noise-16-frame-000",
+        "components": {
+          "clipping_fraction": 0.1332465277777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1332465277777778,
+          "contrast_std": 0.19770994782447815,
+          "edge_sharpness": 0.07402509450912476,
+          "laplacian_variance": 0.011663629673421383,
+          "noise_mad_sigma": 0.013860490173101425,
+          "exposure_median": 0.10406920313835144,
+          "relative_sharpness": 0.9978061376926032,
+          "relative_noise": 1.0011975954446972,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-001",
+        "components": {
+          "clipping_fraction": 0.13444010416666666,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13444010416666666,
+          "contrast_std": 0.20261825621128082,
+          "edge_sharpness": 0.07510942965745926,
+          "laplacian_variance": 0.012261874042451382,
+          "noise_mad_sigma": 0.014080625958740711,
+          "exposure_median": 0.10742205381393433,
+          "relative_sharpness": 1.0124222117888086,
+          "relative_noise": 1.0170988670808985,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-002",
+        "components": {
+          "clipping_fraction": 0.1314019097222222,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1314019097222222,
+          "contrast_std": 0.19333574175834656,
+          "edge_sharpness": 0.07301340252161026,
+          "laplacian_variance": 0.011805053800344467,
+          "noise_mad_sigma": 0.013686323538422585,
+          "exposure_median": 0.10150469094514847,
+          "relative_sharpness": 0.9841692422412646,
+          "relative_noise": 0.9886168559708831,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-003",
+        "components": {
+          "clipping_fraction": 0.13389756944444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13389756944444445,
+          "contrast_std": 0.19306540489196777,
+          "edge_sharpness": 0.07300303876399994,
+          "laplacian_variance": 0.011338356882333755,
+          "noise_mad_sigma": 0.013697679154574871,
+          "exposure_median": 0.10341542214155197,
+          "relative_sharpness": 0.9840295460879303,
+          "relative_noise": 0.9894371166863755,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-004",
+        "components": {
+          "clipping_fraction": 0.13899739583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13899739583333334,
+          "contrast_std": 0.1975252479314804,
+          "edge_sharpness": 0.07428286969661713,
+          "laplacian_variance": 0.011858885176479816,
+          "noise_mad_sigma": 0.014294901862740517,
+          "exposure_median": 0.10418462008237839,
+          "relative_sharpness": 1.001280765667486,
+          "relative_noise": 1.0325768564713949,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-005",
+        "components": {
+          "clipping_fraction": 0.1374782986111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1374782986111111,
+          "contrast_std": 0.1978764533996582,
+          "edge_sharpness": 0.07434346526861191,
+          "laplacian_variance": 0.012188342399895191,
+          "noise_mad_sigma": 0.013772284612059593,
+          "exposure_median": 0.1050262376666069,
+          "relative_sharpness": 1.0020975513001735,
+          "relative_noise": 0.9948261616413449,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-006",
+        "components": {
+          "clipping_fraction": 0.13270399305555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13270399305555555,
+          "contrast_std": 0.19816800951957703,
+          "edge_sharpness": 0.0726749375462532,
+          "laplacian_variance": 0.01101059839129448,
+          "noise_mad_sigma": 0.013465707190334797,
+          "exposure_median": 0.10497772693634033,
+          "relative_sharpness": 0.9796069727562372,
+          "relative_noise": 0.9726808714232414,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-007",
+        "components": {
+          "clipping_fraction": 0.1286892361111111,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1286892361111111,
+          "contrast_std": 0.19664622843265533,
+          "edge_sharpness": 0.0745268389582634,
+          "laplacian_variance": 0.012234995141625404,
+          "noise_mad_sigma": 0.013861186802387238,
+          "exposure_median": 0.1030602753162384,
+          "relative_sharpness": 1.0045692994855546,
+          "relative_noise": 1.0012479157116692,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-008",
+        "components": {
+          "clipping_fraction": 0.12586805555555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12586805555555555,
+          "contrast_std": 0.20391111075878143,
+          "edge_sharpness": 0.07503762096166611,
+          "laplacian_variance": 0.011842310428619385,
+          "noise_mad_sigma": 0.014211713336408138,
+          "exposure_median": 0.10810962319374084,
+          "relative_sharpness": 1.0114542811447853,
+          "relative_noise": 1.0265678227725579,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-009",
+        "components": {
+          "clipping_fraction": 0.12489149305555555,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.12489149305555555,
+          "contrast_std": 0.19912493228912354,
+          "edge_sharpness": 0.0729357898235321,
+          "laplacian_variance": 0.011299001052975655,
+          "noise_mad_sigma": 0.013698198832571507,
+          "exposure_median": 0.10795529186725616,
+          "relative_sharpness": 0.9831230777342308,
+          "relative_noise": 0.9894746550673518,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-010",
+        "components": {
+          "clipping_fraction": 0.126953125,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.126953125,
+          "contrast_std": 0.1983599215745926,
+          "edge_sharpness": 0.07516695559024811,
+          "laplacian_variance": 0.012340275570750237,
+          "noise_mad_sigma": 0.01406779419630766,
+          "exposure_median": 0.10834242403507233,
+          "relative_sharpness": 1.0131976208469644,
+          "relative_noise": 1.0161719785269696,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-011",
+        "components": {
+          "clipping_fraction": 0.13509114583333334,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13509114583333334,
+          "contrast_std": 0.19656415283679962,
+          "edge_sharpness": 0.07409283518791199,
+          "laplacian_variance": 0.011875574477016926,
+          "noise_mad_sigma": 0.013918542303144932,
+          "exposure_median": 0.10468456894159317,
+          "relative_sharpness": 0.998719234332514,
+          "relative_noise": 1.0053909286013267,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-012",
+        "components": {
+          "clipping_fraction": 0.13389756944444445,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.13389756944444445,
+          "contrast_std": 0.190651074051857,
+          "edge_sharpness": 0.07226967066526413,
+          "laplacian_variance": 0.011150998994708061,
+          "noise_mad_sigma": 0.013613080605864525,
+          "exposure_median": 0.10044460743665695,
+          "relative_sharpness": 0.9741442606322481,
+          "relative_noise": 0.9833262315380793,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-013",
+        "components": {
+          "clipping_fraction": 0.1342230902777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1342230902777778,
+          "contrast_std": 0.19800551235675812,
+          "edge_sharpness": 0.0736076757311821,
+          "laplacian_variance": 0.011728023178875446,
+          "noise_mad_sigma": 0.013814592733979225,
+          "exposure_median": 0.10612437129020691,
+          "relative_sharpness": 0.9921796265563292,
+          "relative_noise": 0.9978822433097927,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-014",
+        "components": {
+          "clipping_fraction": 0.1371527777777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1371527777777778,
+          "contrast_std": 0.19377142190933228,
+          "edge_sharpness": 0.07449368387460709,
+          "laplacian_variance": 0.012021159753203392,
+          "noise_mad_sigma": 0.013827331364154816,
+          "exposure_median": 0.09892978519201279,
+          "relative_sharpness": 1.0041223923091793,
+          "relative_noise": 0.9988024045553027,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-015",
+        "components": {
+          "clipping_fraction": 0.1312934027777778,
+          "highlight_clipping_fraction": 0.0,
+          "underexposed_fraction": 0.1312934027777778,
+          "contrast_std": 0.19463863968849182,
+          "edge_sharpness": 0.07490620017051697,
+          "laplacian_variance": 0.012417796067893505,
+          "noise_mad_sigma": 0.013994591310620308,
+          "exposure_median": 0.10139927268028259,
+          "relative_sharpness": 1.0096828214404974,
+          "relative_noise": 1.010884246836786,
+          "motion_alignment_confidence": 0.0
+        },
+        "decision": "accepted",
+        "reasons": [],
+        "score_version": "quality-0.1"
+      }
+    ],
+    "alignments": [
+      {
+        "frame_id": "gate-noise-16-frame-000",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.5499999999999999,
+        "dy": 2.4,
+        "rotation_deg": 0.6,
+        "confidence": 0.4885287161863953,
+        "residual": 0.05339759215712547,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-001",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.35,
+        "dy": 0.5499999999999999,
+        "rotation_deg": 0.0,
+        "confidence": 0.4096914021799104,
+        "residual": 0.055625490844249725,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-002",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -1.4500000000000002,
+        "dy": 2.3,
+        "rotation_deg": -0.6,
+        "confidence": 0.41039760158336336,
+        "residual": 0.05496691167354584,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-003",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -1.5,
+        "dy": 0.3,
+        "rotation_deg": 0.6,
+        "confidence": 0.4493620633271349,
+        "residual": 0.05442873761057854,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-004",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -0.45000000000000007,
+        "dy": 1.3,
+        "rotation_deg": -0.6,
+        "confidence": 0.419310350300752,
+        "residual": 0.054264672100543976,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-005",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -0.2500000000000001,
+        "dy": 0.49999999999999994,
+        "rotation_deg": 0.6,
+        "confidence": 0.6106948027985973,
+        "residual": 0.05517007037997246,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-006",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -1.5,
+        "dy": 0.5499999999999999,
+        "rotation_deg": -0.6,
+        "confidence": 0.4312468394932855,
+        "residual": 0.05335436761379242,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-007",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -0.45000000000000007,
+        "dy": 1.5,
+        "rotation_deg": 0.6,
+        "confidence": 0.5388181042391892,
+        "residual": 0.053188711404800415,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-008",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.39999999999999997,
+        "dy": 1.45,
+        "rotation_deg": -0.4,
+        "confidence": 0.4043614080643785,
+        "residual": 0.05482009798288345,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-009",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.49999999999999994,
+        "dy": 0.5999999999999999,
+        "rotation_deg": -0.6,
+        "confidence": 0.538629703733452,
+        "residual": 0.05355718359351158,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-010",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0,
+        "dy": 0,
+        "rotation_deg": 0,
+        "confidence": 1,
+        "residual": 0,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-011",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.3,
+        "dy": 1.5499999999999998,
+        "rotation_deg": -0.6,
+        "confidence": 0.49689267613085253,
+        "residual": 0.055145684629678726,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-012",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -0.2500000000000001,
+        "dy": 3.25,
+        "rotation_deg": 0.6,
+        "confidence": 0.413647893953519,
+        "residual": 0.06463915854692459,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-013",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.44999999999999996,
+        "dy": 2.3,
+        "rotation_deg": -0.6,
+        "confidence": 0.5042588556580193,
+        "residual": 0.053985655307769775,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-014",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": -0.4000000000000001,
+        "dy": 0.44999999999999996,
+        "rotation_deg": 0.6,
+        "confidence": 0.4320770266472384,
+        "residual": 0.05471138656139374,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      },
+      {
+        "frame_id": "gate-noise-16-frame-015",
+        "reference_id": "gate-noise-16-frame-010",
+        "dx": 0.25,
+        "dy": 0.35,
+        "rotation_deg": 0.6,
+        "confidence": 0.48480332041799573,
+        "residual": 0.05641316995024681,
+        "status": "high_confidence",
+        "version": "align-0.1"
+      }
+    ],
+    "operations": [
+      {
+        "type": "score",
+        "version": "quality-0.1",
+        "thresholds": {
+          "clip": 0.08,
+          "relative_sharpness": 0.55,
+          "relative_noise": 2.3
+        }
+      },
+      {
+        "type": "align",
+        "version": "align-0.1",
+        "reference": "gate-noise-16-frame-010",
+        "method": "rotation-grid+phase-correlation"
+      },
+      {
+        "type": "stack",
+        "version": "reconstruct-0.1",
+        "methods": [
+          "mean",
+          "weighted_mean",
+          "median",
+          "sigma_clipped"
+        ]
+      },
+      {
+        "type": "denoise",
+        "version": "denoise-0.1",
+        "method": "12-percent-local-low-pass-mix"
+      }
+    ],
+    "algorithm_version": "reconstruct-0.1",
+    "warnings": [
+      "sub-pixel aligned outputs are not a super-resolution claim",
+      "deconvolution is experimental and disabled by default"
+    ]
+  },
+  "fixture_protocol": {
+    "fixture_id": "gate-noise-16",
+    "generator_version": "lunar-sim-0.1",
+    "metric_version": "metrics-0.1",
+    "seed": 1402,
+    "parameters": {
+      "width": 96,
+      "height": 96,
+      "supersample": 4,
+      "frame_count": 16,
+      "seed": 1402,
+      "shot_scale": 0.012,
+      "read_noise_sigma": 0.004,
+      "exposure_jitter": 0.025,
+      "optical_psf_sigma_px": 0.55,
+      "rotation_span_deg": 0.3,
+      "translation_span_px": 1.25,
+      "inject_outliers": false
+    },
+    "observation_file": "observed/frames.npz",
+    "oracle_file_evaluator_only": "evaluator-private/oracle.npz",
+    "sha256_observations": "e353674db48dfc9cc10ee282c9419d3a7f5e31f0f30507d256e6e962eed035b3",
+    "sha256_oracle": "d239ec6901c785750d31beeab336b260a04be429e75bc0926cd0a118545273e2",
+    "frame_count": 16,
+    "expected_bad_indices": []
+  }
+}
