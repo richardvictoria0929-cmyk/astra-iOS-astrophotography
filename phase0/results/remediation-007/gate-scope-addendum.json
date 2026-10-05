@@ -1,0 +1,21 @@
+{
+  "addendum_version": "phase0-remediation-gate-scope-0.1",
+  "frozen_before_validation": true,
+  "parent_preregistration_sha256": "274ac640a40f569fdf8d99086d68b35329813a67a673e1cef784b0886c51c0a4",
+  "scope": {
+    "registration": "all three fixtures per split",
+    "snr_gain": "primary clean 16-frame fixture only",
+    "mtf50_retention": "primary clean 16-frame fixture only",
+    "frame_rejection": "class-balanced outlier fixture; per failure class",
+    "integrity": "all fixtures"
+  },
+  "rationale": "This preserves run-010 gate application: the recorded 16-frame SNR and MTF50 gates are evaluated on the clean primary 16-frame stack. Wider-shift, motion-stress, and class-balanced fixtures remain fully measured and reported; their metrics are diagnostics, not replacements or omissions.",
+  "thresholds_unchanged": {
+    "registration_rms_px_max": 0.25,
+    "registration_coverage_min": 0.9,
+    "snr_proxy_gain_16_min": 2.5,
+    "mtf50_retention_min": 0.95,
+    "failure_class_recall_min": 0.9
+  },
+  "holdout_accessed": false
+}

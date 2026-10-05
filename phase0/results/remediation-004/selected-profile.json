@@ -1,0 +1,24 @@
+{
+  "threshold_profile_id": "rejection-profile-0.3",
+  "thresholds": {
+    "disk_clip_fraction": 0.004,
+    "largest_clip_component_pixels": 12,
+    "relative_laplacian_energy_min": 0.55,
+    "relative_limb_gradient_min": 0.62,
+    "relative_noise_mad_max": 2.5,
+    "relative_background_noise_mad_max": 1.5,
+    "relative_exposure_deviation_max": 0.35,
+    "maximum_registration_translation_px": 3.25,
+    "maximum_registration_rotation_deg": 1.5,
+    "maximum_registration_residual": 0.28
+  },
+  "selected_from_split": "development",
+  "source_development_run": "remediation-003",
+  "development_summary_sha256": "fc80684d6c750a9cd28738247981d49bc519baee68591521b9c7571a381c657e",
+  "geometry_noise_diagnostic_sha256": "a78fede5dfa58375bf7a48747a825857c47eac63c5798ee0ca88578aafae5de2",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.5",
+  "alignment_version": "align-0.5",
+  "reconstruction_version": "reconstruct-0.6",
+  "holdout_accessed": false
+}

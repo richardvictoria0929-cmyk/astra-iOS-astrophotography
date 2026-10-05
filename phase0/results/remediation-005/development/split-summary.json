@@ -1,0 +1,245 @@
+{
+  "split": "development",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.5",
+  "alignment_version": "align-0.6",
+  "reconstruction_version": "reconstruct-0.7",
+  "threshold_profile_id": "rejection-profile-0.4",
+  "thresholds": {
+    "disk_clip_fraction": 0.004,
+    "largest_clip_component_pixels": 12,
+    "relative_laplacian_energy_min": 0.55,
+    "relative_limb_gradient_min": 0.62,
+    "relative_noise_mad_max": 2.5,
+    "relative_background_noise_mad_max": 1.5,
+    "relative_exposure_deviation_max": 0.35,
+    "relative_registration_translation_z_max": 3.0,
+    "maximum_registration_rotation_deg": 1.5,
+    "maximum_registration_residual": 0.28
+  },
+  "fixtures": [
+    {
+      "fixture_id": "remed-001-development-clean16",
+      "accepted": 16,
+      "rejected": 0,
+      "runtime_seconds": 1.4459405999514274,
+      "registration_rms_px": 0.034555593411072894,
+      "registration_coverage": 1.0,
+      "snr_gain": 2.9680506604366266,
+      "mtf_retention": 1.0,
+      "integrity_pass": true,
+      "failure_classes": {
+        "strong_blur": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 16,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "clipping": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 16,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "large_motion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 16,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "abnormal_noise": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 16,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "mixed": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 16,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "remed-001-development-outlier-80",
+      "accepted": 40,
+      "rejected": 40,
+      "runtime_seconds": 5.313931999960914,
+      "registration_rms_px": 0.034718269751890754,
+      "registration_coverage": 1.0,
+      "snr_gain": 7.441396626433423,
+      "mtf_retention": 1.103448275862069,
+      "integrity_pass": true,
+      "failure_classes": {
+        "strong_blur": {
+          "TP": 16,
+          "FP": 24,
+          "FN": 0,
+          "TN": 40,
+          "recall": 1.0,
+          "precision": 0.4,
+          "false_rejection_rate_one_vs_rest": 0.375,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 16
+        },
+        "clipping": {
+          "TP": 16,
+          "FP": 24,
+          "FN": 0,
+          "TN": 40,
+          "recall": 1.0,
+          "precision": 0.4,
+          "false_rejection_rate_one_vs_rest": 0.375,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 16
+        },
+        "large_motion": {
+          "TP": 16,
+          "FP": 24,
+          "FN": 0,
+          "TN": 40,
+          "recall": 1.0,
+          "precision": 0.4,
+          "false_rejection_rate_one_vs_rest": 0.375,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 16
+        },
+        "abnormal_noise": {
+          "TP": 8,
+          "FP": 32,
+          "FN": 0,
+          "TN": 40,
+          "recall": 1.0,
+          "precision": 0.2,
+          "false_rejection_rate_one_vs_rest": 0.4444444444444444,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 8
+        },
+        "mixed": {
+          "TP": 8,
+          "FP": 32,
+          "FN": 0,
+          "TN": 40,
+          "recall": 1.0,
+          "precision": 0.2,
+          "false_rejection_rate_one_vs_rest": 0.4444444444444444,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 8
+        }
+      }
+    },
+    {
+      "fixture_id": "remed-001-development-motion-stress32",
+      "accepted": 32,
+      "rejected": 0,
+      "runtime_seconds": 3.0815533000277355,
+      "registration_rms_px": 0.037091465636183374,
+      "registration_coverage": 1.0,
+      "snr_gain": 4.071804104829721,
+      "mtf_retention": 1.1379310344827587,
+      "integrity_pass": true,
+      "failure_classes": {
+        "strong_blur": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 32,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "clipping": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 32,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "large_motion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 32,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "abnormal_noise": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 32,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        },
+        "mixed": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 32,
+          "recall": 0.0,
+          "precision": 0.0,
+          "false_rejection_rate_one_vs_rest": 0.0,
+          "good_frames_rejected": 0,
+          "good_frame_false_rejection_rate": 0.0,
+          "positive_count": 0
+        }
+      }
+    }
+  ],
+  "system": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

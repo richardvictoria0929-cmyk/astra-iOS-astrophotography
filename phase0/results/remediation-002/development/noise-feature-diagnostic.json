@@ -1,0 +1,22 @@
+{
+  "feature": "burst-median-normalized background high-pass MAD",
+  "split": "development",
+  "fixture_id": "remed-001-development-outlier-80",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.4",
+  "class_summary": {
+    "good": {
+      "count": 40,
+      "relative_background_noise_mad_median": 1.002293821369857,
+      "minimum": 0.9470813929961087,
+      "maximum": 1.0829882315133557
+    },
+    "abnormal_noise": {
+      "count": 8,
+      "relative_background_noise_mad_median": 2.0086740014606104,
+      "minimum": 1.9485744181123916,
+      "maximum": 2.0967341081294792
+    }
+  },
+  "selection": "threshold=1.5 lies above every observed clean development frame and below every abnormal-noise development frame; validation is confirmatory; holdout unopened."
+}

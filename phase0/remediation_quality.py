@@ -4,7 +4,7 @@ import numpy as np
 from .types import FrameAssessment
 
 
-QUALITY_VERSION = "quality-0.4"
+QUALITY_VERSION = "quality-0.5"
 FROZEN_THRESHOLDS = {
     "disk_clip_fraction": 0.004,
     "largest_clip_component_pixels": 12,
@@ -13,7 +13,7 @@ FROZEN_THRESHOLDS = {
     "relative_noise_mad_max": 2.5,
     "relative_background_noise_mad_max": 2.5,
     "relative_exposure_deviation_max": 0.35,
-    "maximum_registration_translation_px": 3.25,
+    "relative_registration_translation_z_max": 3.0,
     "maximum_registration_rotation_deg": 1.50,
     "maximum_registration_residual": 0.28,
 }
@@ -53,11 +53,17 @@ def _largest_component(mask):
 def _disk_roi(frame):
     h, w = frame.shape
     yy, xx = np.mgrid[0:h, 0:w]
-    candidate = frame > max(0.035, float(np.quantile(frame, 0.995)) * 0.12)
-    weights = np.where(candidate, np.maximum(frame - 0.02, 0), 0)
-    if float(np.sum(weights)) > 1e-6:
-        cx = float(np.sum(xx * weights) / np.sum(weights))
-        cy = float(np.sum(yy * weights) / np.sum(weights))
+    # Estimate the limb geometry from a low threshold mask and robust spatial
+    # bounds. Intensity weighting is avoided because phase illumination biases
+    # the lunar centroid well away from the physical disk center.
+    threshold = max(0.02, float(np.quantile(frame, 0.985)) * 0.035)
+    candidate = frame > threshold
+    ys, xs = np.nonzero(candidate)
+    if len(xs) >= 100:
+        xlo, xhi = np.quantile(xs, (0.005, 0.995))
+        ylo, yhi = np.quantile(ys, (0.005, 0.995))
+        cx = float((xlo + xhi) / 2)
+        cy = float((ylo + yhi) / 2)
     else:
         cx, cy = (w - 1) / 2, (h - 1) / 2
     # A robust lunar-disk proxy centered on the measured bright-field centroid.

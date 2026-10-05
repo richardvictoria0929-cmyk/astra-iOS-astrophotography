@@ -1,0 +1,63 @@
+{
+  "split": "holdout",
+  "threshold_profile_id": "rejection-profile-0.6",
+  "fixture_outputs": [
+    {
+      "fixture_id": "remed-001-holdout-clean16",
+      "split": "holdout",
+      "purpose": "clean-primary-16-frame-stack",
+      "runtime_seconds": 1.7605034000007436,
+      "reconstruction_json_sha256": "f22412cb3ae96b5434b2447f2e3b8560c1f1224b20fb97f299e3c94e0ef683cf",
+      "images_npz_sha256": "c733160400ecedb8fb1a850b9a03acf0b07ce5e9d1678e293c3fede8ae10e298",
+      "integrity": {
+        "pass": true,
+        "source_count": 16,
+        "decision_count": 16,
+        "source_hash_count": 16,
+        "output_hashes_match": true,
+        "lineage_edges_complete": true,
+        "deconvolution": "disabled"
+      }
+    },
+    {
+      "fixture_id": "remed-001-holdout-outlier-150",
+      "split": "holdout",
+      "purpose": "class-balanced-observable-quality-stress",
+      "runtime_seconds": 7.467190600000322,
+      "reconstruction_json_sha256": "d87b0980d7303563f7a3e3e3e44b38b97d4f64e6d4fdf317b2995a094a34362b",
+      "images_npz_sha256": "80704230c16c6ab0a8b11466b061aaacd7cbbf51eeb5933eead480068aaaef02",
+      "integrity": {
+        "pass": true,
+        "source_count": 150,
+        "decision_count": 150,
+        "source_hash_count": 150,
+        "output_hashes_match": true,
+        "lineage_edges_complete": true,
+        "deconvolution": "disabled"
+      }
+    },
+    {
+      "fixture_id": "remed-001-holdout-motion-stress32",
+      "split": "holdout",
+      "purpose": "clean-wider-shift-rotation-stress",
+      "runtime_seconds": 2.989092600008007,
+      "reconstruction_json_sha256": "a4ed67a1d3487631079096b5654d0471ded9857d301684932e01bba47e9933e3",
+      "images_npz_sha256": "5cc65c6e19ed2e3d764e2f03354c2dd3226ca1a17c7a091c2b0883f2ad7329b0",
+      "integrity": {
+        "pass": true,
+        "source_count": 32,
+        "decision_count": 32,
+        "source_hash_count": 32,
+        "output_hashes_match": true,
+        "lineage_edges_complete": true,
+        "deconvolution": "disabled"
+      }
+    }
+  ],
+  "versions": {
+    "metric": "metrics-0.3",
+    "quality": "quality-0.5",
+    "alignment": "align-0.7",
+    "reconstruction": "reconstruct-0.9"
+  }
+}
