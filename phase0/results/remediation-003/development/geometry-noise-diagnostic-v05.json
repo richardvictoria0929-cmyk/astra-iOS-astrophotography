@@ -1,0 +1,45 @@
+{
+  "split": "development",
+  "quality_version": "quality-0.5",
+  "fixture_ids": [
+    "remed-001-development-clean16",
+    "remed-001-development-outlier-80",
+    "remed-001-development-motion-stress32"
+  ],
+  "estimated_disk_center_error_px": {
+    "remed-001-development-clean16": {
+      "count": 16,
+      "median_px": 1.1670309227095714,
+      "p90_px": 1.8774937875312208,
+      "max_px": 2.0702904164258746
+    },
+    "remed-001-development-outlier-80": {
+      "count": 80,
+      "median_px": 1.2120795299821063,
+      "p90_px": 5.880706073905704,
+      "max_px": 7.099426897096978
+    },
+    "remed-001-development-motion-stress32": {
+      "count": 32,
+      "median_px": 1.230372613525784,
+      "p90_px": 2.6091246779986075,
+      "max_px": 2.8832191910909755
+    }
+  },
+  "relative_background_noise_mad": {
+    "good": {
+      "count": 40,
+      "relative_mad_median": 0.99091435568432,
+      "min": 0.9186710421051784,
+      "max": 1.0734324953539296
+    },
+    "abnormal_noise": {
+      "count": 8,
+      "relative_mad_median": 2.0949401508319694,
+      "min": 2.019997763676406,
+      "max": 2.275471598002558
+    }
+  },
+  "noise_threshold_selection": 1.5,
+  "selection_rationale": "On this development split, the threshold is above all clean-frame feature ratios and below all abnormal-noise ratios; validation remains unopened."
+}

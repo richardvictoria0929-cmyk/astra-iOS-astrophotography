@@ -12,9 +12,9 @@ from .remediation_quality import FROZEN_THRESHOLDS
 
 PROTOCOL_VERSION = "phase0-remediation-protocol-0.1"
 METRIC_VERSION = "metrics-0.3"
-QUALITY_VERSION = "quality-0.4"
-ALIGNMENT_VERSION = "align-0.4"
-RECONSTRUCTION_VERSION = "reconstruct-0.5"
+QUALITY_VERSION = "quality-0.5"
+ALIGNMENT_VERSION = "align-0.7"
+RECONSTRUCTION_VERSION = "reconstruct-0.9"
 EVALUATOR_VERSION = "remediation-evaluator-0.1"
 GATES = {
     "registration_rms_px_max": 0.25,

@@ -1,0 +1,171 @@
+{
+  "run_id": "remediation-007",
+  "status": "PASS",
+  "scope": "Bounded Phase 0 remediation: bad-frame rejection and edge retention only",
+  "device_validation": "Synthetic/offline only; no iPhone hardware tested",
+  "historical_baseline": {
+    "report": "ASTRA-PHASE0-REPORT.md",
+    "run": "run-010",
+    "historical_status": "FAIL",
+    "overwritten": false
+  },
+  "versions": {
+    "generator": "lunar-remediation-0.1",
+    "metric": "metrics-0.3",
+    "quality": "quality-0.5",
+    "alignment": "align-0.7",
+    "reconstruction": "reconstruct-0.9",
+    "evaluator": "remediation-evaluator-0.1",
+    "threshold_profile": "rejection-profile-0.6",
+    "protocol": "phase0-remediation-protocol-0.1"
+  },
+  "preregistration": {
+    "path": "phase0/results/remediation-007/preregistration.json",
+    "protocol_version": "phase0-remediation-protocol-0.1",
+    "split_ids": [
+      "remed-001-development-clean16",
+      "remed-001-development-outlier-80",
+      "remed-001-development-motion-stress32",
+      "remed-001-validation-clean16",
+      "remed-001-validation-outlier-80",
+      "remed-001-validation-motion-stress32",
+      "remed-001-holdout-clean16",
+      "remed-001-holdout-outlier-150",
+      "remed-001-holdout-motion-stress32"
+    ],
+    "seeds": {
+      "development": [41401, 41402, 41403],
+      "validation": [52401, 52402, 52403],
+      "holdout": [63401, 63402, 63403]
+    },
+    "holdout_observation_sha256": {
+      "remed-001-holdout-clean16": "621b307fb3aaad29e3656bd9e8c30d3b4e33ffcb8bceecc5b9497ee8813f26aa",
+      "remed-001-holdout-outlier-150": "c19eff90109a2d1d47c2049c477798bc4690ec4043ee70d2b3d6513fca9347fd",
+      "remed-001-holdout-motion-stress32": "1a78d97053b84e203adb915741601f4f60c2aabfe20457687dbb898522ecb1a3"
+    },
+    "holdout_oracle_sha256": {
+      "remed-001-holdout-clean16": "312a92204c25b3970fa3e0f81806e4cbc7dfa4e08b2c6fb2f202eb3d314af617",
+      "remed-001-holdout-outlier-150": "bf9d08a1a3c20e663e8bd99058c3f2657fbf1b16b73be576965115a7bb192fe6",
+      "remed-001-holdout-motion-stress32": "7ec8e6e7d374b0386b4ff88b295245aba81680ca5b52cf9087c7e50fa07713b3"
+    },
+    "holdout_frozen_before_evaluation": true,
+    "holdout_worker_outputs_frozen_before_oracle_access": true,
+    "threshold_selection_split": "development",
+    "gate_thresholds_changed": false,
+    "metric_definitions_changed": false,
+    "post_holdout_changes": false
+  },
+  "frozen_gate_thresholds": {
+    "registration_rms_px_max": 0.25,
+    "registration_coverage_min": 0.9,
+    "snr_proxy_gain_16_min": 2.5,
+    "mtf50_retention_min": 0.95,
+    "failure_class_recall_min": 0.9,
+    "integrity_required": true,
+    "deconvolution": "disabled"
+  },
+  "gate_scope": {
+    "registration": "All fixtures",
+    "snr_and_mtf50": "Primary clean 16-frame fixture; other values diagnostic",
+    "failure_class_recall": "Class-balanced outlier fixture, one-vs-rest",
+    "integrity": "All holdout fixture outputs",
+    "scope_addendum": "phase0/results/remediation-007/gate-scope-addendum.json"
+  },
+  "holdout_results": {
+    "clean16": {
+      "fixture_id": "remed-001-holdout-clean16",
+      "accepted": 16,
+      "rejected": 0,
+      "registration_rms_px": 0.030801500274388008,
+      "registration_coverage": 1.0,
+      "snr_proxy_gain_16": 4.49125286158827,
+      "mtf50_retention": 0.96969696969697,
+      "integrity_pass": true
+    },
+    "class_balanced_outliers": {
+      "fixture_id": "remed-001-holdout-outlier-150",
+      "frames": 150,
+      "good_frames": 100,
+      "unique_bad_frames": 50,
+      "unique_bad_frame_detection": {
+        "TP": 50,
+        "FP": 0,
+        "FN": 0,
+        "TN": 100,
+        "recall": 1.0,
+        "precision": 1.0,
+        "good_frame_false_rejections": 0
+      },
+      "one_vs_rest_by_failure_label": {
+        "strong_blur": {"TP": 20, "FP": 30, "FN": 0, "TN": 100, "recall": 1.0, "precision": 0.4, "false_positive_rate": 0.23076923076923078},
+        "clipping": {"TP": 20, "FP": 30, "FN": 0, "TN": 100, "recall": 1.0, "precision": 0.4, "false_positive_rate": 0.23076923076923078},
+        "large_motion": {"TP": 20, "FP": 30, "FN": 0, "TN": 100, "recall": 1.0, "precision": 0.4, "false_positive_rate": 0.23076923076923078},
+        "abnormal_noise": {"TP": 10, "FP": 40, "FN": 0, "TN": 100, "recall": 1.0, "precision": 0.2, "false_positive_rate": 0.2857142857142857},
+        "mixed": {"TP": 10, "FP": 40, "FN": 0, "TN": 100, "recall": 1.0, "precision": 0.2, "false_positive_rate": 0.2857142857142857}
+      },
+      "registration_rms_px": 0.039427971472862096,
+      "registration_coverage": 1.0,
+      "integrity_pass": true
+    },
+    "motion_stress32": {
+      "fixture_id": "remed-001-holdout-motion-stress32",
+      "accepted": 31,
+      "rejected": 1,
+      "rejected_frame_id": "remed-001-holdout-motion-stress32-frame-019",
+      "rejected_reason": "registration_rotation_outlier",
+      "good_frame_false_rejection_rate": 0.03125,
+      "registration_rms_px": 0.0488100124874346,
+      "registration_coverage": 1.0,
+      "snr_proxy_gain_16_diagnostic": 6.33599591211505,
+      "mtf50_retention_diagnostic": 0.96551724137931,
+      "integrity_pass": true
+    },
+    "aggregate_good_frame_false_rejection": {
+      "rejected_good_frames": 1,
+      "good_frames": 148,
+      "rate": 0.006756756756756757,
+      "gate_threshold_preregistered": false
+    }
+  },
+  "edge_stage_primary_clean16": {
+    "best_source_mtf50_cycles_per_pixel": 0.2578125,
+    "aligned_individual_mean_retention": {
+      "bilinear": 0.9166666666666666,
+      "bicubic": 0.9753787878787878,
+      "fourier_translation": 1.003787878787879,
+      "fourier_rigid": 1.0113636363636365
+    },
+    "stack_stage_retention": {
+      "aligned_mean": 1.0,
+      "quality_weighted": 1.0,
+      "median": 1.0,
+      "sigma_clipped": 0.9696969696969697,
+      "denoised": 0.9696969696969697
+    }
+  },
+  "provenance": {
+    "clean16": true,
+    "outliers": true,
+    "motion_stress32": true,
+    "all_holdout_hashes_match": true,
+    "all_lineage_edges_complete": true,
+    "deconvolution_disabled": true
+  },
+  "deterministic_tests": {
+    "command": "python -m unittest discover -s phase0/tests -v",
+    "passed": 8,
+    "failed": 0,
+    "prior_tests": 5,
+    "remediation_tests": 3
+  },
+  "gates": {
+    "registration": "PASS",
+    "snr": "PASS",
+    "edge_retention": "PASS",
+    "blur_and_clipping_rejection": "PASS",
+    "false_rejection": "REPORTED_NO_GATE_THRESHOLD",
+    "integrity_provenance": "PASS",
+    "deterministic_tests": "PASS"
+  },
+  "recommendation": "Stop Phase 0 and recommend Phase 1 review; do not start Phase 1 automatically."
+}

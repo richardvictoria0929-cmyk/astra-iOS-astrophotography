@@ -1,0 +1,521 @@
+{
+  "protocol_version": "phase0-remediation-protocol-0.1",
+  "created_utc": "2026-10-05T20:35:20.579685+00:00",
+  "scope": "bounded Phase 0 remediation only: frame rejection and edge retention",
+  "metric_version": "metrics-0.3",
+  "quality_version": "quality-0.3",
+  "alignment_version": "align-0.3",
+  "reconstruction_version": "reconstruct-0.4",
+  "evaluator_version": "remediation-evaluator-0.1",
+  "initial_threshold_profile": {
+    "disk_clip_fraction": 0.004,
+    "largest_clip_component_pixels": 12,
+    "relative_laplacian_energy_min": 0.55,
+    "relative_limb_gradient_min": 0.62,
+    "relative_noise_mad_max": 2.5,
+    "relative_exposure_deviation_max": 0.35,
+    "maximum_registration_translation_px": 3.25,
+    "maximum_registration_rotation_deg": 1.5,
+    "maximum_registration_residual": 0.28
+  },
+  "gate_thresholds": {
+    "registration_rms_px_max": 0.25,
+    "registration_coverage_min": 0.9,
+    "snr_proxy_gain_16_min": 2.5,
+    "mtf50_retention_min": 0.95,
+    "failure_class_recall_min": 0.9,
+    "integrity_required": true,
+    "deconvolution": "disabled"
+  },
+  "selection_rule": "Any threshold profile change must be selected from development results only, assigned a new profile identifier, then evaluated once on validation. Freeze the profile and all code/versions before opening any holdout oracle. No holdout-guided changes.",
+  "evaluation_order": [
+    "development",
+    "validation",
+    "freeze-release-card",
+    "holdout-final-evaluation"
+  ],
+  "holdout_oracle_access_rule": "Holdout observations may be processed only after the release card is written. Holdout private oracle may be opened only after all worker outputs exist and their hashes are frozen.",
+  "failure_classes": [
+    "strong_blur",
+    "clipping",
+    "large_motion",
+    "abnormal_noise",
+    "mixed"
+  ],
+  "classification_rule": "One-vs-rest per failure tag; mixed frames carry blur, clipping, large_motion, and mixed tags. Good-frame false rejection is also reported separately.",
+  "fixtures": [
+    {
+      "split": "development",
+      "purpose": "clean-primary-16-frame-stack",
+      "fixture_id": "remed-001-development-clean16",
+      "seed": 41401,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 16,
+        "seed": 41401,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 16,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "development",
+      "purpose": "class-balanced-observable-quality-stress",
+      "fixture_id": "remed-001-development-outlier-80",
+      "seed": 41402,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 80,
+        "seed": 41402,
+        "shot_scale": 0.015,
+        "read_noise_sigma": 0.005,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 80,
+      "planned_class_counts": {
+        "strong_blur": 8,
+        "clipping": 8,
+        "large_motion": 8,
+        "abnormal_noise": 8,
+        "mixed": 8
+      }
+    },
+    {
+      "split": "development",
+      "purpose": "clean-wider-shift-rotation-stress",
+      "fixture_id": "remed-001-development-motion-stress32",
+      "seed": 41403,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 32,
+        "seed": 41403,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.65,
+        "translation_span_px": 2.0
+      },
+      "frame_count": 32,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "validation",
+      "purpose": "clean-primary-16-frame-stack",
+      "fixture_id": "remed-001-validation-clean16",
+      "seed": 52401,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 16,
+        "seed": 52401,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 16,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "validation",
+      "purpose": "class-balanced-observable-quality-stress",
+      "fixture_id": "remed-001-validation-outlier-80",
+      "seed": 52402,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 80,
+        "seed": 52402,
+        "shot_scale": 0.015,
+        "read_noise_sigma": 0.005,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 80,
+      "planned_class_counts": {
+        "strong_blur": 8,
+        "clipping": 8,
+        "large_motion": 8,
+        "abnormal_noise": 8,
+        "mixed": 8
+      }
+    },
+    {
+      "split": "validation",
+      "purpose": "clean-wider-shift-rotation-stress",
+      "fixture_id": "remed-001-validation-motion-stress32",
+      "seed": 52403,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 32,
+        "seed": 52403,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.65,
+        "translation_span_px": 2.0
+      },
+      "frame_count": 32,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "holdout",
+      "purpose": "clean-primary-16-frame-stack",
+      "fixture_id": "remed-001-holdout-clean16",
+      "seed": 63401,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 16,
+        "seed": 63401,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 16,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "holdout",
+      "purpose": "class-balanced-observable-quality-stress",
+      "fixture_id": "remed-001-holdout-outlier-150",
+      "seed": 63402,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 150,
+        "seed": 63402,
+        "shot_scale": 0.015,
+        "read_noise_sigma": 0.005,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.3,
+        "translation_span_px": 1.25
+      },
+      "frame_count": 150,
+      "planned_class_counts": {
+        "strong_blur": 10,
+        "clipping": 10,
+        "large_motion": 10,
+        "abnormal_noise": 10,
+        "mixed": 10
+      }
+    },
+    {
+      "split": "holdout",
+      "purpose": "clean-wider-shift-rotation-stress",
+      "fixture_id": "remed-001-holdout-motion-stress32",
+      "seed": 63403,
+      "parameters": {
+        "width": 96,
+        "height": 96,
+        "supersample": 4,
+        "frame_count": 32,
+        "seed": 63403,
+        "shot_scale": 0.012,
+        "read_noise_sigma": 0.004,
+        "exposure_jitter": 0.025,
+        "optical_psf_sigma_px": 0.55,
+        "rotation_span_deg": 0.65,
+        "translation_span_px": 2.0
+      },
+      "frame_count": 32,
+      "planned_class_counts": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    }
+  ],
+  "frozen_fixture_hashes": [
+    {
+      "split": "development",
+      "fixture_id": "remed-001-development-clean16",
+      "sha256_observations": "7b75f90a646771a78b67f3526efc836a7b784118a685b925a898dc982cd06988",
+      "sha256_oracle": "f73a6e9bcf176feb6c9ce0973e1de1cbcc17acd2a9c6269a0f919ab87b0d8013",
+      "sha256_failure_labels_commitment": "24c746e0ea0f76101c67cf683291a204b15ed9c50e5fd8820999b88b46424575",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "development",
+      "fixture_id": "remed-001-development-outlier-80",
+      "sha256_observations": "e77cfd3d677a5f3d50207d182cc26b2324ddae2549f8f6a67be8e8b170ee6e55",
+      "sha256_oracle": "7cfb8d2e3a860f6313a30604731ac7861565061aab3992dcdd5fee57b43ac649",
+      "sha256_failure_labels_commitment": "229f507c8e382061b0fdaeb0ab3a905a399e406c8dcb9e29d7f506f5507f7b68",
+      "class_counts_committed": {
+        "strong_blur": 16,
+        "clipping": 16,
+        "large_motion": 16,
+        "abnormal_noise": 8,
+        "mixed": 8
+      }
+    },
+    {
+      "split": "development",
+      "fixture_id": "remed-001-development-motion-stress32",
+      "sha256_observations": "8ea18876c71fde7bf4a3d7ab687ce8ed662a55c9b32bb4ec3a1dcf6c2376278c",
+      "sha256_oracle": "f23e7c22cc1f13fa5efadd2fc02d4c33a4a4a7876e3e6956055753d903476dbd",
+      "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "validation",
+      "fixture_id": "remed-001-validation-clean16",
+      "sha256_observations": "3d3a7404240d0414912c8ccb15c527307dd02316e5c0e2e3f60c2e08f1067bff",
+      "sha256_oracle": "ab5e7b92e2a81505a723216a625e03e95214a32d202a43b22cfd6ad94ed2342c",
+      "sha256_failure_labels_commitment": "24c746e0ea0f76101c67cf683291a204b15ed9c50e5fd8820999b88b46424575",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "validation",
+      "fixture_id": "remed-001-validation-outlier-80",
+      "sha256_observations": "b967d232c1304c03da5b3bd8a50822b5d9030fca069178961aa38b65f41d39f1",
+      "sha256_oracle": "0c35a7ea354b758d6cd857017045dadd1ad0dff50dd5723c27c736e633d2813e",
+      "sha256_failure_labels_commitment": "229f507c8e382061b0fdaeb0ab3a905a399e406c8dcb9e29d7f506f5507f7b68",
+      "class_counts_committed": {
+        "strong_blur": 16,
+        "clipping": 16,
+        "large_motion": 16,
+        "abnormal_noise": 8,
+        "mixed": 8
+      }
+    },
+    {
+      "split": "validation",
+      "fixture_id": "remed-001-validation-motion-stress32",
+      "sha256_observations": "906115a1a0879638ae56f2711f569a7403d5344be3c19c088ec87a97c4f3a06e",
+      "sha256_oracle": "c40e1275e7639652eb24c85721ca2bfbca24c540fd7b998075a95289dabe1c06",
+      "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "holdout",
+      "fixture_id": "remed-001-holdout-clean16",
+      "sha256_observations": "621b307fb3aaad29e3656bd9e8c30d3b4e33ffcb8bceecc5b9497ee8813f26aa",
+      "sha256_oracle": "312a92204c25b3970fa3e0f81806e4cbc7dfa4e08b2c6fb2f202eb3d314af617",
+      "sha256_failure_labels_commitment": "24c746e0ea0f76101c67cf683291a204b15ed9c50e5fd8820999b88b46424575",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    },
+    {
+      "split": "holdout",
+      "fixture_id": "remed-001-holdout-outlier-150",
+      "sha256_observations": "c19eff90109a2d1d47c2049c477798bc4690ec4043ee70d2b3d6513fca9347fd",
+      "sha256_oracle": "bf9d08a1a3c20e663e8bd99058c3f2657fbf1b16b73be576965115a7bb192fe6",
+      "sha256_failure_labels_commitment": "39b1e16730e30268e64f24eeb730741842bb9b969bd72b566bb57cf80c12971d",
+      "class_counts_committed": {
+        "strong_blur": 20,
+        "clipping": 20,
+        "large_motion": 20,
+        "abnormal_noise": 10,
+        "mixed": 10
+      }
+    },
+    {
+      "split": "holdout",
+      "fixture_id": "remed-001-holdout-motion-stress32",
+      "sha256_observations": "1a78d97053b84e203adb915741601f4f60c2aabfe20457687dbb898522ecb1a3",
+      "sha256_oracle": "7ec8e6e7d374b0386b4ff88b295245aba81680ca5b52cf9087c7e50fa07713b3",
+      "sha256_failure_labels_commitment": "dbd098af6556ed79650d149b1691be336a46f8bad6f327e942508dd11342575e",
+      "class_counts_committed": {
+        "strong_blur": 0,
+        "clipping": 0,
+        "large_motion": 0,
+        "abnormal_noise": 0,
+        "mixed": 0
+      }
+    }
+  ],
+  "sha256_preregistration_content_without_final_hash": "791561879a9aa77dc193b02ab4a8e604afd7908271023f4acfff0ed8f99a8031",
+  "run_id": "remediation-007",
+  "parent_preregistration_sha256": "282f7f15ff31cd82035345e540017ba68b0a11746bdbaac006d0d04b779c50c4",
+  "algorithm_amendment": {
+    "reason": "Development-only stage instrumentation localized MTF50 loss to per-frame registration resampling; lunar-disk high-pass noise feature failed to separate added read noise from lunar texture.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.4",
+      "alignment": "align-0.4",
+      "reconstruction": "reconstruct-0.5",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Add background high-pass MAD noise feature/reason code.",
+      "Compare legacy bilinear, Catmull-Rom bicubic, and bicubic rotation plus padded Fourier translation candidates.",
+      "No gate, fixture, or metric definition changes."
+    ],
+    "holdout_accessed": false
+  },
+  "algorithm_amendment_02": {
+    "reason": "The development-only Fourier rigid candidate improved alignment-stage MTF50 over bilinear and bicubic; the scorer background-noise feature separated all injected abnormal-noise frames from all good development frames at a 1.5 relative-MAD threshold.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.4",
+      "alignment": "align-0.5",
+      "reconstruction": "reconstruct-0.6",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Add three-shear Fourier rotation plus padded Fourier translation candidate for stage evaluation.",
+      "Select development-only background-noise threshold 1.5.",
+      "Gate thresholds and fixture hashes unchanged."
+    ],
+    "development_diagnostic_sha256": "d49400e604af2c300e4db570a82bd61dfc9ac745cd8ad0aa471a1d21fb2804a6",
+    "holdout_accessed": false
+  },
+  "algorithm_amendment_03": {
+    "reason": "Intensity-weighted lunar centroid was biased by phase illumination and misregistered the scoring ROIs. A low-threshold robust spatial-bound disk center reduced development median center error to about 1.2 px. Background high-pass MAD remains separated for abnormal noise.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.5",
+      "alignment": "align-0.5",
+      "reconstruction": "reconstruct-0.6",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Estimate a lunar disk center from robust bounds of a low-threshold bright mask, not intensity-weighted centroid.",
+      "Select relative background high-pass noise threshold 1.5 from development results.",
+      "No metric definition, gate, fixture, or holdout change."
+    ],
+    "development_diagnostic_sha256": "a78fede5dfa58375bf7a48747a825857c47eac63c5798ee0ca88578aafae5de2",
+    "holdout_accessed": false
+  },
+  "algorithm_amendment_04": {
+    "reason": "A fixed absolute transform-magnitude cutoff rejected 11/32 clean wider-shift/rotation development frames. A robust burst-relative translation outlier score separated all injected large-motion candidates from clean wider-motion frames in development.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.5",
+      "alignment": "align-0.6",
+      "reconstruction": "reconstruct-0.7",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Replace absolute translation-magnitude rejection with 2D robust-MAD deviation from the burst median, threshold z=3.0.",
+      "Do not change sensor-frame scoring, MTF metric, or gate thresholds."
+    ],
+    "development_evidence_from_run": "remediation-004",
+    "holdout_accessed": false
+  },
+  "algorithm_amendment_05": {
+    "reason": "The stack edge metric is defined relative to the best source frame. The prior central-frame selection did not choose the strongest observable source, so the reference policy now selects the best low-noise sharpness score among robust position inliers.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.5",
+      "alignment": "align-0.7",
+      "reconstruction": "reconstruct-0.8",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Choose reference from robust target-position inliers by normalized Laplacian energy (disk sharpness / background high-pass noise), with limb gradient and center distance as tie-breakers.",
+      "No metric or gate definition changed."
+    ],
+    "development_evidence_from_run": "remediation-005",
+    "holdout_accessed": false
+  },
+  "algorithm_amendment_06": {
+    "reason": "Development source outputs showed exposure jitter caused avoidable mismatch to the reference-exposure clean source. Normalizing linear accepted frames to the selected reference exposure improved development RMSE/SNR without changing source selection, interpolation, metric definitions, or gates.",
+    "versions": {
+      "metric": "metrics-0.3",
+      "quality": "quality-0.5",
+      "alignment": "align-0.7",
+      "reconstruction": "reconstruct-0.9",
+      "evaluator": "remediation-evaluator-0.1"
+    },
+    "changes": [
+      "Add explicit provenance-recorded linear exposure normalization using observed public exposure metadata before stacking.",
+      "Retain raw aligned arrays for interpolation-stage comparisons.",
+      "Use exposure-normalized arrays for mean, weighted, median, sigma-clipped, half-stack and denoised outputs."
+    ],
+    "development_evidence_from_run": "remediation-006",
+    "holdout_accessed": false
+  }
+}

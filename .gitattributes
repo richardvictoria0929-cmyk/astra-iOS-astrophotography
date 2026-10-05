@@ -1,0 +1,4 @@
+# Scientific manifests contain SHA-256 commitments to raw file bytes.
+# Preserve the current frozen evidence exactly across Windows/macOS checkouts.
+phase0/fixtures/** -text
+phase0/results/** -text

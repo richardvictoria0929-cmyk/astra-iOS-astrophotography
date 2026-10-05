@@ -32,7 +32,9 @@ def evaluate_remediation(observations, oracle, record, images):
     metric_names = ("best_single", "registered_mean", "weighted_mean", "median",
                     "sigma_clipped", "sigma_clipped_denoised", "fourier_mean",
                     "fourier_weighted_mean", "fourier_median", "fourier_sigma_clipped",
-                    "fourier_sigma_clipped_denoised")
+                    "fourier_sigma_clipped_denoised", "fourier_rigid_mean",
+                    "fourier_rigid_weighted_mean", "fourier_rigid_median",
+                    "fourier_rigid_sigma_clipped", "fourier_rigid_sigma_clipped_denoised")
     for name in metric_names:
         per_image[name] = _image_metrics(images[name], clean, center, oracle.disk_radius_px)
 
@@ -47,12 +49,16 @@ def evaluate_remediation(observations, oracle, record, images):
         "bilinear": aligned_stats(images["candidate_bilinear_aligned_stack"]),
         "bicubic": aligned_stats(images["stage_aligned_stack"]),
         "fourier_translation": aligned_stats(images["candidate_fourier_aligned_stack"]),
+        "fourier_rigid": aligned_stats(images["candidate_fourier_rigid_aligned_stack"]),
     }
     aligned_mtf = np.asarray([mtf50_proxy(x, clean, center_xy=center,
                                           radius_px=oracle.disk_radius_px) for x in images["stage_aligned_stack"]])
     fourier_aligned_mtf = np.asarray([mtf50_proxy(x, clean, center_xy=center,
                                                   radius_px=oracle.disk_radius_px)
                                       for x in images["candidate_fourier_aligned_stack"]])
+    rigid_aligned_mtf = np.asarray([mtf50_proxy(x, clean, center_xy=center,
+                                                radius_px=oracle.disk_radius_px)
+                                    for x in images["candidate_fourier_rigid_aligned_stack"]])
     stage_mtf = {
         "A_best_source": per_image["best_single"]["mtf50_proxy_cycles_per_pixel"],
         "B_aligned_individual_sources": aligned_stats_by_method,
@@ -85,6 +91,22 @@ def evaluate_remediation(observations, oracle, record, images):
                                           "mean_retention_vs_best": float(np.mean(fourier_aligned_mtf)) / best_mtf,
                                           "median_retention_vs_best": float(np.median(fourier_aligned_mtf)) / best_mtf,
                                           "minimum_retention_vs_best": float(np.min(fourier_aligned_mtf)) / best_mtf},
+    }
+    stage_mtf["fourier_rigid_pipeline"] = {
+        "C_mean": {"cycles_per_pixel": per_image["fourier_rigid_mean"]["mtf50_proxy_cycles_per_pixel"],
+                   "retention_vs_best": per_image["fourier_rigid_mean"]["mtf50_proxy_cycles_per_pixel"] / best_mtf},
+        "D_weighted": {"cycles_per_pixel": per_image["fourier_rigid_weighted_mean"]["mtf50_proxy_cycles_per_pixel"],
+                       "retention_vs_best": per_image["fourier_rigid_weighted_mean"]["mtf50_proxy_cycles_per_pixel"] / best_mtf},
+        "E_median": {"cycles_per_pixel": per_image["fourier_rigid_median"]["mtf50_proxy_cycles_per_pixel"],
+                     "retention_vs_best": per_image["fourier_rigid_median"]["mtf50_proxy_cycles_per_pixel"] / best_mtf},
+        "F_sigma_clipped": {"cycles_per_pixel": per_image["fourier_rigid_sigma_clipped"]["mtf50_proxy_cycles_per_pixel"],
+                             "retention_vs_best": per_image["fourier_rigid_sigma_clipped"]["mtf50_proxy_cycles_per_pixel"] / best_mtf},
+        "G_denoised": {"cycles_per_pixel": per_image["fourier_rigid_sigma_clipped_denoised"]["mtf50_proxy_cycles_per_pixel"],
+                       "retention_vs_best": per_image["fourier_rigid_sigma_clipped_denoised"]["mtf50_proxy_cycles_per_pixel"] / best_mtf},
+        "B_aligned_individual_sources": {**aligned_stats_by_method["fourier_rigid"],
+                                          "mean_retention_vs_best": float(np.mean(rigid_aligned_mtf)) / best_mtf,
+                                          "median_retention_vs_best": float(np.median(rigid_aligned_mtf)) / best_mtf,
+                                          "minimum_retention_vs_best": float(np.min(rigid_aligned_mtf)) / best_mtf},
     }
 
     accepted = set(record["accepted_ids"])

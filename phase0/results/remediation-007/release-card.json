@@ -1,0 +1,42 @@
+{
+  "status": "frozen-for-final-holdout",
+  "threshold_profile_id": "rejection-profile-0.6",
+  "thresholds": {
+    "disk_clip_fraction": 0.004,
+    "largest_clip_component_pixels": 12,
+    "relative_laplacian_energy_min": 0.55,
+    "relative_limb_gradient_min": 0.62,
+    "relative_noise_mad_max": 2.5,
+    "relative_background_noise_mad_max": 1.5,
+    "relative_exposure_deviation_max": 0.35,
+    "relative_registration_translation_z_max": 3.0,
+    "maximum_registration_rotation_deg": 1.5,
+    "maximum_registration_residual": 0.28
+  },
+  "versions": {
+    "metric": "metrics-0.3",
+    "quality": "quality-0.5",
+    "alignment": "align-0.7",
+    "reconstruction": "reconstruct-0.9"
+  },
+  "gate_thresholds": {
+    "registration_rms_px_max": 0.25,
+    "registration_coverage_min": 0.9,
+    "snr_proxy_gain_16_min": 2.5,
+    "mtf50_retention_min": 0.95,
+    "failure_class_recall_min": 0.9,
+    "integrity_required": true,
+    "deconvolution": "disabled"
+  },
+  "gate_scope": {
+    "registration": "all validation and holdout fixtures",
+    "snr_and_mtf50": "primary clean 16-frame fixture; other fixture measurements remain diagnostic",
+    "failure_class_recall": "class-balanced outlier fixture; confusion statistics reported one-vs-rest"
+  },
+  "validation_summary_sha256": "c96fd47a03d61cff7ccf72dfdd6ce1f4869833669094d4ce29b29333e6350ac6",
+  "selected_profile_sha256": "a3485c3c5edba59ae454b23609ce13da04c93309584244e73265be3317353092",
+  "preregistration_sha256": "274ac640a40f569fdf8d99086d68b35329813a67a673e1cef784b0886c51c0a4",
+  "gate_scope_addendum_sha256": "aa2d41a3223f8c4f80abe8ae5c2a1d0d058385bfc0ea91831cb9f73e79d8dedd",
+  "holdout_frozen_before_evaluation": true,
+  "deconvolution": "disabled"
+}
