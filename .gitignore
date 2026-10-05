@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary Phase 0 work
+phase0/.tmp/
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Future Xcode / Swift
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+.build/
+build/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Logs
+*.log
